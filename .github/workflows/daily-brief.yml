@@ -27,6 +27,7 @@ jobs:
   generate:
     if: github.event.schedule == '0 4 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'generate' || github.event.inputs.mode == 'generate-and-send'))
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -63,6 +64,7 @@ jobs:
       (needs.generate.result == 'success' || needs.generate.result == 'skipped') &&
       (github.event.schedule == '0 5 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'send-only' || github.event.inputs.mode == 'generate-and-send')))
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
