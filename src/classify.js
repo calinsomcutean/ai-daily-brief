@@ -31,7 +31,9 @@ const outputSchema = {
           },
           rezumat: { type: 'string', description: '2-3 fraze in romana, clar si concret, fara clisee' },
           de_ce_conteaza: { type: 'string', description: 'O singura fraza: impactul practic' },
-          scor_importanta: { type: 'integer', minimum: 1, maximum: 10 },
+          // minimum/maximum nu sunt suportate pe 'integer' de output_config.format —
+          // folosim enum, care e suportat, ca sa garantam totusi intervalul 1-10.
+          scor_importanta: { type: 'integer', enum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] },
         },
         required: [
           'titlu_ro', 'titlu_original', 'url', 'sursa', 'tip', 'domenii',
