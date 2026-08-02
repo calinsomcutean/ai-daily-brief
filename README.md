@@ -34,7 +34,13 @@ Mergi pe [platform.claude.com](https://platform.claude.com) → API Keys → cre
 
 Mergi pe [resend.com](https://resend.com) → creează cont gratuit → API Keys → creează o cheie. Plan gratuit: 3.000 emailuri/lună, suficient pentru 1 email/zi.
 
-Fără domeniu propriu, poți trimite imediat folosind adresa implicită `onboarding@resend.dev` (funcțional, dar arată "trimis prin Resend" în client). Dacă vrei să trimită de pe un domeniu al tău (ex. `brief@leadder.ro`), în Resend → Domains → adaugă domeniul și configurează înregistrările DNS indicate (SPF/DKIM), apoi setează `EMAIL_FROM` mai jos.
+Fără domeniu propriu, poți trimite imediat folosind adresa implicită `onboarding@resend.dev` — **dar cu o restricție**: Resend permite trimiterea doar către adresa cu care te-ai înregistrat (`calinsomcutean@gmail.com`), nu și către alte adrese. De-asta, deocamdată, `EMAIL_TO` e setat doar pe adresa de gmail.
+
+Ca să trimiți și către `calin.somcutean@leadder.ro`, ai nevoie de un domeniu verificat în Resend:
+1. Resend → Domains → adaugă `leadder.ro` (sau alt domeniu al tău)
+2. Adaugă înregistrările DNS indicate (SPF/DKIM) la registrarul domeniului
+3. După verificare, actualizează `EMAIL_FROM` (mai jos) cu o adresă de pe domeniul respectiv (ex. `AI Daily Brief <brief@leadder.ro>`)
+4. Actualizează variabila `EMAIL_TO` din GitHub (Settings → Secrets and variables → Actions → Variables) să includă și adresa a doua: `calinsomcutean@gmail.com,calin.somcutean@leadder.ro`
 
 ### 3. Creează repo-ul pe GitHub
 
@@ -66,7 +72,7 @@ Settings → Secrets and variables → Actions:
 **Variables** (necriptate, ok pentru configurare):
 | Nume | Valoare |
 |---|---|
-| `EMAIL_TO` | `calinsomcutean@gmail.com,calin.somcutean@leadder.ro` (opțional — ăsta e deja default-ul în cod) |
+| `EMAIL_TO` | `calinsomcutean@gmail.com` (fără domeniu verificat în Resend, doar aceasta poate primi; vezi pasul 2 mai sus pentru a adăuga și a doua adresă) |
 | `EMAIL_FROM` | `AI Daily Brief <onboarding@resend.dev>` (sau adresa ta, dacă ai domeniu configurat în Resend) |
 | `ARCHIVE_BASE_URL` | `https://<user-github>.github.io/<repo>` |
 
