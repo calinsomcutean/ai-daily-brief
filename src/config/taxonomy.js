@@ -10,8 +10,6 @@ export const TIPURI = [
     descriere: 'Runde de investitii, achizitii, evaluari, angajari-cheie' },
   { id: 'reglementare', label: 'Reglementare & Politici', emoji: '⚖️', culoare: '#c2410c',
     descriere: 'Legislatie, procese, guvernanta, standarde' },
-  { id: 'tooling',      label: 'Tooling & Open Source', emoji: '🛠️', culoare: '#0891b2',
-    descriere: 'Repo-uri, framework-uri, modele deschise, unelte de dev' },
   { id: 'adoptie',      label: 'Adoptie & Studii de caz', emoji: '📊', culoare: '#ca8a04',
     descriere: 'Cum folosesc companiile AI-ul, cifre reale, rezultate masurate' },
   { id: 'opinie',       label: 'Opinie & Analiza',     emoji: '💭', culoare: '#64748b',
@@ -23,7 +21,6 @@ export const TIPURI = [
 export const DOMENII = [
   { id: 'business-strategie', label: 'Business & Strategie', emoji: '📈' },
   { id: 'munca-hr',           label: 'Munca & HR',           emoji: '👥' },
-  { id: 'dev-inginerie',      label: 'Dev & Inginerie',      emoji: '⌨️' },
   { id: 'enterprise',         label: 'Enterprise & Productivitate', emoji: '🏢' },
   { id: 'creative-media',     label: 'Creative & Media',     emoji: '🎨' },
   { id: 'sanatate-stiinte',   label: 'Sanatate & Stiinte',   emoji: '🧬' },

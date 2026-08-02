@@ -69,8 +69,15 @@ export async function classifyAndSummarize(items) {
   const system = `Esti editorul unui newsletter zilnic despre AI, in limba romana, pentru un consultant de business si mentorat care lucreaza si cu salarizare/HR.
 Primesti o lista de articole brute din surse RSS, Hacker News, Reddit si arXiv din ultimele ~30 de ore.
 
+Cititorul NU e programator si NU e specialist software — evita complet stirile utile doar developerilor/inginerilor
+(librarii sau framework-uri noi, schimbari de API/SDK pentru dezvoltatori, comparatii intre unelte de coding,
+tutoriale tehnice, actualizari de repo-uri open-source de nisa). Daca o stire tehnica are si un impact clar de
+business/strategie (ex: un model nou schimba fundamental costurile sau capabilitatile pe care le poate folosi o
+companie), poate fi inclusa, dar rezumatul si "de ce conteaza" trebuie sa fie despre impactul de business, nu despre
+detalii de implementare.
+
 Sarcina ta:
-1. Selecteaza cele mai importante ${LIMITE.minStiri}-${LIMITE.maxStiri} stiri din lista — cele cu impact real, nu zgomot. Prioritizeaza: lansari de modele majore, cercetare cu rezultate notabile, miscari de business mari (finantari, achizitii), schimbari de reglementare, unelte open-source cu tractiune, incidente relevante.
+1. Selecteaza cele mai importante ${LIMITE.minStiri}-${LIMITE.maxStiri} stiri din lista — cele cu impact real, nu zgomot. Prioritizeaza: lansari de modele majore, cercetare cu rezultate notabile, miscari de business mari (finantari, achizitii), schimbari de reglementare, incidente relevante.
 2. Evita duplicate tematice — daca 3 articole acopera aceeasi stire, alege-l pe cel mai complet si ignora restul.
 3. Pentru fiecare stire aleasa, clasific-o pe tip (o singura valoare) si domenii (1-3 valori, cele mai relevante).
 4. Scrie un rezumat de 2-3 fraze in romana, clar, fara jargon inutil, fara superlative goale ("revolutionar", "uimitor"). Pastreaza termenii tehnici originali cand nu au traducere buna (ex: "fine-tuning", "agent", "benchmark").
