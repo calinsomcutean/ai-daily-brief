@@ -45,7 +45,7 @@ function domainChips(domenii) {
   return domenii
     .map((id) => {
       const d = domeniuById(id);
-      return `<span style="display:inline-block;background:#EAEFF5;color:${NAVY};font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;margin:0 6px 6px 0;white-space:nowrap;">${d.emoji} ${esc(d.label)}</span>`;
+      return `<span style="display:inline-block;background:#EAEFF5;color:${NAVY};font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;margin:0 6px 6px 0;white-space:nowrap;">${esc(d.label)}</span>`;
     })
     .join('');
 }
@@ -59,7 +59,7 @@ function storyCard(story) {
         <tr>
           <td style="padding:20px 22px;">
             <div style="margin:0 0 10px 0;">
-              <span style="display:inline-block;background:${tip.culoare}14;color:${tip.culoare};font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;letter-spacing:.3px;">${tip.emoji} ${esc(tip.label)}</span>
+              <span style="display:inline-block;background:${tip.culoare}14;color:${tip.culoare};font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;letter-spacing:.3px;text-transform:uppercase;">${esc(tip.label)}</span>
               <span style="display:inline-block;color:${TEXT_MUTED_LIGHT};font-size:12px;font-weight:600;margin-left:8px;">${esc(story.sursa)}</span>
               <span style="display:inline-block;color:${BORDER};font-size:12px;margin-left:6px;">·</span>
               <span style="display:inline-block;color:${TEXT_MUTED_LIGHT};font-size:12px;margin-left:6px;">Scor ${story.scor_importanta}/10</span>
@@ -86,7 +86,7 @@ function sectionHeader(tip, count) {
   <tr>
     <td style="padding:26px 0 10px 0;">
       <h2 style="margin:0;font-size:12.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:${NAVY};border-bottom:1px solid ${BORDER};padding-bottom:9px;font-family:${SANS};">
-        ${tip.emoji} ${esc(tip.label)} <span style="color:${TEXT_MUTED_LIGHT};font-weight:600;letter-spacing:normal;text-transform:none;">(${count})</span>
+        <span style="display:inline-block;width:8px;height:8px;background:${tip.culoare};border-radius:2px;margin-right:8px;"></span>${esc(tip.label)} <span style="color:${TEXT_MUTED_LIGHT};font-weight:600;letter-spacing:normal;text-transform:none;">(${count})</span>
       </h2>
     </td>
   </tr>`;
