@@ -75,8 +75,14 @@ async function main() {
   console.log('\n✅ Gata.\n');
 }
 
-main().catch((err) => {
-  console.error('\n❌ Eroare:', err.message);
-  console.error(err.stack);
-  process.exit(1);
-});
+main()
+  .then(() => {
+    // SDK-urile (Anthropic/Resend) pot lasa conexiuni HTTP keep-alive deschise,
+    // ceea ce tine procesul Node "viu" la nesfarsit desi lucrul e gata — fortam iesirea.
+    process.exit(0);
+  })
+  .catch((err) => {
+    console.error('\n❌ Eroare:', err.message);
+    console.error(err.stack);
+    process.exit(1);
+  });
