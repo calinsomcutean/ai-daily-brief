@@ -12,10 +12,10 @@ const client = new Anthropic(); // citeste ANTHROPIC_API_KEY din env
 const outputSchema = {
   type: 'object',
   properties: {
+    // API-ul de structured outputs accepta doar minItems/maxItems 0 sau 1 pe array-uri —
+    // limitele reale (LIMITE.minStiri/maxStiri) sunt impuse prin instructiuni in system prompt.
     stiri: {
       type: 'array',
-      minItems: LIMITE.minStiri,
-      maxItems: LIMITE.maxStiri,
       items: {
         type: 'object',
         properties: {
@@ -27,9 +27,7 @@ const outputSchema = {
           domenii: {
             type: 'array',
             items: { type: 'string', enum: DOMENIU_IDS },
-            minItems: 1,
-            maxItems: 3,
-            description: 'Domeniile de interes relevante, in ordinea relevantei',
+            description: 'Domeniile de interes relevante (1-3), in ordinea relevantei',
           },
           rezumat: { type: 'string', description: '2-3 fraze in romana, clar si concret, fara clisee' },
           de_ce_conteaza: { type: 'string', description: 'O singura fraza: impactul practic' },

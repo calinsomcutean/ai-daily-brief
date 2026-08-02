@@ -52,7 +52,16 @@ jobs:
           git push
 
   send:
-    if: github.event.schedule == '0 5 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'send-only' || github.event.inputs.mode == 'generate-and-send'))
+    needs: generate
+    # `needs: generate` serializeaza cele doua job-uri cand ruleaza in acelasi workflow_dispatch
+    # (mode: generate-and-send), ca sa nu citeasca "send" fisierul inainte sa fie generat.
+    # La cron-urile separate (04:00/05:00 UTC), job-ul "generate" din acest run e mereu skipped
+    # (if-ul lui nu se potriveste), iar `always()` + verificarea rezultatului lasa "send" sa ruleze
+    # normal, folosind datele deja comise de rularea "generate" anterioara (ora 04:00).
+    if: |
+      always() &&
+      (needs.generate.result == 'success' || needs.generate.result == 'skipped') &&
+      (github.event.schedule == '0 5 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'send-only' || github.event.inputs.mode == 'generate-and-send')))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
