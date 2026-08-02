@@ -1,20 +1,22 @@
 // Clasificarea stirilor. Cheile (id) sunt folosite in JSON-ul returnat de model
 // si in HTML; `label` e ce vede cititorul. Ordinea de aici = ordinea in newsletter.
 
+// Paleta e aliniata cu identitatea site-ului personal (navy + crem, ton editorial) —
+// culori calde/desaturate in loc de albastru-violet saturat de tip SaaS.
 export const TIPURI = [
-  { id: 'lansare',      label: 'Lansare / Produs nou', emoji: '🚀', culoare: '#2563eb',
+  { id: 'lansare',      label: 'Lansare / Produs nou', emoji: '🚀', culoare: '#1B3A5C',
     descriere: 'Modele noi, feature-uri, API-uri, versiuni majore' },
-  { id: 'cercetare',    label: 'Cercetare',            emoji: '🔬', culoare: '#7c3aed',
+  { id: 'cercetare',    label: 'Cercetare',            emoji: '🔬', culoare: '#5B4B8A',
     descriere: 'Papers, benchmark-uri, rezultate tehnice noi' },
-  { id: 'business',     label: 'Business & Finantare', emoji: '💰', culoare: '#059669',
+  { id: 'business',     label: 'Business & Finantare', emoji: '💰', culoare: '#3D6B4E',
     descriere: 'Runde de investitii, achizitii, evaluari, angajari-cheie' },
-  { id: 'reglementare', label: 'Reglementare & Politici', emoji: '⚖️', culoare: '#c2410c',
+  { id: 'reglementare', label: 'Reglementare & Politici', emoji: '⚖️', culoare: '#A85D3D',
     descriere: 'Legislatie, procese, guvernanta, standarde' },
-  { id: 'adoptie',      label: 'Adoptie & Studii de caz', emoji: '📊', culoare: '#ca8a04',
+  { id: 'adoptie',      label: 'Adoptie & Studii de caz', emoji: '📊', culoare: '#A6873A',
     descriere: 'Cum folosesc companiile AI-ul, cifre reale, rezultate masurate' },
-  { id: 'opinie',       label: 'Opinie & Analiza',     emoji: '💭', culoare: '#64748b',
+  { id: 'opinie',       label: 'Opinie & Analiza',     emoji: '💭', culoare: '#6B6458',
     descriere: 'Eseuri, predictii, dezbateri, comentarii' },
-  { id: 'incident',     label: 'Incidente & Riscuri',  emoji: '⚠️', culoare: '#dc2626',
+  { id: 'incident',     label: 'Incidente & Riscuri',  emoji: '⚠️', culoare: '#B23B3B',
     descriere: 'Esecuri, brese de securitate, probleme de siguranta, abuzuri' },
 ];
 
