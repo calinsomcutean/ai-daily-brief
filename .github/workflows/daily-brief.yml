@@ -1,0 +1,74 @@
+name: AI Daily Brief
+
+on:
+  schedule:
+    # 07:00 Europa/Bucuresti = 04:00 UTC vara (EEST) / 05:00 UTC iarna (EET).
+    # Genereaza briefing-ul, il salveaza in arhiva (docs/) si il comite in repo.
+    - cron: '0 4 * * *'
+    # 08:00 Europa/Bucuresti = 05:00 UTC vara / 06:00 UTC iarna.
+    # Trimite emailul folosind datele deja generate la pasul anterior.
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Ce sa ruleze'
+        required: true
+        default: 'generate'
+        type: choice
+        options:
+          - generate
+          - send-only
+          - generate-and-send
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.event.schedule == '0 4 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'generate' || github.event.inputs.mode == 'generate-and-send'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm install
+
+      - name: Genereaza briefing (fara trimitere email)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ARCHIVE_BASE_URL: ${{ vars.ARCHIVE_BASE_URL }}
+        run: node src/index.js --dry-run
+
+      - name: Salveaza in arhiva (commit)
+        run: |
+          git config user.name "ai-daily-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/ data/
+          git diff --staged --quiet && echo "Nimic nou de comis." || git commit -m "chore: brief $(date -u +%Y-%m-%d)"
+          git push
+
+  send:
+    if: github.event.schedule == '0 5 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'send-only' || github.event.inputs.mode == 'generate-and-send'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm install
+
+      - name: Trimite emailul zilei
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ vars.EMAIL_TO }}
+          EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+        run: node src/index.js --send-only

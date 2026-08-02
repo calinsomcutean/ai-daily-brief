@@ -1,0 +1,22 @@
+{
+  "name": "ai-daily-brief",
+  "version": "1.0.0",
+  "description": "Newsletter zilnic cu cele mai importante stiri AI, clasificate si rezumate in romana",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "brief": "node src/index.js",
+    "brief:dry": "node src/index.js --dry-run",
+    "collect": "node src/collect.js",
+    "send": "node src/send.js",
+    "index": "node src/build-index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "resend": "^6.18.1",
+    "rss-parser": "^3.13.0"
+  }
+}
