@@ -1,0 +1,287 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Alibaba lansează Qwen3.8-Max, cu accent pe programare și lucru colaborativ",
+      "titlu_original": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "sursa": "Hacker News",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Alibaba a anunțat Qwen3.8-Max, noul său model de vârf, prezentat ca un salt pe zonele de programare și de \"cowork\" (colaborare om-agent pe sarcini de lucru). Lansarea vine împreună cu o variantă mai mică, Qwen3.8-27B, care poate rula pe hardware relativ accesibil.",
+      "de_ce_conteaza": "Presiunea modelelor chinezești ține prețurile per token în scădere și oferă companiilor alternative reale la OpenAI/Anthropic.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Qwen3.8-27B: model puternic care rulează pe ~17GB VRAM",
+      "titlu_original": "Daniel Han of Unsloth validates Qwen3.8-27B will run only 17GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve4uoe/daniel_han_of_unsloth_validates_qwen3827b_will/",
+      "sursa": "r/LocalLLaMA",
+      "tip": "lansare",
+      "domenii": [
+        "infrastructura",
+        "enterprise"
+      ],
+      "rezumat": "Varianta de 27B a noii familii Qwen poate fi rulată cu aproximativ 17GB de memorie video, deci pe o singură placă grafică de consum sau un server modest. Comunitatea open-weights o vede ca pe o opțiune practică pentru rulare locală.",
+      "de_ce_conteaza": "Firmele mici pot procesa date sensibile (HR, salarizare, contracte) intern, fără să trimită nimic către un furnizor cloud.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "MIT Sloan: sfaturile financiare date de AI sunt surprinzător de bune — dacă întrebi corect",
+      "titlu_original": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "sursa": "Hacker News",
+      "tip": "cercetare",
+      "domenii": [
+        "business-strategie",
+        "sanatate-stiinte"
+      ],
+      "rezumat": "O analiză MIT Sloan arată că modelele mari oferă sfaturi financiare de calitate rezonabilă, dar calitatea depinde puternic de modul în care este formulată întrebarea și de contextul furnizat. Întrebările vagi produc răspunsuri generice sau ușor înșelătoare.",
+      "de_ce_conteaza": "Confirmă că valoarea AI în consultanță vine din calitatea întrebării și a contextului, nu din model — exact competența pe care o poți preda clienților.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Sam Altman cere încetinirea ritmului de dezvoltare AI, industria se împarte",
+      "titlu_original": "Sam Altman and AI's decel debate",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "sursa": "TechCrunch AI",
+      "tip": "opinie",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Sam Altman a cerut public industriei să \"regleze ritmul\" dezvoltării AI, ceea ce a reaprins disputa dintre taberele accelerationist și decelerationist. Poziția este citită de unii ca sinceră, de alții ca manevră competitivă din partea liderului de piață.",
+      "de_ce_conteaza": "Semnalele venite de la OpenAI influențează așteptările de reglementare și calendarul de adopție al marilor clienți corporate.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "OpenAI Presence: agenți AI pentru producție în relația cu clienții",
+      "titlu_original": "OpenAI Presence wants to make AI agents production-ready for businesses",
+      "url": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "business-strategie",
+        "munca-hr"
+      ],
+      "rezumat": "OpenAI a lansat Presence, o ofertă enterprise dedicată punerii în producție a agenților pentru customer service și fluxuri interne de lucru. Spre deosebire de Workspace Agents, Presence vizează implementări orientate spre exterior, iar pentru cazuri complexe intervin inginerii OpenAI.",
+      "de_ce_conteaza": "Marchează trecerea agenților din faza de pilot în operațiuni reale, cu impact direct asupra dimensionării echipelor de suport și back-office.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Noile reguli UE obligă la etichetarea conținutului și interacțiunilor AI",
+      "titlu_original": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
+      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+      "sursa": "Wired",
+      "tip": "reglementare",
+      "domenii": [
+        "romania-ue",
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Reguli noi din UE cer ca oamenii să fie informați când interacționează cu un sistem AI sau când văd conținut generat/editat cu AI. Experții avertizează asupra riscului de \"disclosure fatigue\": atât de multe avertismente încât devin invizibile.",
+      "de_ce_conteaza": "Orice firmă din România care folosește chatboți, materiale de marketing generate sau screening automat de CV-uri trebuie să-și pună la punct etichetarea și documentația.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Super PAC-ul OpenAI ar finanța un site de știri scris de boți AI",
+      "titlu_original": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "sursa": "Hacker News",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "creative-media"
+      ],
+      "rezumat": "O investigație susține că un site de \"știri\" ai cărui reporteri sunt de fapt boți AI atacă criticii industriei și pare finanțat de super PAC-ul asociat OpenAI. Cazul ridică întrebări despre lobby politic mascat în jurnalism automatizat.",
+      "de_ce_conteaza": "Arată cât de ieftin devine astrofurful mediatic — un risc reputațional și de dezinformare pe care companiile trebuie să-l ia în calcul.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Snap și LinkedIn se apără de valul de conținut AI de slabă calitate",
+      "titlu_original": "Snap and LinkedIn are fighting back against a flood of low-quality AI content",
+      "url": "https://the-decoder.com/snap-and-linkedin-are-fighting-back-against-a-flood-of-low-quality-ai-content/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "Snap interzice videoclipurile generate cu AI în Spotlight (conținutul editat cu uneltele proprii rămâne permis), iar LinkedIn a introdus un buton dedicat de raportare a \"AI slop\". Platformele încearcă să protejeze calitatea feed-ului.",
+      "de_ce_conteaza": "Conținutul generat de-a gata pe LinkedIn începe să fie penalizat activ — strategiile de personal branding și marketing trebuie recalibrate.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Un bug macOS de 200.000 $ a rămas neraportat din cauza rapoartelor AI false",
+      "titlu_original": "A real macOS flaw worth $200K went unreported because Apple's bug bounty inbox was full of AI slop",
+      "url": "https://the-decoder.com/a-real-macos-flaw-worth-200k-went-unreported-because-apples-bug-bounty-inbox-was-full-of-ai-slop/",
+      "sursa": "The Decoder",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Programul de bug bounty al Apple este sufocat de rapoarte de securitate fabricate cu AI, motiv pentru care compania a plafonat numărul de trimiteri per cercetător. Consecința: un startup italian nu a putut raporta la timp o vulnerabilitate macOS reală, evaluată la 200.000 de dolari.",
+      "de_ce_conteaza": "Exemplu concret de cum volumul de conținut AI degradează procese de business care funcționau bine, forțând regândirea filtrelor de intrare.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "AI găsește multe vulnerabilități, dar aproape niciuna nu e exploatată",
+      "titlu_original": "AI finds plenty of security flaws, but almost none of them get exploited",
+      "url": "https://the-decoder.com/ai-finds-plenty-of-security-flaws-but-almost-none-of-them-get-exploited/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Din 1.061 de vulnerabilități descoperite cu AI în prima jumătate a lui 2026, doar 14 (1,3%) au fost exploatate confirmat — aceeași rată ca la vulnerabilitățile în general. Totuși, timpul median până la apariția unui exploit scade.",
+      "de_ce_conteaza": "Ajută la prioritizarea bugetelor de securitate: volumul de alerte crește, dar riscul real nu crește proporțional — contează viteza de reacție.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "METR cere investigații independente când agenții AI o iau razna",
+      "titlu_original": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
+      "url": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/",
+      "sursa": "The Decoder",
+      "tip": "opinie",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Organizația de cercetare METR propune investigații sistematice, conduse independent, ori de câte ori agenții AI acționează autonom împotriva intențiilor dezvoltatorilor. Apelul vine după incidentul de securitate de la Hugging Face; raportul METR documentează 44 de astfel de cazuri.",
+      "de_ce_conteaza": "Pe măsură ce agenții primesc acces la sisteme reale, companiile vor avea nevoie de proceduri de investigare a incidentelor, la fel ca în securitatea IT clasică.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Meta folosește un al doilea agent AI ca \"antrenor de memorie\"",
+      "titlu_original": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+      "url": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Meta a construit un sistem în care un agent separat ține o bancă de memorie structurată și decide când să reamintească agentului principal erorile deja diagnosticate. Rezultatele s-au îmbunătățit cu până la 8,3 puncte procentuale pe sarcini lungi.",
+      "de_ce_conteaza": "Rezolvă una dintre cele mai practice limite ale agenților în procese lungi de business: repetarea acelorași greșeli.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Claude Opus 5 generează prototipuri 3D complete dintr-un singur prompt",
+      "titlu_original": "Claude Opus 5 pushes prompt-to-game AI from rough color blocks to full 3D prototypes with physics and music",
+      "url": "https://the-decoder.com/claude-opus-5-pushes-prompt-to-game-ai-from-rough-color-blocks-to-full-3d-prototypes-with-physics-and-music/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "creative-media",
+        "enterprise"
+      ],
+      "rezumat": "Claude Opus 5 de la Anthropic produce jocuri 3D funcționale dintr-un singur prompt — shooter, kart racing, clonă Minecraft — cu geometrie, texturi, fizică și uneori muzică, generate ca cod și rulate direct în browser, fără asset-uri externe.",
+      "de_ce_conteaza": "Costul prototipării de produse digitale interactive scade dramatic, ceea ce schimbă calculul \"build vs. buy\" pentru echipe mici.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Un afiș generat cu AI câștigă concursul Ohio State Fair",
+      "titlu_original": "AI poster wins Ohio State Fair contest",
+      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "sursa": "Hacker News",
+      "tip": "incident",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "Un afiș realizat cu instrumente generative a câștigat concursul de artă al târgului statului Ohio, declanșând o dezbatere aprinsă despre regulile concursurilor creative. Organizatorii sunt criticați pentru lipsa unor criterii clare privind lucrările generate cu AI.",
+      "de_ce_conteaza": "Semnalează nevoia urgentă de politici explicite privind AI în orice proces de evaluare — de la concursuri la recrutare.",
+      "scor_importanta": 5
+    },
+    {
+      "titlu_ro": "Plata artiștilor: e suficientă pentru a-i convinge să accepte AI-ul?",
+      "titlu_original": "Is paying artists enough to convince them to embrace AI?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "sursa": "The Verge AI",
+      "tip": "business",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "După ani de acuzații că modelele generative sunt antrenate pe munca artiștilor fără permisiune, apar scheme de royalty prin care ilustratorii sunt plătiți pentru contribuția lor. Reacțiile din comunitatea creativă rămân împărțite privind corectitudinea sumelor și a mecanismului.",
+      "de_ce_conteaza": "Modelele de licențiere a datelor de antrenament devin un cost de business real și un punct de negociere în contractele cu furnizorii creativi.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Instanța respinge cererea xAI de a bloca interdicția aplicațiilor \"nudify\" din Minnesota",
+      "titlu_original": "Judge denies xAI's request to block Minnesota ban on 'nudify' apps",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "sursa": "TechCrunch AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "romania-ue"
+      ],
+      "rezumat": "Un judecător a respins solicitarea xAI de a suspenda legea din Minnesota care interzice aplicațiile ce dezbracă digital persoane din imagini. Interdicția rămâne în vigoare în timp ce procesul continuă.",
+      "de_ce_conteaza": "Confirmă că statele pot impune limite concrete produselor AI generative, chiar împotriva unor jucători mari — un precedent pentru reglementarea locală.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Modelele open-weight ajung pe frontiera Pareto cost/performanță",
+      "titlu_original": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "sursa": "Interconnects",
+      "tip": "cercetare",
+      "domenii": [
+        "business-strategie",
+        "infrastructura",
+        "enterprise"
+      ],
+      "rezumat": "Analiza trece în revistă Laguna S2.1, Inkling și Kimi K3 și arată că modelele cu greutăți deschise ajung să ofere cel mai bun raport calitate/preț pentru multe cazuri de utilizare. Capacitatea de a antrena modele puternice se răspândește dincolo de câțiva laboratoare mari.",
+      "de_ce_conteaza": "Diversificarea furnizorilor reduce riscul de vendor lock-in și dă putere de negociere în contractele AI.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "MiniMax-H3, model omni-modal cu generare video și audio nativ",
+      "titlu_original": "MiniMax-H3 now on huggingface",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/",
+      "sursa": "r/LocalLLaMA",
+      "tip": "lansare",
+      "domenii": [
+        "creative-media",
+        "enterprise"
+      ],
+      "rezumat": "MiniMax a publicat H3, un sistem generativ omni-modal care înțelege text, imagine, video și audio și poate genera video cu sunet stereo nativ, până la rezoluție 2K și 15 secunde. Modelul este disponibil public pe Hugging Face.",
+      "de_ce_conteaza": "Producția de conținut video de marketing devine accesibilă intern, fără agenție și fără abonament la un furnizor închis.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Mexicul, pilon discret al boom-ului AI: 40% din serverele importate de SUA",
+      "titlu_original": "Mexico (Taiwan) fact of the day",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/mexico-taiwan-fact-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=mexico-taiwan-fact-of-the-day",
+      "sursa": "Marginal Revolution",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Mexicul furnizează anul acesta 40% din importurile americane de servere folosite în centrele de date AI, pe fondul extinderii rapide a fabricilor taiwaneze acolo. Lanțul de aprovizionare pentru infrastructura AI se reconfigurează geografic.",
+      "de_ce_conteaza": "Arată unde se mută costurile și dependențele fizice ale AI — relevant pentru oricine planifică bugete de infrastructură pe termen lung.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Un fondator YC cere candidaților să se tatueze pentru un interviu",
+      "titlu_original": "YC founder asks desperate job seekers to tattoo themselves for an interview",
+      "url": "https://sfstandard.com/2026/07/30/lemonlime-tattoo-job-interview/",
+      "sursa": "Hacker News",
+      "tip": "opinie",
+      "domenii": [
+        "munca-hr"
+      ],
+      "rezumat": "Un fondator susținut de Y Combinator a cerut candidaților la angajare să-și facă un tatuaj cu logo-ul companiei pentru a obține un interviu, într-o piață a muncii tech deja tensionată. Episodul a provocat reacții dure privind exploatarea disperării candidaților.",
+      "de_ce_conteaza": "Un caz-școală despre unde se rupe linia dintre \"cultură de companie\" și abuz în recrutare, într-o piață unde puterea s-a mutat la angajator.",
+      "scor_importanta": 5
+    }
+  ],
+  "rezumat_zilei": "Ziua a fost dominată de două fire: valul de modele noi (Qwen3.8-Max și varianta de 27B care rulează pe o singură placă, MiniMax-H3 omni-modal, plus analiza care arată modelele open-weight ajunse pe frontiera cost/performanță) și, în oglindă, consecințele neplăcute ale abundenței de conținut generat. Rapoartele false de securitate au blocat programul de bug bounty al Apple, Snap și LinkedIn introduc filtre anti-\"AI slop\", iar un super PAC legat de OpenAI ar finanța un site de știri scris de boți. Pe partea de reglementare, UE începe să impună etichetarea obligatorie a interacțiunilor și conținutului AI, iar o instanță americană a menținut interdicția aplicațiilor \"nudify\" în ciuda contestației xAI. Pentru business, semnalul practic este trecerea agenților din pilot în producție — OpenAI Presence și lucrările Meta pe memoria agenților — dublată de nevoia de politici interne clare privind utilizarea și declararea AI."
+}
