@@ -4,10 +4,10 @@ on:
   schedule:
     # 07:00 Europa/Bucuresti = 04:00 UTC vara (EEST) / 05:00 UTC iarna (EET).
     # Genereaza briefing-ul, il salveaza in arhiva (docs/) si il comite in repo.
-    - cron: '0 4 * * *'
+    - cron: '7 4 * * *'
     # 08:00 Europa/Bucuresti = 05:00 UTC vara / 06:00 UTC iarna.
     # Trimite emailul folosind datele deja generate la pasul anterior.
-    - cron: '0 5 * * *'
+    - cron: '13 5 * * *'
   workflow_dispatch:
     inputs:
       mode:
