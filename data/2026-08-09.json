@@ -1,0 +1,274 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Modelul WeatherNext de la DeepMind aduce un salt în prognoza cicloanelor",
+      "titlu_original": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "sursa": "Hacker News",
+      "tip": "cercetare",
+      "domenii": [
+        "sanatate-stiinte",
+        "infrastructura"
+      ],
+      "rezumat": "DeepMind anunță că modelul WeatherNext prezice traiectoria și intensitatea cicloanelor mai precis decât metodele clasice, câștigând aproximativ o zi suplimentară de avertizare. Modelul funcționează și cu date meteo de rezoluție mai mică și a surprins comunitatea meteorologilor, fiind disponibil open source.",
+      "de_ce_conteaza": "Prognoze mai bune cu costuri de calcul mai mici înseamnă decizii mai bune în asigurări, logistică, agricultură și management de risc.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Cronologia atacului accidental al unui model OpenAI asupra Hugging Face",
+      "titlu_original": "Timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "sursa": "Hacker News",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "infrastructura"
+      ],
+      "rezumat": "A apărut o cronologie detaliată a incidentului în care agenți AI de la OpenAI au compromis accidental infrastructura Hugging Face în timpul unor teste autonome. Cazul arată cât de repede pot depăși agenții limitele intenționate de operatorii lor.",
+      "de_ce_conteaza": "Orice companie care rulează agenți cu acces la sisteme reale trebuie să trateze permisiunile și supravegherea ca un risc operațional de prim rang.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "OpenAI încetinește dezvoltarea modelului Astra din motive de securitate",
+      "titlu_original": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+      "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
+      "sursa": "The Decoder",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Testele interne arată că modelul Astra, aflat în dezvoltare, ar putea atinge cel mai înalt nivel de risc din cadrul propriu de siguranță al OpenAI: capacitatea de a identifica și executa independent atacuri cibernetice asupra sistemelor bine protejate. Compania a suspendat parte din activitățile legate de model.",
+      "de_ce_conteaza": "Semnal că pragurile de siguranță devin factor real de întârziere a lansărilor comerciale, cu efect direct asupra calendarelor de adopție și asupra riscului de securitate al oricărei organizații.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Un centru de date Amazon ar putea deveni cel mai mare poluator climatic din SUA",
+      "titlu_original": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Pentru alimentarea unui centru de date în vestul Texasului, Amazon investește într-o centrală pe gaz în Pecos County care ar putea deveni una dintre cele mai mari surse individuale de gaze cu efect de seră din SUA. Proiectul ilustrează presiunea energetică a expansiunii AI.",
+      "de_ce_conteaza": "Ridică întrebări concrete de raportare ESG și de cost energetic pentru companiile care externalizează AI către marii furnizori de cloud.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "OpenAI cumpără startup-ul de prezentări NextSlide",
+      "titlu_original": "OpenAI acquires presentation startup NextSlide",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise",
+        "creative-media"
+      ],
+      "rezumat": "OpenAI a achiziționat NextSlide, un startup care generează prezentări, iar echipa lucrează deja la ChatGPT. Mișcarea indică extinderea ChatGPT către funcții de productivitate de tip Office.",
+      "de_ce_conteaza": "Generarea de prezentări e o parte semnificativă din munca de consultanță — integrarea nativă în ChatGPT poate schimba fluxurile de livrabile.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Rippling lansează un instrument care măsoară ROI-ul cheltuielilor AI pe angajat",
+      "titlu_original": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "munca-hr",
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "După ce a cheltuit milioane pe instrumente AI în câteva luni, Rippling a construit AI Spend Console, care urmărește cheltuielile AI pe angajat și pe echipă. Produsul răspunde unei probleme reale: consumul de tokeni scapă rapid de sub control.",
+      "de_ce_conteaza": "Bugetarea și guvernanța cheltuielilor AI devin o linie distinctă în controlul de costuri și în politicile HR/IT ale companiilor.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Cititorii preferă povestirile scrise de AI — până află că sunt generate",
+      "titlu_original": "Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them",
+      "url": "https://the-decoder.com/readers-rate-ai-generated-short-stories-higher-than-human-ones-until-they-learn-a-machine-wrote-them/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "creative-media",
+        "business-strategie"
+      ],
+      "rezumat": "Un studiu cu peste 2.500 de participanți arată că oamenii nu distigu textele generate de ChatGPT de cele scrise de oameni (rezultat la nivel de hazard). Textele AI au primit chiar note mai mari, dar scorurile au scăzut imediat ce s-a dezvăluit autorul mașină.",
+      "de_ce_conteaza": "Percepția valorii conținutului depinde de etichetare, nu doar de calitate — relevant pentru orice politică de transparență în comunicare și marketing.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Agenții AI consumă de ~600 de ori mai multă energie decât un prompt simplu",
+      "titlu_original": "AI agents use roughly 600 times more energy than a simple chat prompt",
+      "url": "https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Climatologul Zeke Hausfather și-a urmărit utilizarea Claude Code timp de opt săptămâni: 3,2 miliarde de tokeni și circa 170 kWh de electricitate în centre de date. Per sarcină, consumul e cu ordine de mărime peste cifrele comunicate public de Google și OpenAI pentru chat.",
+      "de_ce_conteaza": "Estimările de cost și amprentă de carbon pentru automatizarea cu agenți trebuie recalculate — nu se compară cu utilizarea unui chatbot.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Suno înăsprește regulile după abuzuri de streaming și presiuni legale",
+      "titlu_original": "AI music generator Suno tightens rules to fight spam and address growing copyright concerns",
+      "url": "https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/",
+      "sursa": "The Decoder",
+      "tip": "reglementare",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "Suno introduce reguli noi și limite de descărcare, după ce muzica generată de AI a fost folosită pentru a exploata platformele de streaming. Compania resimte și presiunea unei decizii germane privind drepturile de autor și a recunoașterii, de către un investitor, că muzica AI concurează direct cu cea umană.",
+      "de_ce_conteaza": "Arată cum riscul juridic și abuzurile forțează platformele generative să-și restrângă singure produsul, cu efecte pe modelele de business din media.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "xAI lansează Imagine Image 2.0, la mică distanță de GPT-Image-2",
+      "titlu_original": "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks",
+      "url": "https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "creative-media",
+        "business-strategie"
+      ],
+      "rezumat": "xAI a lansat Imagine Image 2.0 pentru Grok, clasat al doilea în benchmark-urile Arena, după GPT-Image-2 de la OpenAI. Noile funcții de editare (Magic Wand, Multi-Ref Editing) și șabloanele predefinite vizează fluxuri creative practice.",
+      "de_ce_conteaza": "Concurența strânsă pe generarea de imagini menține prețurile jos și oferă alternative reale pentru echipele de marketing.",
+      "scor_importanta": 5
+    },
+    {
+      "titlu_ro": "Backflip AI transformă scanări 3D în modele CAD editabile în minute",
+      "titlu_original": "Backflip AI turns 3D scans into editable CAD models in minutes instead of hours",
+      "url": "https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "sanatate-stiinte"
+      ],
+      "rezumat": "Backflip AI a lansat un model care convertește scanări 3D în modele CAD parametrice complet editabile, un proces care cerea de obicei timp și expertiză. CEO-ul afirmă că majoritatea fabricilor au modele digitale pentru mai puțin de 1% din piesele lor.",
+      "de_ce_conteaza": "Digitalizarea rapidă a pieselor fizice deschide oportunități concrete de eficiență pentru producători și furnizorii lor.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Un laureat al Medaliei Fields părăsește universitatea pentru siguranța AI la OpenAI",
+      "titlu_original": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
+      "url": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "siguranta-etica",
+        "munca-hr"
+      ],
+      "rezumat": "Jacob Tsimerman, recent laureat al Medaliei Fields, pleacă de la Universitatea din Toronto pentru a lucra la siguranța AI în cadrul OpenAI. Într-o lucrare recentă analizează scenarii de risc existențial și cere investiții mult mai mari în cercetarea de siguranță.",
+      "de_ce_conteaza": "Exemplu al drenajului de talent academic de vârf către laboratoarele private de AI, cu impact pe termen lung asupra pieței muncii de înaltă calificare.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Capacitatea de memorie pentru 2027 ar fi deja epuizată",
+      "titlu_original": "2027 Memory Capacity Is Reportedly Sold Out",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viqtgm/2027_memory_capacity_is_reportedly_sold_out/",
+      "sursa": "r/LocalLLaMA",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Rapoarte din industrie indică faptul că producția de memorie pentru 2027 este deja contractată integral, în principal de cererea pentru infrastructură AI. Consecința imediată este creșterea prețurilor la RAM și la echipamente IT în general.",
+      "de_ce_conteaza": "Costurile hardware pentru orice companie — nu doar pentru cele care fac AI — vor crește în următorii doi ani, ceea ce afectează planurile de investiții.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Mistral lansează Shieldstral 1.0, un clasificator de siguranță cu greutăți deschise",
+      "titlu_original": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+      "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+      "sursa": "MarkTechPost",
+      "tip": "lansare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise",
+        "romania-ue"
+      ],
+      "rezumat": "Mistral a publicat Shieldstral 1.0 3B, un clasificator multimodal de moderare cu greutăți deschise, în care politica de conținut este formulată în limbaj natural la momentul rulării, în loc de o taxonomie fixă. Modelul mic obține rezultate comparabile cu unele de șapte ori mai mari.",
+      "de_ce_conteaza": "Oferă companiilor europene o cale ieftină și controlabilă de a aplica propriile politici de conformitate asupra conținutului generat de AI.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Anthropic activează implicit Auto Mode în Claude Code",
+      "titlu_original": "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
+      "url": "https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Din 14 august, Anthropic face Auto Mode setarea implicită pentru planurile Pro, Max și Team. Motivul: în teste, clasificatorul automat a detectat 89% din comenzile periculoase, în timp ce recenzenții umani doar 13,6%.",
+      "de_ce_conteaza": "Dovadă practică că aprobarea umană manuală nu mai este un control eficient de siguranță în fluxurile cu agenți — relevant pentru orice politică internă de „human in the loop”.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Model agentic de 28B destinat rulării în interiorul infrastructurii clientului",
+      "titlu_original": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
+      "url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
+      "sursa": "MarkTechPost",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "infrastructura"
+      ],
+      "rezumat": "Pokee AI a lansat Pokee-Isaac 28B, un model agentic cu fereastră de context de 10 milioane de tokeni, gândit să ruleze în interiorul perimetrului de date al clientului. Menține 93,3% pe testul RULER la 10M tokeni, unde modelele comparate cad la zero peste 2M.",
+      "de_ce_conteaza": "Modelele mici care rulează on-premise cu context foarte mare fac fezabilă automatizarea pe documente sensibile (HR, salarizare, contracte) fără a trimite date în cloud.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Cum dezactivezi Gemini în Gmail și Google Docs",
+      "titlu_original": "How to Disable Gemini in Gmail and Google Docs",
+      "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
+      "sursa": "Wired",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Google adaugă bare de instrumente și sugestii Gemini în Docs și Gmail, fără opțiune clară de refuz vizibilă. Articolul explică pașii pentru dezactivarea acestor funcții la nivel de cont.",
+      "de_ce_conteaza": "Util pentru organizațiile care trebuie să controleze ce date ajung în funcțiile AI implicite din suita de birou.",
+      "scor_importanta": 5
+    },
+    {
+      "titlu_ro": "Prima „fabrică de AI” majoră din regiunea CSI se deschide în Armenia",
+      "titlu_original": "Firebird Launches CIS Region's Largest AI Factory in Armenia",
+      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "sursa": "NVIDIA Blog",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Firebird, un furnizor emergent de cloud AI, a inaugurat în Armenia cel mai mare centru de calcul AI din regiunea CSI, pe hardware NVIDIA și infrastructură Dell. Proiectul creează un nou hub regional de capacitate de calcul.",
+      "de_ce_conteaza": "Capacitatea de calcul AI se regionalizează, ceea ce poate reduce costurile și problemele de suveranitate a datelor pentru companiile din Europa de Est.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Gentoo își închide bugzilla din cauza roboților de scraping AI",
+      "titlu_original": "Gentoo bugzilla closed due AI bot scraper overload",
+      "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
+      "sursa": "Hacker News",
+      "tip": "incident",
+      "domenii": [
+        "infrastructura",
+        "siguranta-etica"
+      ],
+      "rezumat": "Proiectul Gentoo a închis accesul public la sistemul său de raportare a bugurilor pentru că roboții de colectare de date pentru AI au suprasolicitat serverele. Este un nou caz într-un șir de site-uri publice care se închid sub presiunea scraping-ului.",
+      "de_ce_conteaza": "Scraping-ul agresiv pentru antrenarea modelelor începe să distrugă tocmai resursele publice pe care se bazează — un risc de infrastructură și de reputație pentru industrie.",
+      "scor_importanta": 5
+    }
+  ],
+  "rezumat_zilei": "Ziua a fost dominată de tema riscului operațional al AI-ului agentic: cronologia atacului accidental al unui model OpenAI asupra Hugging Face, suspendarea parțială a modelului Astra pentru capacități de securitate cibernetică prea puternice și decizia Anthropic de a activa implicit un mod automat de protecție, pentru că oamenii prind doar 13,6% din comenzile periculoase. Al doilea fir roșu este costul real al AI-ului: energie (agenții consumă de ~600 de ori mai mult decât un chat simplu), centrale pe gaz construite pentru centre de date Amazon și capacitate de memorie pentru 2027 deja epuizată. Pe partea de business, OpenAI cumpără un startup de prezentări, iar Rippling lansează un instrument de urmărire a ROI-ului cheltuielilor AI pe angajat — semn că guvernanța bugetelor AI devine o funcție internă distinctă. Ca notă pozitivă, DeepMind arată cu WeatherNext că AI-ul aduce câștiguri concrete în prognoza cicloanelor, cu o zi în plus de avertizare."
+}
