@@ -1,0 +1,290 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "OpenAI: cum trec companiile de la asistenta la execuție cu agenți AI",
+      "titlu_original": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "sursa": "OpenAI",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "business-strategie",
+        "munca-hr"
+      ],
+      "rezumat": "OpenAI publică o analiză a modului în care companiile mari trec de la folosirea AI ca asistent la delegarea efectivă de sarcini către agenți. Raportul susține că un grup de „frontier firms\" se distanțează clar de restul pieței în ritmul de adopție.",
+      "de_ce_conteaza": "Oferă un cadru concret pentru a discuta cu clienții despre trecerea de la pilot la procese în care AI execută, nu doar sugerează.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Grok 4.6 egalează cel mai bun model OpenAI la un preț cu 60% mai mic",
+      "titlu_original": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+      "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Grok 4.6 obține 61 de puncte pe Artificial Analysis Intelligence Index, la egalitate cu GPT-5.6 Sol și în urma lui Claude Opus 5. Pe sarcini agentice termină fluxuri complexe în ~53 pași față de 103 la Opus 5, la un preț cu peste 60% mai mic.",
+      "de_ce_conteaza": "Presiunea pe preț la vârful pieței schimbă calculul de cost pentru automatizări la scară în companii.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "DeepSeek lansează V4 Pro, disponibil deja pe OpenRouter",
+      "titlu_original": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "sursa": "Hacker News",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "DeepSeek a publicat V4 Pro, disponibil imediat prin OpenRouter, cu o reacție foarte puternică în comunitate. Modelul chinezesc continuă strategia de performanță ridicată la costuri mult mai mici decât ale laboratoarelor americane.",
+      "de_ce_conteaza": "Modelele chinezești ieftine devin o alternativă serioasă pentru companiile care vor să reducă factura de AI, cu întrebări deschise de conformitate și date.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Grok devine „coleg de echipă\" AI căruia îi poți atribui sarcini",
+      "titlu_original": "Grok is now an AI ‘teammate’ you can assign work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+      "sursa": "The Verge AI",
+      "tip": "lansare",
+      "domenii": [
+        "munca-hr",
+        "enterprise",
+        "siguranta-etica"
+      ],
+      "rezumat": "SpaceXAI a lansat Grok Bot, agenți permanent activi care rulează pe propriul computer în cloud și pot primi sarcini ca un coleg. Pentru a funcționa, trebuie să le dai acces la conturile tale online.",
+      "de_ce_conteaza": "Categoria „coleg AI\" ridică imediat întrebări practice de acces, responsabilitate și fișe de post în orice organizație.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Studiu pe conturi ChatGPT Enterprise: cum folosesc de fapt organizațiile AI",
+      "titlu_original": "How Organizations Use AI: Evidence from ChatGPT",
+      "url": "https://arxiv.org/abs/2608.12236v1",
+      "sursa": "arXiv cs.AI",
+      "tip": "cercetare",
+      "domenii": [
+        "munca-hr",
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Cercetătorii au corelat datele de utilizare din conturi ChatGPT Enterprise cu rolurile angajaților, tipurile de sarcini și datele financiare ale companiilor listate, până în martie 2026. Rezultatul este o hartă a adopției pe roluri și tipuri de mesaje, nu doar declarații de intenție.",
+      "de_ce_conteaza": "Date reale despre ce roluri folosesc AI și pentru ce sarcini — util pentru planuri de instruire și redesign de posturi.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "„AI elimină clasa de mijloc a inginerilor software\"",
+      "titlu_original": "AI is removing the middle class of software engineering?",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "sursa": "Hacker News",
+      "tip": "opinie",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Un eseu larg discutat susține că AI comprimă cererea pentru rolurile de nivel mediu în software: juniorii sunt ieftini, seniorii sunt indispensabili, iar mijlocul devine greu de justificat economic. Discuția a strâns sute de comentarii cu experiențe din piață.",
+      "de_ce_conteaza": "Aceeași logică de „golire a mijlocului\" se poate replica în alte funcții de birou și trebuie anticipată în planificarea de personal.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Anthropic introduce watermark, iar unii utilizatori se tem că vor fi prinși la muncă sau școală",
+      "titlu_original": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "siguranta-etica",
+        "educatie",
+        "munca-hr"
+      ],
+      "rezumat": "Anthropic a activat un sistem de watermarking pentru textul generat de Claude, iar reacțiile negative vin în special de la utilizatori care îl foloseau nedeclarat la job sau la cursuri. Măsura face detectabilă originea conținutului.",
+      "de_ce_conteaza": "Detectabilitatea schimbă regulile interne: politicile de utilizare a AI trebuie scrise explicit, nu lăsate în gri.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Twitch antrenează AI-ul Amazon pe conținutul creatorilor; opt-out abia acum posibil",
+      "titlu_original": "Twitch streamers can now opt out from training Amazon’s AI",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "sursa": "The Verge AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "creative-media"
+      ],
+      "rezumat": "Amazon folosește implicit streamurile, clipurile, chatul și imaginile de pe canalele Twitch pentru antrenarea modelelor generative, cu opțiune de opt-out introdusă abia acum. Un executiv Twitch a recunoscut public că un model opt-in nu ar fi funcționat, pentru că „nimeni nu s-ar înscrie\".",
+      "de_ce_conteaza": "Exemplu clar de risc contractual: platformele pe care companiile publică conținut pot revendica implicit dreptul de antrenare.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Cognition negociază o rundă la 40 de miliarde de dolari",
+      "titlu_original": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie"
+      ],
+      "rezumat": "Cognition ar discuta o nouă mega-rundă la o evaluare de 40 de miliarde de dolari, doar câteva luni după ce a strâns 1 miliard la 26 de miliarde. Ritmul reevaluărilor rămâne extrem în segmentul agenților de programare.",
+      "de_ce_conteaza": "Semnal despre cât capital se concentrează în automatizarea muncii de cunoaștere — și despre riscul unei corecții.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Thrive Holdings strânge 2 miliarde pentru a duce AI în companii tradiționale",
+      "titlu_original": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Thrive Holdings a atras 2 miliarde de dolari la o evaluare de 12 miliarde, de la investitori precum SoftBank, D1 Capital și Altimeter. Modelul vizează cumpărarea și transformarea de firme operaționale cu ajutorul AI.",
+      "de_ce_conteaza": "Apare o clasă de cumpărători care cresc marja firmelor de servicii prin AI — relevant pentru evaluarea și strategia clienților din servicii B2B.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Lovable confirmă 400 de milioane noi la o evaluare de 13,3 miliarde",
+      "titlu_original": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Lovable a ridicat încă 400 de milioane de dolari la o evaluare de 13,3 miliarde, după ce în iunie a atins un run rate anualizat de 500 de milioane. Platforma permite construirea de aplicații fără echipă tehnică dedicată.",
+      "de_ce_conteaza": "Instrumentele de tip „software fără programatori\" ajung la scară de venituri care le face relevante pentru IMM-uri și departamente interne.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Hinton, Fei-Fei Li și Andrew Ng pledează pentru modele deschise",
+      "titlu_original": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "sursa": "TechCrunch AI",
+      "tip": "opinie",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "La conferința Ai4, Geoffrey Hinton, Fei-Fei Li și Andrew Ng au dezbătut reglementarea, accesul open source și competiția cu China. Cei trei susțin, cu nuanțe diferite, menținerea unui ecosistem deschis în ciuda temerilor de siguranță.",
+      "de_ce_conteaza": "Direcția dezbaterii open vs. închis determină ce modele vor putea rula companiile pe infrastructură proprie.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Casa Albă pregătește extinderea politicii sale de AI",
+      "titlu_original": "The White House Is Going to Expand Its AI Policy",
+      "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
+      "sursa": "Wired",
+      "tip": "reglementare",
+      "domenii": [
+        "romania-ue",
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Surse citate de Wired spun că administrația americană va adăuga modelele deschise într-un cadru de politici AI actualizat. Mișcarea vine în timp ce Casa Albă încearcă să evite reglementarea directă a tehnologiei.",
+      "de_ce_conteaza": "Regulile americane privind modelele deschise influențează indirect ce pot folosi și companiile europene, prin licențe și disponibilitate.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Gemini pierde cotă de piață în fața ChatGPT și Claude",
+      "titlu_original": "Google's Gemini is losing market share to ChatGPT and Claude according to new market data",
+      "url": "https://the-decoder.com/googles-gemini-is-losing-market-share-to-chatgpt-and-claude-according-to-new-market-data/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Trei surse de date independente indică scăderea cotei Gemini, în timp ce OpenAI depășește 50% și Anthropic a crescut de la 4,3% la 14,9%. Similarweb și OpenRouter confirmă trendul.",
+      "de_ce_conteaza": "Contează pentru deciziile de standardizare pe un furnizor: ecosistemul cu cea mai mare tracțiune atrage cele mai multe integrări.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Mistral oferă procesare a datelor în UE, dar cu limite importante",
+      "titlu_original": "Mistral now offers EU data processing and priority access, but both come with important limits",
+      "url": "https://the-decoder.com/mistral-now-offers-eu-data-processing-and-priority-access-but-both-come-with-important-limits/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "romania-ue",
+        "enterprise",
+        "infrastructura"
+      ],
+      "rezumat": "Mistral permite clienților să rutească cererile prin servere din Europa sau SUA și vinde acces prioritar în perioadele de vârf. Ambele opțiuni costă suplimentar, iar rutarea regională nu acoperă toate funcțiile și tipurile de date.",
+      "de_ce_conteaza": "Pentru companiile europene cu cerințe GDPR, „procesare în UE\" cu excepții trebuie citită atent înainte de semnarea contractului.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Instrumentele AI pentru depistarea cancerului de sân sub așteptările radiologilor",
+      "titlu_original": "AI tools for breast cancer detection fall short of radiologists' expectations",
+      "url": "https://the-decoder.com/ai-tools-for-breast-cancer-detection-fall-short-of-radiologists-expectations/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "sanatate-stiinte",
+        "business-strategie"
+      ],
+      "rezumat": "Într-un sondaj pe 215 membri ai Society of Breast Imaging, aproximativ jumătate folosesc deja instrumente AI aprobate FDA, dar rezultatele dezamăgesc. Doar 35% raportează scăderea ratelor de recall, față de 59% care se așteptau la asta.",
+      "de_ce_conteaza": "Un exemplu documentat de decalaj între promisiunea de vânzare a AI și rezultatele operaționale reale.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "NVIDIA transformă capacitatea de calcul AI în clasă de active investibilă",
+      "titlu_original": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+      "sursa": "NVIDIA Blog",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "NVIDIA a anunțat parteneriate cu Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs și KKR pentru platforme de finanțare independente. Scopul este mobilizarea a peste 500 de miliarde de dolari de capital terț pentru construirea infrastructurii AI.",
+      "de_ce_conteaza": "Finanțarea infrastructurii AI cu capital de tip infrastructură arată cât de mult s-a industrializat sectorul — și cât de dependent devine de datorie.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Plângere penală în Germania împotriva ochelarilor AI Meta",
+      "titlu_original": "German advocacy group lodges criminal complaint over Meta AI glasses",
+      "url": "https://www.reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12/",
+      "sursa": "Hacker News",
+      "tip": "reglementare",
+      "domenii": [
+        "romania-ue",
+        "siguranta-etica"
+      ],
+      "rezumat": "O organizație germană de advocacy a depus plângere penală privind ochelarii AI ai Meta, invocând înregistrarea persoanelor fără consimțământ. Cazul testează limitele legislației europene de protecție a datelor pentru dispozitive purtabile.",
+      "de_ce_conteaza": "Dispozitivele AI purtabile pot deveni un risc de conformitate în ședințe și spații de lucru din UE.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Un font nou încearcă să otrăvească datele de antrenare AI",
+      "titlu_original": "The web’s newest weapon against AI scrapers is a font",
+      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+      "sursa": "Ars Technica AI",
+      "tip": "lansare",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "„ShieldFont\" transformă textul paginilor web în conținut lipsit de sens pentru scraperele AI, păstrându-l lizibil pentru oameni. Este o formă de protecție a conținutului fără blocarea accesului.",
+      "de_ce_conteaza": "Editorii și creatorii de conținut au acum o pârghie tehnică în negocierea cu companiile de AI.",
+      "scor_importanta": 5
+    },
+    {
+      "titlu_ro": "Model DeepMind care traduce limbajul semnelor în text",
+      "titlu_original": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "sursa": "Google DeepMind",
+      "tip": "lansare",
+      "domenii": [
+        "sanatate-stiinte",
+        "educatie"
+      ],
+      "rezumat": "Google DeepMind a lansat SL2T, un model care convertește limbajul semnelor în text, integrat în funcții pentru utilizatori surzi și cu deficiențe de auz. Este primul pas spre disponibilitate în produse reale.",
+      "de_ce_conteaza": "Deschide opțiuni concrete de accesibilitate la locul de muncă și în training, cu implicații pentru politicile de incluziune.",
+      "scor_importanta": 6
+    }
+  ],
+  "rezumat_zilei": "Ziua a fost dominată de competiția pe preț și capabilități la vârful pieței de modele: Grok 4.6 egalează cel mai bun model OpenAI la un cost cu peste 60% mai mic, DeepSeek lansează V4 Pro, iar datele de piață arată Gemini în scădere față de ChatGPT și Claude. În paralel, tema „agentului ca coleg de muncă\" s-a consolidat — Grok Bot, raportul OpenAI despre execuție agentică în companii și un studiu pe conturi ChatGPT Enterprise despre ce roluri folosesc de fapt AI. Pe partea de bani, capitalul continuă să curgă masiv (Cognition la 40 mld., Thrive 2 mld., Lovable 13,3 mld.), iar NVIDIA transformă infrastructura AI în clasă de active finanțabilă. Contrabalansul vine din reglementare și drepturi asupra datelor: watermarking la Anthropic, opt-out târziu la Twitch, plângere penală în Germania contra ochelarilor Meta și rezultate clinice AI sub așteptări."
+}
