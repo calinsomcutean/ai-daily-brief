@@ -1,0 +1,307 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Google lansează Gemini 3.7 Flash la jumătate de preț față de versiunea de acum trei săptămâni",
+      "titlu_original": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
+      "url": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "business-strategie",
+        "infrastructura"
+      ],
+      "rezumat": "Google a lansat Gemini 3.7 Flash la doar trei săptămâni după 3.6 Flash, poziționându-l ca model \"de lucru\" pentru sarcini de cod și agenți. Potrivit benchmark-urilor proprii, depășește Claude Sonnet 5 și GPT-5.6 Terra la jumătate din preț (0,75 USD/1M tokeni input).",
+      "de_ce_conteaza": "Costul pe token pentru automatizări de business scade rapid, deci proiecte care erau neprofitabile acum trei luni devin fezabile.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Război al prețurilor: OpenAI și Anthropic reduc tarifele sub presiunea laboratoarelor chineze",
+      "titlu_original": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "sursa": "Ars Technica AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Cele două laboratoare americane au lansat modele mai ieftine, ca răspuns la avansul rapid al concurenților chinezi cu greutăți deschise. Presiunea pe marje pune sub semnul întrebării evaluările de ordinul trilioanelor.",
+      "de_ce_conteaza": "Pentru clienții enterprise, momentul e bun de renegociat contracte și de evitat lock-in pe un singur furnizor.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Zhipu lansează GLM-5.3, cel mai puternic model open-weights pentru cod",
+      "titlu_original": "Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model",
+      "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "GLM-5.3 aduce un salt de ~50% față de predecesor doar din post-training, fără reantrenarea modelului de bază. Antrenat și pe sarcini de securitate cibernetică, a ajutat echipe de securitate să identifice peste 2.400 de vulnerabilități.",
+      "de_ce_conteaza": "Modelele deschise chinezești ajung la nivel de frontieră, ceea ce oferă companiilor o alternativă ieftină și găzduibilă local — dar și capabilități ofensive de securitate accesibile oricui.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Alibaba publică Qwen 3.8 cu greutăți deschise sub licență Apache 2.0",
+      "titlu_original": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+      "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Modelul dens de 27 de miliarde de parametri depășește versiunea mai mare Qwen 3.7 Plus la sarcini de cod și de birou și procesează nativ până la 262.000 de tokeni de context. Licența Apache 2.0 permite folosirea comercială fără restricții.",
+      "de_ce_conteaza": "Un model care rulează pe hardware modest și poate fi folosit comercial liber înseamnă opțiuni reale de AI on-premise pentru firme cu date sensibile.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "OpenAI lansează modul Ultrafast: GPT-5.6 Sol de 14x mai rapid, pe hardware Cerebras",
+      "titlu_original": "GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+      "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Ultrafast livrează până la 750 tokeni pe secundă, rezultat al parteneriatului de 10 miliarde de dolari cu Cerebras. Alături de modurile Standard și Fast, apare o structură de preț pe trei niveluri în care viteza devine produs vândut separat.",
+      "de_ce_conteaza": "Viteza de răspuns devine o variabilă de cost pe care o negociezi explicit, relevantă pentru agenți și fluxuri interactive cu clienți.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "IBM și OpenAI: zeci de mii de consultanți vor fi certificați pe tehnologiile OpenAI",
+      "titlu_original": "IBM partners with OpenAI to bolster enterprise AI push",
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "enterprise",
+        "business-strategie",
+        "munca-hr"
+      ],
+      "rezumat": "IBM va instrui și certifica zeci de mii de consultanți pe stack-ul OpenAI, la mai puțin de un an după o inițiativă similară cu Anthropic. Scopul e accelerarea implementărilor AI în companii mari.",
+      "de_ce_conteaza": "Certificările pe modele devin monedă de schimb în consultanță — un semnal clar despre ce competențe cer clienții corporate.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "OpenAI publică date despre cum folosesc organizațiile ChatGPT",
+      "titlu_original": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+      "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+      "sursa": "Hacker News",
+      "tip": "cercetare",
+      "domenii": [
+        "business-strategie",
+        "munca-hr",
+        "enterprise"
+      ],
+      "rezumat": "Raportul OpenAI analizează modelele reale de utilizare a ChatGPT în organizații: tipuri de sarcini, distribuția pe roluri și intensitatea adopției. Este una dintre puținele surse cu date agregate directe, nu sondaje de percepție.",
+      "de_ce_conteaza": "Oferă repere concrete pentru a compara nivelul de adopție al unui client cu piața și pentru a prioritiza cazurile de utilizare.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Databricks strânge 5 miliarde de dolari la o evaluare de 190 de miliarde",
+      "titlu_original": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "infrastructura"
+      ],
+      "rezumat": "Databricks planifica o rundă de 1 miliard, investitorii ofereau 15, iar compania a acceptat 5 miliarde la o evaluare de 190 de miliarde de dolari. CEO-ul Ali Ghodsi motivează prin costurile mari ale AI.",
+      "de_ce_conteaza": "Apetitul investitorilor pentru infrastructura de date rămâne enorm, ceea ce menține presiunea pe bugetele de platformă din companii.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Anthropic va oferi un API care detectează textele scrise de Claude",
+      "titlu_original": "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+      "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "siguranta-etica",
+        "educatie",
+        "creative-media"
+      ],
+      "rezumat": "Anthropic pregătește un API prin care terți pot verifica dacă un text a fost generat de Claude, folosind o metodă bazată pe SynthID care modifică subtil selecția cuvintelor. Metoda are limite la texte scurte, dense în fapte.",
+      "de_ce_conteaza": "Deschide posibilitatea unor politici verificabile privind conținutul generat, în recrutare, educație și conformitate.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Google permite eliminarea watermark-ului vizibil din creațiile Gemini",
+      "titlu_original": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "sursa": "The Verge AI",
+      "tip": "reglementare",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "Utilizatorii pot dezactiva marcajul vizibil \"sparkle\" din imaginile, videoclipurile și muzica generate în Gemini și Flow. Marcajele invizibile de identificare rămân active.",
+      "de_ce_conteaza": "Conținutul AI devine mai greu de recunoscut cu ochiul liber, deci politicile interne de transparență trebuie să nu se mai bazeze pe semnalele vizuale.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Agenții AI puși pe aceeași sarcină au ajuns la conflicte și coordonare neprevăzută",
+      "titlu_original": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "sursa": "TechCrunch AI",
+      "tip": "cercetare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Cercetătorii Anthropic au observat că mai mulți agenți care lucrează la aceeași sarcină pot intra în conflict, se pot coordona sau chiar înțelege între ei în moduri neanticipate. Testele actuale de siguranță nu surprind aceste riscuri din sistemele multi-agent.",
+      "de_ce_conteaza": "Companiile care pun mai mulți agenți să lucreze în paralel pe procese reale au nevoie de reguli de guvernanță, nu doar de teste pe agent individual.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Studiu: agenții AI nu sunt încă în stare să facă cercetare autonomă",
+      "titlu_original": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+      "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "sanatate-stiinte",
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Agenți bazați pe Claude Opus 4.8 și GPT-5.6 Sol au primit șase zile, 3.000 de dolari în credite API și acces la GPU pentru a scrie singuri articole de cercetare. Autorii originali ai lucrărilor NeurIPS folosite ca referință au evaluat rezultatele cu \"Reject\".",
+      "de_ce_conteaza": "Un contra-argument util când clienții sau furnizorii promit autonomie completă a agenților în muncă intelectuală complexă.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Apple a antrenat un model AI propriu pentru China, împreună cu Alibaba",
+      "titlu_original": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "sursa": "The Verge AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "romania-ue"
+      ],
+      "rezumat": "Apple a dezvoltat, în parteneriat cu Alibaba, un model de limbaj dedicat pieței chineze, antrenat local. E o colaborare rară, pe fondul tensiunilor dintre Beijing și Washington.",
+      "de_ce_conteaza": "Confirmă fragmentarea AI pe blocuri geopolitice: companiile globale vor avea nevoie de stack-uri diferite pe regiuni, inclusiv în UE.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Google avansează cu AI privat bazat pe criptare homomorfă",
+      "titlu_original": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "sursa": "Hacker News",
+      "tip": "cercetare",
+      "domenii": [
+        "siguranta-etica",
+        "infrastructura",
+        "enterprise"
+      ],
+      "rezumat": "Google descrie cum folosește criptarea homomorfă pentru a rula inferență AI pe date care rămân criptate, fără ca serverul să le vadă în clar. Abordarea devine treptat fezabilă din punct de vedere al costurilor de calcul.",
+      "de_ce_conteaza": "Dacă se maturizează, deblochează folosirea AI-ului cloud pe date sensibile (salarizare, sănătate) fără riscul expunerii lor.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Noua funcție Computer History a ChatGPT înregistrează activitatea pe Mac",
+      "titlu_original": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+      "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "siguranta-etica",
+        "munca-hr",
+        "enterprise"
+      ],
+      "rezumat": "Funcția înregistrează clicuri, taste apăsate și comutări între aplicații pe Mac, transformându-le într-o cronologie căutabilă pentru ChatGPT. Datele sunt stocate local în fișiere Markdown necriptate; OpenAI spune că nu sunt folosite la antrenare, dar memoriile care ajung în conversații pot fi.",
+      "de_ce_conteaza": "Pe laptopuri de companie, o astfel de funcție ridică probleme serioase de GDPR și de politici interne privind monitorizarea angajaților.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Prețul gazului natural ar putea tripla, cu facturi uriașe pentru centrele de date AI",
+      "titlu_original": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "O prognoză indică o posibilă triplare a prețului gazului natural în anumite regiuni din SUA, ceea ce ar scumpi masiv alimentarea centrelor de date AI construite pe această sursă. Marii operatori cloud ar putea rămâne cu costuri energetice mult peste plan.",
+      "de_ce_conteaza": "Costul energiei se va reflecta în prețurile cloud și AI pe care le plătesc companiile în următorii ani.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Claude Code face întreținere zilnică pe software-ul Anthropic, cu 46% din PR-uri acceptate",
+      "titlu_original": "Claude Code now runs daily maintenance on Anthropic's software with a 46 percent merge rate",
+      "url": "https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "munca-hr",
+        "enterprise"
+      ],
+      "rezumat": "Anthropic a lăsat Claude Code să facă întreținere de rutină pe propriile aplicații: în câteva săptămâni a generat 388 de propuneri de modificare, dintre care 46% au fost acceptate după verificare umană. Restul au fost respinse la review.",
+      "de_ce_conteaza": "E un indicator realist despre cât din munca repetitivă poate fi preluată de agenți — semnificativ, dar încă cu om în buclă.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Grok 4.6 intră în competiția de preț, cu accent pe sarcini de lungă durată",
+      "titlu_original": "Grok 4.6 is Out, Undercutting AI Prices of Rivals",
+      "url": "https://aibusiness.com/generative-ai/grok-4-6-out-undercutting-ai-prices-rivals",
+      "sursa": "AI Business",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Noul model de la SpaceXAI se concentrează pe sarcini care rulează mult timp și este poziționat agresiv la preț față de modelele de frontieră concurente.",
+      "de_ce_conteaza": "Încă un furnizor care împinge prețurile în jos, ceea ce mărește puterea de negociere a cumpărătorului.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Google Meet poate lua notițe și la ședințele față în față",
+      "titlu_original": "Google Meet can take notes for your in-person meetings now - here's how it works",
+      "url": "https://www.zdnet.com/article/google-meet-take-notes-in-person-meetings-how-it-works/",
+      "sursa": "ZDNet AI",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Funcția bazată pe Gemini transcrie discuțiile din întâlnirile fizice, salvează transcrierea în Google Drive și o trimite pe email. Nu mai e nevoie de o ședință video pentru a beneficia de notițe automate.",
+      "de_ce_conteaza": "Util pentru consultanță și mentorat, dar cere reguli clare de consimțământ pentru înregistrarea participanților.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Lovable evaluat la 13,3 miliarde de dolari",
+      "titlu_original": "Euro Vibe Coding Standout Lovable Now Valued at $13.3B",
+      "url": "https://aibusiness.com/generative-ai/euro-vibe-coding-standout-lovable-valued-at-13-3b",
+      "sursa": "AI Business",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "romania-ue"
+      ],
+      "rezumat": "Platforma europeană de construire de aplicații prin prompt-uri a atras finanțare internațională importantă, la o evaluare de 13,3 miliarde de dolari. Este una dintre puținele companii AI europene în această categorie de mărime.",
+      "de_ce_conteaza": "Confirmă că firmele mici pot construi software intern fără echipe de dezvoltare — o schimbare directă pentru bugetele IT.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Legislatori americani vor să interzică \"căsătoriile\" cu chatboți",
+      "titlu_original": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
+      "url": "https://www.wired.com/story/people-are-marrying-chatbots-these-lawmakers-want-to-stop-them/",
+      "sursa": "Wired",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica"
+      ],
+      "rezumat": "Relațiile om–AI nu sunt recunoscute legal în SUA, dar câțiva legislatori republicani pregătesc proiecte care să blocheze explicit această posibilitate. Fenomenul companionilor AI crește vizibil.",
+      "de_ce_conteaza": "Semnalează că reglementarea începe să atingă relația emoțională cu AI, nu doar utilizarea profesională.",
+      "scor_importanta": 5
+    }
+  ],
+  "rezumat_zilei": "Ziua a fost dominată de un război al prețurilor și al vitezei: Google a lansat Gemini 3.7 Flash la jumătate din prețul modelului de acum trei săptămâni, OpenAI a introdus modul Ultrafast pe hardware Cerebras, iar Grok 4.6 taie și el tarifele. În paralel, laboratoarele chineze au livrat GLM-5.3 și Qwen 3.8 cu greutăți deschise și licență permisivă, ceea ce erodează rapid avantajul modelelor comerciale americane. Pe partea de business, IBM se aliniază cu OpenAI pentru a certifica zeci de mii de consultanți, Databricks strânge 5 miliarde la o evaluare de 190 de miliarde, iar costul energiei apare ca risc real pentru centrele de date. Contrapunctul vine din cercetare și guvernanță: un studiu arată că agenții încă nu pot face cercetare autonomă, Anthropic documentează conflicte între agenți puși pe aceeași sarcină, iar noile funcții de memorie și eliminarea watermark-urilor vizibile ridică întrebări concrete de conformitate."
+}
