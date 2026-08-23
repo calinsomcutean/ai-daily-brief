@@ -4,6 +4,8 @@
 // Paleta e aliniata cu identitatea site-ului personal (navy + crem, ton editorial) —
 // culori calde/desaturate in loc de albastru-violet saturat de tip SaaS.
 export const TIPURI = [
+  { id: 'adoptie',      label: 'Adoptie & Studii de caz', culoare: '#A6873A',
+    descriere: 'Cum folosesc companiile AI-ul, cifre reale, rezultate masurate' },
   { id: 'lansare',      label: 'Lansare / Produs nou', culoare: '#1B3A5C',
     descriere: 'Modele noi, feature-uri, API-uri, versiuni majore' },
   { id: 'cercetare',    label: 'Cercetare',            culoare: '#5B4B8A',
@@ -12,8 +14,6 @@ export const TIPURI = [
     descriere: 'Runde de investitii, achizitii, evaluari, angajari-cheie' },
   { id: 'reglementare', label: 'Reglementare & Politici', culoare: '#A85D3D',
     descriere: 'Legislatie, procese, guvernanta, standarde' },
-  { id: 'adoptie',      label: 'Adoptie & Studii de caz', culoare: '#A6873A',
-    descriere: 'Cum folosesc companiile AI-ul, cifre reale, rezultate masurate' },
   { id: 'opinie',       label: 'Opinie & Analiza',     culoare: '#6B6458',
     descriere: 'Eseuri, predictii, dezbateri, comentarii' },
   { id: 'incident',     label: 'Incidente & Riscuri',  culoare: '#B23B3B',
