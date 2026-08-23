@@ -1,6 +1,6 @@
 # AI Daily Brief
 
-Automatizare care în fiecare zi:
+Automatizare care luni, miercuri și vineri:
 
 1. **07:00** — citește cele mai importante știri despre AI din surse gratuite (bloguri oficiale, presă tech, Hacker News, Reddit, arXiv), le clasifică cu Gemini (nivel gratuit) pe **tip** și **domeniu**, generează un newsletter HTML modern și îl salvează în arhivă (pagină web, câte un fișier per zi).
 2. **08:00** — trimite HTML-ul zilei pe email către `calinsomcutean@gmail.com` și `calin.somcutean@leadder.ro`.
@@ -84,9 +84,11 @@ Verifică: (a) au apărut fișiere noi în `docs/emails/` și `data/`, (b) a ven
 
 ### 7. Programarea automată
 
-E deja configurată în `.github/workflows/daily-brief.yml` — nu trebuie să faci nimic. Rulează în fiecare zi:
+E deja configurată în `.github/workflows/daily-brief.yml` — nu trebuie să faci nimic. Rulează luni, miercuri și vineri:
 - **04:00 UTC** (= 07:00 România vara / 06:00 iarna) → generează + arhivează
 - **05:00 UTC** (= 08:00 România vara / 07:00 iarna) → trimite emailul
+
+> Dacă vrei să revii la frecvența zilnică sau să schimbi zilele, editează câmpul `day-of-week` din cele două expresii cron din `daily-brief.yml` (`1,3,5` = luni/miercuri/vineri; `*` = zilnic) — trebuie schimbat în 3 locuri: cele două `cron:` de sub `schedule:` și cele două verificări `github.event.schedule == '...'` din job-urile `generate`/`send`, ca să rămână sincronizate.
 
 > ⚠️ GitHub Actions folosește UTC fix, iar România schimbă ora (DST). Orele de mai sus sunt calibrate pentru **ora de vară** (martie–octombrie, majoritatea anului) — în cele ~5 luni de iarnă, totul se va întâmpla cu o oră mai devreme (06:00 / 07:00 România). Dacă vrei precizie perfectă tot anul, ajustează manual cron-ul de două ori pe an în `daily-brief.yml`, sau spune-mi și pot adăuga o verificare de fus orar în cod.
 

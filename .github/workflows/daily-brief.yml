@@ -4,10 +4,12 @@ on:
   schedule:
     # 07:00 Europa/Bucuresti = 04:00 UTC vara (EEST) / 05:00 UTC iarna (EET).
     # Genereaza briefing-ul, il salveaza in arhiva (docs/) si il comite in repo.
-    - cron: '7 4 * * *'
+    # Luni, miercuri, vineri (nu zilnic).
+    - cron: '7 4 * * 1,3,5'
     # 08:00 Europa/Bucuresti = 05:00 UTC vara / 06:00 UTC iarna.
     # Trimite emailul folosind datele deja generate la pasul anterior.
-    - cron: '13 5 * * *'
+    # Luni, miercuri, vineri (nu zilnic).
+    - cron: '13 5 * * 1,3,5'
   workflow_dispatch:
     inputs:
       mode:
@@ -25,7 +27,7 @@ permissions:
 
 jobs:
   generate:
-    if: github.event.schedule == '7 4 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'generate' || github.event.inputs.mode == 'generate-and-send'))
+    if: github.event.schedule == '7 4 * * 1,3,5' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'generate' || github.event.inputs.mode == 'generate-and-send'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -62,7 +64,7 @@ jobs:
     if: |
       always() &&
       (needs.generate.result == 'success' || needs.generate.result == 'skipped') &&
-      (github.event.schedule == '13 5 * * *' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'send-only' || github.event.inputs.mode == 'generate-and-send')))
+      (github.event.schedule == '13 5 * * 1,3,5' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'send-only' || github.event.inputs.mode == 'generate-and-send')))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
