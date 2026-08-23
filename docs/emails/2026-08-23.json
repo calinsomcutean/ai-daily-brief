@@ -1,0 +1,201 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Utilizarea agenților AI o depășește pe cea a oamenilor, generând o creștere masivă a consumului de tokeni",
+      "titlu_original": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+      "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Pe platforma OpenRouter, consumul de tokeni generat de agenții autonomi AI a crescut de 14 ori, depășind pentru prima dată utilizarea directă de către oameni. Deși volumul de procesare a explodat, costurile totale cresc mai lent deoarece aproape 70% din utilizare folosește interogări stocate în cache.",
+      "de_ce_conteaza": "Pentru companii, acest lucru arată o tranziție clară către automatizarea proceselor prin agenți care lucrează continuu în fundal, schimbând modul în care sunt bugetate resursele tehnice.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Penuria de cipuri de memorie crește prețurile serverelor AI Nvidia cu 15%",
+      "titlu_original": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent",
+      "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Serverele AI de ultimă generație de la Nvidia vor deveni cu aproximativ 15% mai scumpe din cauza deficitului global de memorie DRAM de la furnizori precum Samsung și SK Hynix. Majorările de preț afectează direct giganții cloud precum Microsoft, Google și Meta, care investesc miliarde în infrastructură.",
+      "de_ce_conteaza": "Costurile crescute de infrastructură hardware se vor reflecta inevitabil în tarife mai mari pentru abonamentele enterprise și serviciile cloud de inteligență artificială.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Nvidia investește miliarde de dolari în Poolside pentru a rivaliza cu modelele chinezești",
+      "titlu_original": "Nvidia Poolside deal to compete with Chinese Open Weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw0mcd/nvidia_poolside_deal_to_compete_with_chinese_open/",
+      "sursa": "r/LocalLLaMA",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Nvidia plănuiește o investiție de 1 miliard de dolari în startup-ul Poolside, alături de o licențiere tehnologică de 6 miliarde de dolari pentru a coopta majoritatea inginerilor acestuia. Echipa preluată va lucra direct la dezvoltarea familiei de modele Nemotron pentru a menține competitivitatea americană.",
+      "de_ce_conteaza": "Miza uriașă indică presiunea imensă exercitată de modelele open-source chinezești asupra pieței globale și dorința Nvidia de a domina atât pe hardware, cât și pe software.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "OpenAI își schimbă poziția și cere legi mai stricte pentru siguranța AI în California",
+      "titlu_original": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "sursa": "TechCrunch AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "OpenAI susține acum că proiectul de lege SB 53 privind siguranța AI din California ar trebui să conțină prevederi mai ferme, deși inițial se opunea reglementării. Compania dorește standarde mai clare de responsabilitate și evaluare a riscurilor sistemelor avansate.",
+      "de_ce_conteaza": "Schimbarea de discurs semnalează că marile companii de AI preferă reglementări predictibile la nivel de stat în locul unor incertitudini juridice ce le pot afecta operațiunile.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Utilizarea AI în cercetare riscă să scadă calitatea muncii prin fragmentarea atenției",
+      "titlu_original": "AI could make scientists do more work less well, not less work better, study argues",
+      "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Un nou studiu teoretic arată că economisirea de timp prin AI nu duce la îmbunătățirea proiectelor existente, ci la deschiderea mai multor proiecte paralele. Din această cauză, cercetătorii tind să dedice mai puțin timp aprofundării fiecărui subiect în parte, diluând calitatea rezultatelor.",
+      "de_ce_conteaza": "Liderii de resurse umane și consultanții trebuie să gestioneze atent riscul ca automatizarea să crească volumul de muncă fragmentat în loc să sporească valoarea adăugată reală.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Un sondaj arată că 80% dintre dezvoltatori găsesc AI-ul mai degrabă adictiv decât util",
+      "titlu_original": "'I can't stop': 80% of developers find AI coding more addictive than helpful",
+      "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+      "sursa": "ZDNet AI",
+      "tip": "adoptie",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Sondajul derulat de Coddy arată o nouă formă de epuizare profesională în rândul specialiștilor IT care folosesc asistenți de codare cu AI. Mulți programatori raportează un ciclu compulsiv de generare și corectare de cod, care le scade productivitatea generală și starea de bine.",
+      "de_ce_conteaza": "În managementul echipelor tehnice și HR, introducerea instrumentelor de AI generativ necesită ghidaje clare de utilizare pentru a preveni surmenajul și dependența neproductivă.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "OpenAI reduce cu 20% prețul pentru modelul GPT 5.6 Sol",
+      "titlu_original": "GPT 5.6 Sol 20% price reduction",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "sursa": "Hacker News",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "OpenAI a anunțat o ieftinire directă de 20% a tarifelor de acces prin API pentru varianta GPT 5.6 Sol. Decizia vine în contextul unei competiții tot mai strânse pe piața furnizorilor de modele de limbaj de performanță înaltă.",
+      "de_ce_conteaza": "Scăderea costurilor de integrare le permite companiilor să extindă scalarea aplicațiilor AI interne fără a-și depăși bugetele operaționale.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Anthropic își construiește propria echipă de cipuri AI pentru a reduce dependența de Nvidia",
+      "titlu_original": "Anthropic is moving toward its own AI chips — could this challenge Nvidia?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1vvg2ii/anthropic_is_moving_toward_its_own_ai_chips/",
+      "sursa": "r/OpenAI",
+      "tip": "business",
+      "domenii": [
+        "infrastructura",
+        "business-strategie"
+      ],
+      "rezumat": "Anthropic l-a recrutat pe Amir Salek, fostul lider al diviziei Google TPU, pentru a conduce dezvoltarea propriilor procesoare AI dedicate. Miza este crearea de hardware customizat care să optimizeze rularea modelelor Claude la costuri substanțial reduse.",
+      "de_ce_conteaza": "Inițiativa confirmă tendința marilor laboratoare de AI de a se integra vertical pe lanțul de aprovizionare pentru a-și proteja marjele de profit.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Harvard introduce avatare AI ale profesorilor în programele pentru antreprenori",
+      "titlu_original": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "sursa": "TechCrunch AI",
+      "tip": "adoptie",
+      "domenii": [
+        "educatie",
+        "munca-hr"
+      ],
+      "rezumat": "În cadrul programului HBS Foundry, cursanții primesc feedback interactiv de la avatare digitale ale cadrelor didactice în timpul simulărilor de prezentări. Sistemul le permite fondatorilor să exerseze discursurile de investiții și ședințele de consiliu într-un mediu virtual personalizat.",
+      "de_ce_conteaza": "Modelul arată modul în care companiile pot scala procesele interne de mentorat și training pentru angajați, simulând interacțiuni executive la costuri reduse.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Netflix testează un model de limbaj propriu pentru eficientizarea recomandărilor",
+      "titlu_original": "Netflix tests language model as alternative to hand-built recommendation logic",
+      "url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Netflix a dezvoltat modelul GenRec, care convertește istoricul de vizionare al utilizatorilor în text simplu în loc să folosească mii de reguli de cod scrise manual. Primele teste arată că acest model generativ depășește în precizie vechiul algoritm de recomandare.",
+      "de_ce_conteaza": "Abordarea demonstrează că modelele mari de limbaj pot înlocui sisteme complexe de analiză tradițională de date, simplificând arhitectura software din enterprise.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Munca cu agenții AI transformă rutina de supraveghere a managerilor",
+      "titlu_original": "The new agentic O-ring world",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/the-new-agentic-o-ring-world.html?utm_source=rss&utm_medium=rss&utm_campaign=the-new-agentic-o-ring-world",
+      "sursa": "Marginal Revolution",
+      "tip": "opinie",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Un nou model de lucru arată că utilizatorii care coordonează agenți autonomi ajung să își schimbe complet programul de muncă pentru a fi disponibili nonstop. Agenții necesită ghidaj și context periodic pe măsură ce execută sarcini lungi, transformând rolul uman într-unul de monitorizare continuă.",
+      "de_ce_conteaza": "Consultanții de resurse umane trebuie să anticipeze noile dinamici de muncă hibrid om-agent și impactul lor asupra echilibrului dintre viața personală și cea profesională.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Piața neagră din China vinde acces la tokeni Claude la o fracțiune din preț",
+      "titlu_original": "How China's gray market sells Claude tokens at a fraction of the price",
+      "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
+      "sursa": "The Decoder",
+      "tip": "incident",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "În ciuda restricțiilor geografice drastice ale Anthropic, o rețea din China ocolește verificările prin intermediul unor stații de transfer. Astfel, dezvoltatorii chinezi pot cumpăra tokeni Claude la doar 10% din tariful oficial al companiei.",
+      "de_ce_conteaza": "Fenomenul evidențiază dificultățile majore în aplicarea sancțiunilor sau restricțiilor de acces geografic în industria modelelor AI de frontieră.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Agentul AI Faraday dezvoltat de Inherent depășește rivalii în replicarea studiilor științifice",
+      "titlu_original": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "sursa": "TechCrunch AI",
+      "tip": "cercetare",
+      "domenii": [
+        "sanatate-stiinte",
+        "business-strategie"
+      ],
+      "rezumat": "Startup-ul britanic Inherent, fondat de foști cercetători DeepMind, a lansat agentul AI Faraday. Acesta a demonstrat o capacitate superioară modelelor de la Anthropic și OpenAI în verificarea și replicarea lucrărilor științifice.",
+      "de_ce_conteaza": "Automatizarea verificării cercetărilor poate accelera semnificativ ritmul de cercetare și dezvoltare în sectoare intensive precum cel farmaceutic sau energetica.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Metodele psihologice arată vicii structurale în evaluarea securității modelelor AI",
+      "titlu_original": "Psychological methods reveal major weaknesses in AI security testing",
+      "url": "https://the-decoder.com/psychological-methods-reveal-major-weaknesses-in-ai-security-testing/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Un studiu realizat de Institutul de Securitate AI din Marea Britanie arată că testele actuale de siguranță pentru LLM-uri nu măsoară o trăsătură consecventă. Blocarea automată a cererilor poate crește artificial scorul de siguranță, în timp ce scade utilitatea practică a modelului.",
+      "de_ce_conteaza": "Companiile nu se pot baza exclusiv pe scorurile oficiale de siguranță când aleg un model enterprise, fiind necesare evaluări interne adaptate cazurilor specifice de utilizare.",
+      "scor_importanta": 7
+    }
+  ],
+  "rezumat_zilei": "Peisajul inteligenței artificiale este marcat de tranziția accelerată către un ecosistem bazat pe agenți autonomi și de lupta pentru eficiență economică în infrastructură. Consumul de resurse de calcul generat de agenți AI l-a depășit pe cel uman, determinând giganții tehnologici să investească masiv în cipuri proprii și parteneriate strategice pentru a face față scumpirii hardware-ului. În același timp, din perspectiva resurselor umane, se observă primele efecte secundare ale integrării AI: de la riscul fragmentării atenției în cercetare până la dependența compulsivă a dezvoltatorilor de asistenții de codare. Reorganizarea modelelor de lucru necesită o reevaluare a modului în care managerii supraveghează aceste sisteme pentru a menține un echilibru organizational sustenabil."
+}
