@@ -27,7 +27,6 @@ export const DOMENII = [
   { id: 'creative-media',     label: 'Creative & Media' },
   { id: 'sanatate-stiinte',   label: 'Sanatate & Stiinte' },
   { id: 'educatie',           label: 'Educatie & Training' },
-  { id: 'infrastructura',     label: 'Infrastructura & Hardware' },
   { id: 'siguranta-etica',    label: 'Siguranta & Etica' },
   { id: 'romania-ue',         label: 'Romania & UE' },
 ];

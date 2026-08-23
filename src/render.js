@@ -81,6 +81,45 @@ function storyCard(story) {
   </tr>`;
 }
 
+const GOLD = '#8A6D1D';
+const GOLD_BORDER = '#D9C68A';
+const GOLD_BG = '#FFFDF7';
+const GOLD_BG_SOFT = '#FBF6E8';
+
+function actionCard(item) {
+  return `
+  <tr>
+    <td style="padding:0 0 14px 0;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${GOLD_BG};border:1px solid ${GOLD_BORDER};border-left:4px solid ${GOLD};border-radius:10px;overflow:hidden;">
+        <tr>
+          <td style="padding:18px 22px;">
+            <h3 style="margin:0 0 8px 0;font-size:16.5px;line-height:1.4;color:${TEXT_DARK};font-family:${SERIF};font-weight:700;">
+              <a href="${esc(item.url)}" style="color:${TEXT_DARK};text-decoration:none;">${esc(item.titlu)}</a>
+            </h3>
+            <p style="margin:0 0 10px 0;font-size:14px;line-height:1.6;color:${TEXT_BODY};font-family:${SANS};">${esc(item.ce_este)}</p>
+            <p style="margin:0;font-size:13.5px;line-height:1.55;color:${TEXT_BODY};font-family:${SANS};background:${GOLD_BG_SOFT};border-radius:6px;padding:9px 13px;">
+              <strong style="color:${GOLD};">Cum o folosesti:</strong> ${esc(item.cum_folosesti)}
+            </p>
+            <a href="${esc(item.url)}" style="display:inline-block;margin-top:8px;font-size:13px;font-weight:600;color:${NAVY_LINK};text-decoration:none;font-family:${SANS};">Citeste articolul original →</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>`;
+}
+
+function actionSection(recomandari) {
+  if (!recomandari || recomandari.length === 0) return '';
+  return `
+  <tr>
+    <td style="padding:0 0 10px 0;">
+      <h2 style="margin:0;font-size:12.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:${GOLD};border-bottom:1px solid ${GOLD_BORDER};padding-bottom:9px;font-family:${SANS};">
+        🎯 Pentru consultanta &amp; training AI
+      </h2>
+    </td>
+  </tr>` + recomandari.map(actionCard).join('');
+}
+
 function sectionHeader(tip, count) {
   return `
   <tr>
@@ -98,7 +137,7 @@ function sectionHeader(tip, count) {
  * @param {{archiveUrl?: string, isArchivePage?: boolean}} opts
  */
 export function renderDailyHTML(data, dateStr, opts = {}) {
-  const { stiri, rezumat_zilei } = data;
+  const { stiri, rezumat_zilei, recomandari_practice } = data;
   const { zi, rest } = formatDateParts(dateStr);
 
   const byTip = new Map();
@@ -147,6 +186,7 @@ export function renderDailyHTML(data, dateStr, opts = {}) {
   <tr>
     <td style="padding:0 8px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        ${actionSection(recomandari_practice)}
         ${sections}
       </table>
     </td>
