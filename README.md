@@ -2,10 +2,10 @@
 
 Automatizare care în fiecare zi:
 
-1. **07:00** — citește cele mai importante știri despre AI din surse gratuite (bloguri oficiale, presă tech, Hacker News, Reddit, arXiv), le clasifică cu Claude (Opus 5) pe **tip** și **domeniu**, generează un newsletter HTML modern și îl salvează în arhivă (pagină web, câte un fișier per zi).
+1. **07:00** — citește cele mai importante știri despre AI din surse gratuite (bloguri oficiale, presă tech, Hacker News, Reddit, arXiv), le clasifică cu Gemini (nivel gratuit) pe **tip** și **domeniu**, generează un newsletter HTML modern și îl salvează în arhivă (pagină web, câte un fișier per zi).
 2. **08:00** — trimite HTML-ul zilei pe email către `calinsomcutean@gmail.com` și `calin.somcutean@leadder.ro`.
 
-Rulează gratuit pe GitHub Actions (surse gratuite + arhivă pe GitHub Pages); singurul cost e API-ul Claude (~2-5 USD/lună) și, dacă depășești planul gratuit Resend (3.000 emailuri/lună), nimic — o adresă pe zi e mult sub limită.
+Rulează 100% gratuit pe GitHub Actions (surse gratuite, triaj AI pe nivelul gratuit Gemini, arhivă pe GitHub Pages, email prin Resend sub planul gratuit).
 
 ## Structură
 
@@ -14,7 +14,7 @@ src/
   config/sources.js    — lista de feed-uri RSS, Hacker News, Reddit, arXiv
   config/taxonomy.js   — clasificarea pe tip și domeniu
   collect.js           — colectează articolele brute din toate sursele
-  classify.js          — trimite candidații către Claude pentru triaj + rezumat
+  classify.js          — trimite candidații către Gemini pentru triaj + rezumat
   render.js            — generează HTML-ul (newsletter + pagina de arhivă)
   build-index.js        — reconstruiește docs/index.html din arhivă
   send.js               — trimite emailul prin Resend
@@ -26,9 +26,9 @@ data/                   — JSON brut per zi (istoric structurat)
 
 ## Setup — pas cu pas
 
-### 1. Cheia API Anthropic
+### 1. Cheia API Gemini (gratuită)
 
-Mergi pe [platform.claude.com](https://platform.claude.com) → API Keys → creează o cheie nouă. O vei folosi mai jos ca secret `ANTHROPIC_API_KEY`.
+Mergi pe [aistudio.google.com/apikey](https://aistudio.google.com/apikey) → Create API key. Nu necesită card, nivelul gratuit e suficient de larg pentru 1 apel/zi. O vei folosi mai jos ca secret `GEMINI_API_KEY`.
 
 ### 2. Cont Resend (trimitere email)
 
@@ -66,7 +66,7 @@ Settings → Secrets and variables → Actions:
 **Secrets** (criptate, nu apar în loguri):
 | Nume | Valoare |
 |---|---|
-| `ANTHROPIC_API_KEY` | cheia de la pasul 1 |
+| `GEMINI_API_KEY` | cheia de la pasul 1 |
 | `RESEND_API_KEY` | cheia de la pasul 2 |
 
 **Variables** (necriptate, ok pentru configurare):
@@ -117,8 +117,10 @@ Nu e inclus by design — API-ul X costă ~200 USD/lună pentru citire. Lista de
 
 | Serviciu | Cost |
 |---|---|
-| Claude API (triaj + rezumate, ~1 apel/zi) | ~1-3 USD/lună |
+| Gemini API (triaj + rezumate, ~1 apel/zi, nivel gratuit) | 0 USD |
 | Resend (1 email/zi către 2 adrese) | 0 USD (plan gratuit) |
 | GitHub Actions (2 job-uri scurte/zi) | 0 USD (planul gratuit acoperă larg) |
 | GitHub Pages (arhiva) | 0 USD |
-| **Total** | **~1-3 USD/lună** |
+| **Total** | **0 USD/lună** |
+
+> Nivelul gratuit Gemini are o limită de request-uri/zi (mult peste 1 apel/zi de care are nevoie acest proiect). Dacă vreodată o depășești, Google întoarce o eroare de rate-limit, nu o taxă surpriză — nu se poate "termina creditul" ca la un API plătit.
