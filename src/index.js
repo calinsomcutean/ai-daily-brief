@@ -1,4 +1,4 @@
-// Orchestratorul principal: colectare -> triaj Claude -> generare HTML -> salvare in arhiva.
+// Orchestratorul principal: colectare -> triaj Gemini -> generare HTML -> salvare in arhiva.
 // Rulat de GitHub Actions la 07:00 (generare+arhiva) si din nou pentru trimitere la 08:00,
 // sau local cu: npm run brief   /   npm run brief:dry (fara email, fara commit)
 
@@ -77,7 +77,7 @@ async function main() {
 
 main()
   .then(() => {
-    // SDK-urile (Anthropic/Resend) pot lasa conexiuni HTTP keep-alive deschise,
+    // SDK-ul Resend (si fetch-ul keep-alive) poate lasa conexiuni HTTP deschise,
     // ceea ce tine procesul Node "viu" la nesfarsit desi lucrul e gata — fortam iesirea.
     process.exit(0);
   })

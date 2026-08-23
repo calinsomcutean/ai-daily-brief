@@ -1,54 +1,49 @@
-// Trimite candidatii colectati catre Claude pentru: scoring de importanta,
+// Trimite candidatii colectati catre Gemini pentru: scoring de importanta,
 // selectie top N, clasificare (tip + domeniu), rezumat in romana.
-// Foloseste output_config.format (structured outputs) ca sa garantam JSON valid.
+// Foloseste responseSchema (JSON mode) ca sa garantam JSON valid.
+// Gemini are un nivel gratuit generos (aistudio.google.com/apikey) — de asta e ales
+// in locul unui API platit; vezi README pentru cum obtii cheia.
 
-import Anthropic from '@anthropic-ai/sdk';
 import { TIP_IDS, DOMENIU_IDS, LIMITE } from './config/taxonomy.js';
 
-const MODEL = process.env.CLAUDE_MODEL || 'claude-opus-5';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const API_KEY = process.env.GEMINI_API_KEY;
+const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
 
-const client = new Anthropic(); // citeste ANTHROPIC_API_KEY din env
-
-const outputSchema = {
-  type: 'object',
+const responseSchema = {
+  type: 'OBJECT',
   properties: {
-    // API-ul de structured outputs accepta doar minItems/maxItems 0 sau 1 pe array-uri —
-    // limitele reale (LIMITE.minStiri/maxStiri) sunt impuse prin instructiuni in system prompt.
     stiri: {
-      type: 'array',
+      type: 'ARRAY',
       items: {
-        type: 'object',
+        type: 'OBJECT',
         properties: {
-          titlu_ro: { type: 'string', description: 'Titlu tradus/adaptat in romana, concis' },
-          titlu_original: { type: 'string', description: 'Titlul original al articolului' },
-          url: { type: 'string', description: 'URL-ul exact al articolului sursa din lista primita' },
-          sursa: { type: 'string', description: 'Numele sursei, exact cum a fost dat' },
-          tip: { type: 'string', enum: TIP_IDS },
+          titlu_ro: { type: 'STRING', description: 'Titlu tradus/adaptat in romana, concis' },
+          titlu_original: { type: 'STRING', description: 'Titlul original al articolului' },
+          url: { type: 'STRING', description: 'URL-ul exact al articolului sursa din lista primita' },
+          sursa: { type: 'STRING', description: 'Numele sursei, exact cum a fost dat' },
+          tip: { type: 'STRING', enum: TIP_IDS },
           domenii: {
-            type: 'array',
-            items: { type: 'string', enum: DOMENIU_IDS },
+            type: 'ARRAY',
+            items: { type: 'STRING', enum: DOMENIU_IDS },
             description: 'Domeniile de interes relevante (1-3), in ordinea relevantei',
           },
-          rezumat: { type: 'string', description: '2-3 fraze in romana, clar si concret, fara clisee' },
-          de_ce_conteaza: { type: 'string', description: 'O singura fraza: impactul practic' },
-          // minimum/maximum nu sunt suportate pe 'integer' de output_config.format —
-          // folosim enum, care e suportat, ca sa garantam totusi intervalul 1-10.
-          scor_importanta: { type: 'integer', enum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] },
+          rezumat: { type: 'STRING', description: '2-3 fraze in romana, clar si concret, fara clisee' },
+          de_ce_conteaza: { type: 'STRING', description: 'O singura fraza: impactul practic' },
+          scor_importanta: { type: 'INTEGER', description: 'Scor de importanta, intreg de la 1 la 10' },
         },
         required: [
           'titlu_ro', 'titlu_original', 'url', 'sursa', 'tip', 'domenii',
           'rezumat', 'de_ce_conteaza', 'scor_importanta',
         ],
-        additionalProperties: false,
       },
     },
     rezumat_zilei: {
-      type: 'string',
+      type: 'STRING',
       description: 'Un paragraf de 3-4 fraze in romana care sintetizeaza tema/temele dominante ale zilei in AI',
     },
   },
   required: ['stiri', 'rezumat_zilei'],
-  additionalProperties: false,
 };
 
 function buildCandidatesBlock(items) {
@@ -61,6 +56,10 @@ function buildCandidatesBlock(items) {
 }
 
 export async function classifyAndSummarize(items) {
+  if (!API_KEY) {
+    throw new Error('GEMINI_API_KEY lipseste din environment — vezi README pentru cum obtii o cheie gratuita.');
+  }
+
   // Sortam dupa greutatea sursei ca sa favorizam labs/presa cand taiem la maxCandidati.
   const candidates = [...items]
     .sort((a, b) => b.weight - a.weight)
@@ -82,37 +81,50 @@ Sarcina ta:
 3. Pentru fiecare stire aleasa, clasific-o pe tip (o singura valoare) si domenii (1-3 valori, cele mai relevante).
 4. Scrie un rezumat de 2-3 fraze in romana, clar, fara jargon inutil, fara superlative goale ("revolutionar", "uimitor"). Pastreaza termenii tehnici originali cand nu au traducere buna (ex: "fine-tuning", "agent", "benchmark").
 5. Scrie o fraza "de ce conteaza" — impactul practic pentru cineva din business/consultanta.
-6. Da un scor de importanta 1-10.
+6. Da un scor de importanta, un numar intreg de la 1 la 10.
 7. Scrie un rezumat_zilei: 3-4 fraze care sintetizeaza tema dominanta a zilei.
 
 Foloseste EXACT URL-ul si numele sursei din lista primita — nu inventa, nu modifica.
-Daca lista are mai putin de ${LIMITE.minStiri} stiri cu adevarat relevante, selecteaza doar atatea cate merita, dar niciodata sub ${Math.min(8, LIMITE.minStiri)}.`;
+Daca lista are mai putin de ${LIMITE.minStiri} stiri cu adevarat relevante, selecteaza doar atatea cate merita, dar niciodata sub ${Math.min(8, LIMITE.minStiri)}.
+Raspunde DOAR cu obiectul JSON cerut de schema, fara text suplimentar.`;
 
   const userContent = `Iata ${candidates.length} articole candidate:\n\n${buildCandidatesBlock(candidates)}`;
 
   console.log(`\n🧠 Trimit ${candidates.length} candidati catre ${MODEL} pentru triaj...`);
 
-  const response = await client.messages.create({
-    model: MODEL,
-    max_tokens: 16000,
-    system,
-    messages: [{ role: 'user', content: userContent }],
-    output_config: {
-      effort: 'medium',
-      format: { type: 'json_schema', schema: outputSchema },
-    },
+  const res = await fetch(`${ENDPOINT}?key=${API_KEY}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      systemInstruction: { parts: [{ text: system }] },
+      contents: [{ role: 'user', parts: [{ text: userContent }] }],
+      generationConfig: {
+        responseMimeType: 'application/json',
+        responseSchema,
+      },
+    }),
   });
 
-  if (response.stop_reason === 'refusal') {
-    throw new Error('Claude a refuzat cererea (stop_reason: refusal) — verifica continutul candidatilor.');
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Gemini API ${res.status}: ${body}`);
   }
 
-  const textBlock = response.content.find((b) => b.type === 'text');
-  if (!textBlock) throw new Error('Raspunsul nu contine niciun bloc text.');
+  const payload = await res.json();
+  const candidate = payload.candidates?.[0];
 
-  const parsed = JSON.parse(textBlock.text);
+  if (!candidate || candidate.finishReason === 'SAFETY' || candidate.finishReason === 'RECITATION') {
+    throw new Error(`Gemini nu a returnat un rezultat utilizabil (finishReason: ${candidate?.finishReason ?? 'necunoscut'}).`);
+  }
+
+  const text = candidate.content?.parts?.map((p) => p.text ?? '').join('') ?? '';
+  if (!text) throw new Error('Raspunsul Gemini nu contine text.');
+
+  const parsed = JSON.parse(text);
   console.log(`✅ ${parsed.stiri.length} stiri selectate si clasificate.`);
-  console.log(`   Tokens: ${response.usage.input_tokens} in / ${response.usage.output_tokens} out`);
+  if (payload.usageMetadata) {
+    console.log(`   Tokens: ${payload.usageMetadata.promptTokenCount} in / ${payload.usageMetadata.candidatesTokenCount} out`);
+  }
 
   return parsed;
 }
