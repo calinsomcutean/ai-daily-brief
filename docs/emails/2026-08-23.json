@@ -1,21 +1,7 @@
 {
   "stiri": [
     {
-      "titlu_ro": "OpenAI reduce prețul pentru GPT 5.6 Sol cu 20%",
-      "titlu_original": "GPT 5.6 Sol 20% price reduction",
-      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-      "sursa": "Hacker News",
-      "tip": "lansare",
-      "domenii": [
-        "business-strategie",
-        "enterprise"
-      ],
-      "rezumat": "OpenAI a anunțat o reducere de preț de 20% pentru modelul GPT 5.6 Sol. Această ajustare scade costul de procesare al datelor prin API pentru clienții comerciali. Modificarea este deja activă în documentația oficială a dezvoltatorilor.",
-      "de_ce_conteaza": "Scăderea costurilor directe le permite companiilor să automatizeze fluxuri de date mai voluminoase cu bugete mai mici.",
-      "scor_importanta": 9
-    },
-    {
-      "titlu_ro": "Agenții AI devin principalii consumatori de jetoane pe OpenRouter, cu o creștere de 14x",
+      "titlu_ro": "Agenții autonomi devin principalii consumatori de AI, depășind utilizatorii umani de 14 ori",
       "titlu_original": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
       "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
       "sursa": "The Decoder",
@@ -24,12 +10,12 @@
         "business-strategie",
         "enterprise"
       ],
-      "rezumat": "Consumul de jetoane generat de agenții autonomi l-a depășit pe cel creat de utilizatorii umani pe platforma OpenRouter. Utilizarea de către agenți a crescut de 14 ori într-un an, în timp ce utilizarea umană a crescut de doar 2,8 ori. Un procent de aproape 70% din acest consum vine din instrucțiuni stocate temporar (cached prompts), menținând costurile generale scăzute.",
-      "de_ce_conteaza": "Sistemele software ale companiilor încep să comunice autonom între ele prin AI, schimbând arhitectura clasică a proceselor de afaceri.",
+      "rezumat": "Datele platformei OpenRouter arată o schimbare masivă în consumul de date AI: agenții autonomi consumă mai mulți tokeni decât utilizatorii umani încă din februarie 2025. Utilizarea generată de agenți a crescut de 14 ori, în timp ce consumul uman a crescut de doar 2,8 ori. Aproape 70% din tokenii consumați de agenți folosesc prompturi din memorie cache, reducând semnificativ costul per execuție.",
+      "de_ce_conteaza": "Tranziția către sisteme în care agenții AI apelează alți agenți reasamblează arhitectura de costuri a companiilor, mutând accentul de pe licențele per utilizator pe optimizarea apelurilor automate.",
       "scor_importanta": 9
     },
     {
-      "titlu_ro": "Netflix testează modele de limbaj pentru a înlocui algoritmii tradiționali de recomandare",
+      "titlu_ro": "Netflix înlocuiește algoritmii tradiționali de recomandare cu un model de limbaj intern",
       "titlu_original": "Netflix tests language model as alternative to hand-built recommendation logic",
       "url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
       "sursa": "The Decoder",
@@ -38,12 +24,26 @@
         "enterprise",
         "business-strategie"
       ],
-      "rezumat": "Netflix a testat modelul propriu de limbaj GenRec împotriva sistemului vechi de recomandări și a obținut rezultate superioare. În loc să depindă de mii de reguli create manual, GenRec convertește istoricul de vizionare al utilizatorilor în text simplu. Compania consideră experimentul un pas promițător pentru simplificarea arhitecturii software.",
-      "de_ce_conteaza": "Arată cum companiile mari pot înlocui sisteme de programare complexe și greu de întreținut cu un singur model de limbaj flexibil.",
+      "rezumat": "Netflix a testat propriul model de limbaj denumit GenRec în raport cu algoritmul său clasic de recomandare dezvoltat pe parcursul mai multor ani. În loc să utilizeze mii de reguli de programare calibrate manual, GenRec convertește istoricul de vizionare al utilizatorilor în text simplu și generează sugestii mai precise. Compania consideră experimentul un pas extrem de promițător pentru simplificarea arhitecturii software.",
+      "de_ce_conteaza": "Demonstrează că modelele de limbaj pot înlocui logica complexă de business codată manual în sisteme enterprise, reducând costurile de mentenanță și crescând performanța.",
       "scor_importanta": 8
     },
     {
-      "titlu_ro": "Studiu Princeton: Agenții AI sunt mai eficienți prin fluxuri de lucru structurate decât prin acumulare de cunoștințe",
+      "titlu_ro": "Vercel lansează 'Is Agentic', un instrument gratuit care auditează site-urile pentru agenți AI",
+      "titlu_original": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
+      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
+      "sursa": "MarkTechPost",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Vercel și Ora au lansat platforma gratuită 'Is Agentic', concepută pentru a evalua gradul de pregătire al unui site public în raport cu agenții AI autonomi. Instrumentul execută peste 110 verificări pentru a determina dacă structura datelor și interfața permite agenților externi să navigheze și să efectueze acțiuni eficient. Scorurile obținute oferă recomandări clare pentru optimizarea infrastructurii web.",
+      "de_ce_conteaza": "Pregătirea site-ului pentru agenți AI devine la fel de critică precum SEO, oferind companiilor ocazia de a fi descoperite și folosite direct de asistenții autonomi ai clienților.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Studiu Universitatea Princeton: De ce agenții AI au nevoie de fluxuri structurate, nu doar de cunoștințe",
       "titlu_original": "Study explains why AI agents benefit from \"skills\" and when they fail",
       "url": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
       "sursa": "The Decoder",
@@ -52,40 +52,12 @@
         "business-strategie",
         "enterprise"
       ],
-      "rezumat": "Cercetătorii de la Princeton și UC San Diego au descoperit că agenții AI oferă rezultate mai bune atunci când primesc instrucțiuni de lucru clar structurate, nu date suplimentare. Totuși, pe măsură ce librăria de instrucțiuni devine prea mare, agenții încep să întâmpine dificultăți în selectarea procedurii corecte. Studiul subliniază importanța menținerii unui set simplificat de reguli interne.",
-      "de_ce_conteaza": "Succesul automatizărilor într-o firmă depinde de claritatea procedurilor operaționale create pentru AI, nu de cantitatea de informații oferită.",
+      "rezumat": "Cercetătorii de la Princeton și UC San Diego au analizat eficiența bibliotecilor de 'abilități' folosite de agenții AI autonomi. Studiul arată că instrucțiunile specifice îmbunătățesc performanța agenților prin structurarea fluxurilor de lucru, nu prin adăugarea de cunoștințe brute. Cu toate acestea, pe măsură ce biblioteca de abilități devine prea mare, agenții încep să se blocheze în selectarea instrucțiunilor corecte.",
+      "de_ce_conteaza": "Pentru echipele de management, asta înseamnă că automatizarea cu agenți AI necesită proceduri operaționale clare și modulare, nu doar încărcarea masivă a documentelor interne.",
       "scor_importanta": 8
     },
     {
-      "titlu_ro": "OpenAI solicită consolidarea legii privind siguranța AI în California",
-      "titlu_original": "OpenAI says California should strengthen its AI safety bill",
-      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "sursa": "TechCrunch AI",
-      "tip": "reglementare",
-      "domenii": [
-        "siguranta-etica",
-        "business-strategie"
-      ],
-      "rezumat": "OpenAI cere acum consolidarea proiectului de lege SB 53 din California, deși inițial s-a opus acestei inițiative de reglementare. Schimbarea de poziție vine pe fondul presiunilor publice legate de riscurile de securitate și transparență ale modelelor avansate. Această mișcare ar putea stabili noi standarde de conformitate pentru furnizorii de tehnologie.",
-      "de_ce_conteaza": "Schimbările legislative majore vor impune companiilor cerințe mai stricte de audit și siguranță pentru soluțiile AI utilizate.",
-      "scor_importanta": 8
-    },
-    {
-      "titlu_ro": "Inherent lansează Faraday, un agent AI care replica lucrări științifice mai bine decât OpenAI sau Anthropic",
-      "titlu_original": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "sursa": "TechCrunch AI",
-      "tip": "cercetare",
-      "domenii": [
-        "sanatate-stiinte",
-        "business-strategie"
-      ],
-      "rezumat": "Startup-ul britanic Inherent, creat de foști cercetători DeepMind, a lansat agentul AI numit Faraday. Acesta a depășit modelele concurente de la Anthropic și OpenAI în replicarea autonomă a studiilor și lucrărilor științifice. Instrumentul este conceput ca un coechipier virtual pentru accelerarea cercetării și dezvoltării.",
-      "de_ce_conteaza": "Departamentele de R&D din companii vor putea valida și reproduce ipoteze de cercetare într-un timp mult mai scurt.",
-      "scor_importanta": 8
-    },
-    {
-      "titlu_ro": "Harvard lansează avatare AI ale profesorilor săi într-un program de antreprenoriat de 699 de dolari",
+      "titlu_ro": "Harvard introduce avatare AI ale profesorilor în bootcamp-ul său de antreprenoriat",
       "titlu_original": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
       "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
       "sursa": "TechCrunch AI",
@@ -94,26 +66,12 @@
         "educatie",
         "business-strategie"
       ],
-      "rezumat": "Programul HBS Foundry al Universității Harvard folosește avatare AI ale instructorilor pentru a oferi feedback studenților în timpul simulărilor. Avatarele evaluează prezentările de proiecte și simulează ședințe de consiliu de administrație. Inițiativa permite scalarea cursurilor premium la un preț accesibil.",
-      "de_ce_conteaza": "Arată cum firmele pot folosi avatare interactive pentru a scala instruirea angajaților și simularea deciziilor de management.",
+      "rezumat": "În cadrul programului HBS Foundry cu o taxă de 699 de dolari, Harvard Business School a integrat avatare AI ale lectorilor pentru a oferi feedback în timp real cursanților. Avatarele simulează ședințe de consiliu de administrație și sesiuni de prezentare a ideilor de afaceri, oferind reacții personalizate. Această abordare permite scalarea instruirii interactive fără a supraîncărca profesorii umani.",
+      "de_ce_conteaza": "Modelul arată cum departamentele de HR și formare corporativă pot scală simulările de training executiv și onboarding prin avatare AI interactive.",
       "scor_importanta": 7
     },
     {
-      "titlu_ro": "Nvidia investește și licențiază tehnologia Poolside pentru 7 miliarde de dolari",
-      "titlu_original": "Nvidia Poolside deal to compete with Chinese Open Weights",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw0mcd/nvidia_poolside_deal_to_compete_with_chinese_open/",
-      "sursa": "r/LocalLLaMA",
-      "tip": "business",
-      "domenii": [
-        "business-strategie",
-        "enterprise"
-      ],
-      "rezumat": "Nvidia investește 1 miliard de dolari în startup-ul Poolside și plătește alte 6 miliarde de dolari pentru a-i licenția tehnologia și a-i prelua echipa de ingineri. Peste 100 de angajați Poolside se vor alătura echipei Nemotron din cadrul Nvidia. Obiectivul tranzacției este dezvoltarea unor modele sursă deschisă capabile să rivalizeze cu cele din China.",
-      "de_ce_conteaza": "Consolidarea resurselor la nivel înalt va accelera apariția unor modele gratuite puternice pentru mediul enterprise.",
-      "scor_importanta": 8
-    },
-    {
-      "titlu_ro": "Studiu avertizează că AI-ul poate reduce calitatea muncii cercetătorilor din cauza eficientizării greșit direcționate",
+      "titlu_ro": "Efectul de paradox în cercetare: AI-ul poate crește volumul de muncă scăzând calitatea",
       "titlu_original": "AI could make scientists do more work less well, not less work better, study argues",
       "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
       "sursa": "The Decoder",
@@ -122,54 +80,12 @@
         "munca-hr",
         "business-strategie"
       ],
-      "rezumat": "Un studiu teoretic arată că economisirea de timp prin AI îi determină pe specialiști să înceapă mai multe proiecte paralele în loc să le îmbunătățească pe cele existente. În loc să crească calitatea, utilizarea AI duce la fragmentarea atenției și la livrarea unor rezultate mai puțin aprofundate. Cercetătorii subliniază nevoia de reevaluare a managementului timpului în echipe.",
-      "de_ce_conteaza": "Fără o strategie clară, automatizarea poate duce la supraîncărcarea angajaților cu proiecte noi în loc să crească calitatea muncii.",
+      "rezumat": "Un studiu teoretic recent arată că economisirea de timp prin intermediul inteligenței artificiale determină cercetătorii să deschidă mai multe proiecte paralele în loc să îmbunătățească calitatea celor existente. Deoarece timpul rămas devine mai valoros, presiunea de a lansa noi inițiative duce la fragmentarea atenției. Riscul este ca volumul de muncă să crească, în timp ce profunzimea analizei scade.",
+      "de_ce_conteaza": "Subliniază necesitatea ca echipele de management să stabilească indicatori clari de calitate, astfel încât viteza oferită de AI să nu ducă la epuizarea angajaților și diluarea rezultatelor.",
       "scor_importanta": 7
     },
     {
-      "titlu_ro": "Greșelile de configurare în prompturile de sistem pot anula complet filtrele de securitate ale LLM-urilor",
-      "titlu_original": "How Misconfigured Admin System Prompts Can Invert Every Single LLM Safety Layer",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1vvjcjb/how_misconfigured_admin_system_prompts_can_invert/",
-      "sursa": "r/OpenAI",
-      "tip": "incident",
-      "domenii": [
-        "siguranta-etica",
-        "enterprise"
-      ],
-      "rezumat": "Un experiment realizat de un cercetător în securitate cibernetică a arătat cum prompturile de sistem administrate greșit pot elimina complet barierele de protecție ale unui model precum Claude. O simplă eroare de redactare a rolului administrativ a permis generarea de conținut restricționat fără restricții. Vulnerabilitatea expune riscurile configurărilor interne defectuoase în aplicațiile enterprise.",
-      "de_ce_conteaza": "Compania trebuie să auditeze strict prompturile administrative pentru a preveni breșele de securitate sau scurgerile de date.",
-      "scor_importanta": 8
-    },
-    {
-      "titlu_ro": "Sondaj Coddy: 80% dintre dezvoltatori consideră că scrierea de cod cu AI creează dependență în loc să ajute",
-      "titlu_original": "'I can't stop': 80% of developers find AI coding more addictive than helpful",
-      "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
-      "sursa": "ZDNet AI",
-      "tip": "opinie",
-      "domenii": [
-        "munca-hr",
-        "business-strategie"
-      ],
-      "rezumat": "Un sondaj realizat în rândul comunității de programatori arată că utilizarea asistenților AI pentru cod duce la o formă nouă de epuizare profesională. Deși viteza inițială crește, verificarea continuă a codului generat creează o stare de dependență și oboseală mentală. Fenomenul afectează retenția și starea de bine a echipelor tehnice.",
-      "de_ce_conteaza": "Manierele de lucru accelerate de AI necesită limite clare de HR pentru a preveni burnout-ul în cadrul echipelor.",
-      "scor_importanta": 7
-    },
-    {
-      "titlu_ro": "Raport de securitate: Roboții industriali Unitree pot infecta alte unități din flotă",
-      "titlu_original": "\"One robot could infect other vulnerable robots nearby ... Attackers could take control of entire fleets of robots.\"",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1vvbe8s/one_robot_could_infect_other_vulnerable_robots/",
-      "sursa": "r/OpenAI",
-      "tip": "incident",
-      "domenii": [
-        "siguranta-etica",
-        "enterprise"
-      ],
-      "rezumat": "Un raport de securitate privind roboții Unitree Go2 a dezvăluit că o vulnerabilitate permite atacatorilor să preia controlul de la distanță asupra unei unități și să infecteze alți roboți din apropiere. Atacul se poate propaga rapid la nivelul întregii flote de echipamente din depozite sau fabrici. Descoperirea ridică semnale de alarmă cu privire la securitatea cibernetică a echipamentelor autonome în spațiile de producție.",
-      "de_ce_conteaza": "Adoptarea sistemelor robotice autonome în depozite necesită protocoale stricte de izolare și securitate cibernetică.",
-      "scor_importanta": 7
-    },
-    {
-      "titlu_ro": "Monitorizarea constantă a agenților AI afectează programul de odihnă al managerilor",
+      "titlu_ro": "Efectul O-Ring în era agenților AI: Managementul continuu al sarcinilor autonome",
       "titlu_original": "The new agentic O-ring world",
       "url": "https://marginalrevolution.com/marginalrevolution/2026/08/the-new-agentic-o-ring-world.html?utm_source=rss&utm_medium=rss&utm_campaign=the-new-agentic-o-ring-world",
       "sursa": "Marginal Revolution",
@@ -178,30 +94,100 @@
         "munca-hr",
         "business-strategie"
       ],
-      "rezumat": "Deoarece agenții autonomi necesită ghidare și validare umană constantă pe parcursul executării sarcinilor, utilizatorii tind să își schimbe programul normal de somn pentru a fi disponibili nonstop. Schimbarea arată că agenții AI nu elimină complet intervenția umană, ci redefinesc timpul necesar pentru supraveghere.",
-      "de_ce_conteaza": "Implementarea agenților autonomi schimbă rolul angajaților din executanți în supraveghetori, necesitând noi politici de muncă flexibilă.",
+      "rezumat": "O analiză a modului de lucru modern arată că deși agenții AI pot prelua sarcini lungi și complexe, ei necesită intervenții și ghidaj uman frecvent în momente critice. Fondatorii și managerii se trezesc în situația de a fi permanent disponibili pentru a debloca agenții care rulează pe parcursul nopții. Se conturează un nou model de muncă în care atenția umană devine gâtul de sticlă într-un flux altfel complet automatizat.",
+      "de_ce_conteaza": "Arată managerilor că implementarea agenților AI nu elimină rolul uman, ci schimbă profilul activității către supervizare tactică și deblocare rapidă a proceselor.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Agentul AI Faraday depășește modelele OpenAI și Anthropic la replicarea cercetărilor științifice",
+      "titlu_original": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "sanatate-stiinte",
+        "business-strategie"
+      ],
+      "rezumat": "Startup-ul britanic Inherent, creat de foști cercetători DeepMind, a lansat agentul AI Faraday. În testele de verificare și replicare a lucrărilor științifice, Faraday a depășit performanțele modelelor produse de OpenAI și Anthropic. Sistemul este proiectat ca un 'coechipier' capabil să valideze metodologii și să accelereze R&D-ul în companii.",
+      "de_ce_conteaza": "Companiile cu departamente puternice de cercetare și dezvoltare pot reduce timpul de validare a noilor tehnologii sau formule prin integrarea agenților specializați în audit științific.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "OpenAI își schimbă poziția și cere legi de siguranță AI mai stricte în California",
+      "titlu_original": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "sursa": "TechCrunch AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "OpenAI solicită autorităților din California să înăsprească proiectul de lege SB 53 privind siguranța inteligenței artificiale, după ce inițial se opusese proiectului. Compania susține că un cadru clar și mai riguros va crea standarde predictibile pentru întreaga industrie și va proteja inovația responsabilă. Schimbarea de atitudine reflectă presiunea crescută a opiniei publice și a autorităților globale.",
+      "de_ce_conteaza": "Semnalează companiilor enterprise că cerințele de conformitate și audit al modelelor AI vor deveni mai stricte la nivel global, necesitând guvernanță internă clară.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Piața gri din China ocolește restricțiile Anthropic vânzând acces ieftin la Claude",
+      "titlu_original": "How China's gray market sells Claude tokens at a fraction of the price",
+      "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
+      "sursa": "The Decoder",
+      "tip": "incident",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "În ciuda controalelor stricte impuse de Anthropic, incluzând geoblocare și verificare prin selfie, în China s-a dezvoltat o rețea paralelă de acces la tokeni Claude. Intermediarii revând accesul la modele la un procent redus din prețul oficial, ocolind măsurile de securitate. Fenomenul ridică semne de întrebare legate de securitatea datelor și respectarea termenilor de utilizare comercială.",
+      "de_ce_conteaza": "Avertizează companiile asupra riscurilor de securitate și securitate a datelor când utilizează furnizori terți neautorizați sau proxy-uri neoficiale pentru modele LLM.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Consultanță la nivel înalt pentru rescrierea 'constituției' modelului Claude de la Anthropic",
+      "titlu_original": "My recent visit to Anthropic",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/my-recent-visit-to-anthropic.html?utm_source=rss&utm_medium=rss&utm_campaign=my-recent-visit-to-anthropic",
+      "sursa": "Marginal Revolution",
+      "tip": "opinie",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Economistul Tyler Cowen a participat la o sesiune de lucru de două zile organizată de Anthropic pentru a contribui la redefinirea ghidajului etic și funcțional al modelului Claude. Discuțiile s-au concentrat pe modul în care valorile fundamentale ale AI-ului trebuie ajustate pentru a răspunde mai bine nevoilor economice realiste, fără a bloca utilitatea practică.",
+      "de_ce_conteaza": "Ilustrează modul în care marii furnizori de modele își adaptează politicile etice pentru a fi mai aliniați cu cerințele operaționale ale clienților din mediul de afaceri.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "OzBrain oferă un creier distribuit pentru cunoștințe partajate între echipe și agenți AI",
+      "titlu_original": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "url": "https://ozbrain.com",
+      "sursa": "Hacker News",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "OzBrain este o nouă platformă concepută pentru a funcționa ca un spațiu centralizat de memorie și cunoștințe partajate între angajați și agenții AI. Aplicația permite agenților autonomi să citească și să actualizeze contextul de lucru în timp real, asigurând alinierea între procedurile umane și execuția automată.",
+      "de_ce_conteaza": "Elimină silozurile informaționale dintre angajați și asistenții AI, oferind un context unic și actualizat pentru automatizarea proceselor de afaceri.",
       "scor_importanta": 7
     }
   ],
-  "rezumat_zilei": "Ziua de astăzi marchează o tranziție evidentă de la simpla utilizare a aplicațiilor de tip chat la implementarea agenților autonomi care rulează continuu în mediul enterprise. În timp ce furnizori precum OpenAI reduc costurile modelelor pentru a încuraja adopția la scară largă, marii jucători de pe piață precum Netflix arată că LLM-urile pot înlocui cu succes arhitecturile software vechi. În paralel, apar provocări clare de HR și securitate: de la burnout-ul cauzat de supravegherea continuă a AI-ului, până la riscuri de configurare a prompturilor sau vulnerabilități fizice în flotele de roboți. Pentru consultanți, prioritatea este sprijinirea clienților în structurarea clară a procedurilor interne de lucru pentru agenți, asigurând în același timp un cadru strict de siguranță și guvernanță.",
+  "rezumat_zilei": "Tema dominantă a zilei este consolidarea erei agenților autonomi, care trec de la simple experimente la principalii consumatori de resurse de calcul și date în ecosistemul AI. Companii mari precum Netflix demonstrează practic modul în care modelele de limbaj pot înlocui arhitecturile software tradiționale complicate, în timp ce instrumente noi precum cele lansate de Vercel ajută organizațiile să își auditeze pregătirea infrastructurii web pentru agenții AI. În paralel, apar provocări clare legate de stilul de muncă: economisirea de timp generează adesea mai multă fragmentare a atenției umane, subliniind că succesul adoptării AI depinde mai mult de structurarea corectă a proceselor decât de simpla tehnologie.",
   "recomandari_practice": [
     {
-      "titlu": "Structurarea agenților AI prin fluxuri de lucru bazate pe abilități clare",
-      "url": "https://the-decoder.com/study-explains-why-ai-agents-benefit-from-skills-and-when-they-fail/",
-      "ce_este": "Un studiu recent arată că agenții AI funcționează mai bine atunci când primesc instrucțiuni de lucru pas-cu-pas bine delimitate, mai degrabă decât volume mari de date neprelucrate.",
-      "cum_folosesti": "În sesiunile de training sau consultanță cu clienții tăi, ajută-i să își descompună procedurile complexe de HR sau operațiuni în instrucțiuni de lucru scurte și specifice pentru agenți. Evită supraîncărcarea agentului cu prea multe opțiuni simultane și limitează librăria de 'skills' la procedurile utilizate zilnic."
+      "titlu": "Auditarea site-ului clientului pentru agenți AI cu 'Is Agentic'",
+      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
+      "ce_este": "Un instrument gratuit dezvoltat de Vercel și Ora care evaluează un site public prin 118 verificări automate pentru a stabili dacă poate fi navigat eficient de către agenții AI.",
+      "cum_folosesti": "Folosește acest instrument în sesiunile de consultanță pentru a efectua o analiză rapidă a site-ului sau portalului de clienți al companiei. Prezintă-le echipei de management scorul de pregătire pentru agenți AI și propune-le optimizări de structură a datelor, pregătindu-le infrastructura pentru era comerțului și interacțiunilor intermediate de agenți autonomi."
     },
     {
-      "titlu": "Înlocuirea sistemelor vechi de clasificare cu LLM-uri alimentate de text",
-      "url": "https://the-decoder.com/netflix-tests-language-model-as-alternative-to-hand-built-recommendation-logic/",
-      "ce_este": "Netflix a demonstrat că un model de limbaj simplu care citește date istorice sub formă de text poate înlocui mii de reguli de cod scrise manual.",
-      "cum_folosesti": "Propune-le clienților din departamentele de salarizare, suport clienți sau recrutare să convertească istoricul lor de date din Excel/CRM în formate textuale simple. Organizează un atelier practic în care arăți cum un model de limbaj poate analiza aceste date text pentru a genera recomandări de potrivire a candidaților sau alocări de bonusuri mai rapid decât vechile fișiere macro."
+      "titlu": "Unificarea bazei de cunoștințe între angajați și agenți cu OzBrain",
+      "url": "https://ozbrain.com",
+      "ce_este": "O platformă de memorie partajată care permite echipelor umane și agenților AI să acceseze, să editeze și să mențină actualizate procedurile operaționale într-un singur loc.",
+      "cum_folosesti": "Propune OzBrain clienților care se confruntă cu neconcordanțe între răspunsurile date de agenții de suport și procedurile reale din companie. Configurează sistemul pentru a stoca regulile de afaceri, permițând agenților de HR sau Helpdesk să extragă informații verificate fără a genera halucinații sau date învechite."
     },
     {
-      "titlu": "Reducerea costurilor de automatizare prin migrarea la GPT 5.6 Sol",
-      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-      "ce_este": "OpenAI a redus prețul cu 20% pentru modelul GPT 5.6 Sol, optimizând costul pe mii de jetoane procesate.",
-      "cum_folosesti": "Auditează aplicațiile și automatizările existente la clienții tăi și schimbă apelurile de API către versiunea mai ieftină acolo unde nu este nevoie de modele extrem de avansate. Prezintă-le clienților reducerea de cost obținută și folosește bugetul economisit pentru a extinde automatizarea în alte departamente, cum ar fi validarea documentelor administrative."
+      "titlu": "Automatizarea procesării documentelor complexe cu deepDoctection",
+      "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
+      "ce_este": "Un cadru operațional pentru analiza layout-ului documentelor, OCR și extragerea tabelelor nestructurate direct în formate pregătite pentru baze de date sau pipeline-uri RAG.",
+      "cum_folosesti": "Ajută clienții din departamentele de HR, salarizare sau financiar care procesează manual sute de PDF-uri, contracte și fișiere scanate. Arată-le cum pot implementa o soluție integrată de extractie automatizată a datelor, reducând munca manuală de introducere a datelor cu peste 80% și eliminând erorile umane de tastare."
     }
   ]
 }
