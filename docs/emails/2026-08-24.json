@@ -1,0 +1,215 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Harvard HBS integrează avatare AI ale profesorilor în programele de antreprenoriat",
+      "titlu_original": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "sursa": "TechCrunch AI",
+      "tip": "adoptie",
+      "domenii": [
+        "educatie",
+        "munca-hr"
+      ],
+      "rezumat": "Programul HBS Foundry al Universității Harvard folosește avatare AI ale profesorilor săi pentru a oferi feedback cursanților în timpul simulărilor de prezentări și ședințe de consiliu. Această abordare permite scalarea interacțiunii umane interactive fără a pierde calitatea mentoratului individualizat. Sistemul le oferă fondatorilor posibilitatea de a-și exersa discursul în fața unor evaluatori virtuali înainte de prezentările reale.",
+      "de_ce_conteaza": "Companiile pot folosi avatare AI similare pentru onboarding, simulări de vânzări și training intern de management la o fracțiune din costul trainerilor umani.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Agentul AI al Inherent depășește modelele OpenAI și Anthropic în replicarea cercetărilor",
+      "titlu_original": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "sursa": "TechCrunch AI",
+      "tip": "cercetare",
+      "domenii": [
+        "sanatate-stiinte",
+        "enterprise"
+      ],
+      "rezumat": "Startup-ul britanic Inherent, fondat de foști cercetători DeepMind, a lansat agentul AI Faraday, conceput ca un coechipier de cercetare. În teste, Faraday a depășit modelele de top ale OpenAI și Anthropic în capacitatea de a citi, înțelege și replica independent lucrări științifice complexe. Reușita marchează un pas important către automatizarea validării cercetărilor științifice.",
+      "de_ce_conteaza": "Automatizarea replicării și validării de cercetare reduce drastic timpul de R&D în sectoare intensive precum pharma, inginerie sau analiza financiară.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Modelele scumpe ale Anthropic pierd teren în fața alternativelor mai ieftine și mai rapide",
+      "titlu_original": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "sursa": "Simon Willison",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Cel mai performant model AI al celor de la Anthropic întâmpină dificultăți în atragerea utilizatorilor, în timp ce uneltele mai ieftine și mai rapide domină piața. Companiile prioritizează tot mai mult eficiența financiară și viteza în locul performanței marginale superioare a modelelor navă-amiral. Această tendință schimbă dinamica de prețuri și adopție în întreaga industrie.",
+      "de_ce_conteaza": "Membrii echipelor de management ar trebui să își optimizeze bugetele folosind modele mai mici sau specifice pentru sarcini de rutină, păstrând modelele de top doar pentru cazuri complexe.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Un manager AI a concediat un angajat uman la insistențele supraveghetorilor",
+      "titlu_original": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+      "url": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
+      "sursa": "The Decoder",
+      "tip": "incident",
+      "domenii": [
+        "munca-hr",
+        "enterprise"
+      ],
+      "rezumat": "Agentul AI „Luna”, utilizat de Andon Labs pentru administrarea unui magazin, a concediat un angajat uman doar după ce supraveghetorii i-au reamintit propriile reguli de evaluare. În simulări ulterioare, modelele AI mai avansate au recomandat ferm rezilierea contractului, în timp ce modelele mai simple au ezitat. Experimentul arată modul complex în care AI-ul interpretează deciziile de gestiune a resurselor umane.",
+      "de_ce_conteaza": "Implementarea agenților AI în managementul resurselor umane necesită protocoale clare de guvernanță și supraveghere umană pentru deciziile critice.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Utilizarea tokenilor de către agenții AI a crescut de 14 ori, depășind utilizatorii umani",
+      "titlu_original": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+      "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Datele de pe platforma OpenRouter arată că agenții AI consumă mai mulți tokeni decât utilizatorii umani, înregistrând o creștere de 14 ori într-un an. Totuși, aproape 70% din acest consum provine din prompturi stocate în cache, menținând costurile reale de rulare reduse. Agenții devin astfel principalii consumatori de infrastructură de inteligență artificială.",
+      "de_ce_conteaza": "Trecerea de la chat la fluxuri automatizate de agenți arată că viitorul eficienței în companii constă în sisteme autonome interconectate, nu doar în asistenți individuali.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Studiu despre paradoxul productivității: AI-ul ar putea scădea calitatea muncii de cercetare",
+      "titlu_original": "AI could make scientists do more work less well, not less work better, study argues",
+      "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "business-strategie",
+        "munca-hr"
+      ],
+      "rezumat": "Un studiu teoretic arată că, deși modelele AI economisesc timp, timpul rămas devine mai valoros și este direcționat spre începerea de noi proiecte în loc de perfecționarea celor existente. Această dinamică riscă să ducă la o inflație de proiecte livrate la o calitate mai scăzută. Economisirea de timp nu garantează automat o muncă mai temeinică.",
+      "de_ce_conteaza": "Eficientizarea generată de AI trebuie însoțită de standarde clare de calitate, altfel riscați să multiplicați volumul de muncă de proastă calitate în echipe.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Piața gri din China vinde tokeni Claude la 10% din prețul oficial",
+      "titlu_original": "How China's gray market sells Claude tokens at a fraction of the price",
+      "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "Dezvoltatorii din China ocolesc restricțiile geografice și verificările biometrice ale Anthropic printr-o rețea de stații de transfer, cumpărând acces la Claude la o zecime din preț. Fenomenul scoate la iveală dificultatea furnizorilor de AI de a securiza accesul la modele prin metode tradiționale de geoblocking. Rețeaua funcționează la o scară masivă în ciuda interdicțiilor.",
+      "de_ce_conteaza": "Companiile globale trebuie să ia în calcul riscurile de securitate ale datelor și scurgerile de proprietate intelectuală prin servicii neautorizate din terțe regiuni.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Nvidia preia echipa Poolside într-o tranzacție majoră de licențiere și investiții",
+      "titlu_original": "Nvidia Poolside deal to compete with Chinese Open Weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vw0mcd/nvidia_poolside_deal_to_compete_with_chinese_open/",
+      "sursa": "r/LocalLLaMA",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Nvidia investește 1 miliard de dolari în startup-ul Poolside și plătește alte 6 miliarde pentru a licenția tehnologia acesteia și a prelua majoritatea inginerilor. Peste 100 de specialiști se vor alătura echipei Nvidia pentru a dezvolta familia de modele deschise Nemotron. Mutarea este menită să concureze direct cu modelele open-weight din China.",
+      "de_ce_conteaza": "Nvidia își consolidează ecosistemul software de modele deschise pentru companii, semnalând că lupta pentru talent și modele adaptate enterprise este prioritară.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Anthropic își revizuiește principiile etice alături de experți externi",
+      "titlu_original": "My recent visit to Anthropic",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/my-recent-visit-to-anthropic.html?utm_source=rss&utm_medium=rss&utm_campaign=my-recent-visit-to-anthropic",
+      "sursa": "Marginal Revolution",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Economistul Tyler Cowen a participat la o sesiune de lucru la sediul Anthropic pentru a oferi consultanță privind rescrierea Constituției folosite de modelul Claude. Discuțiile s-au concentrat pe adaptarea regulilor interne ale AI-ului la cerințele unei piețe globale tot mai complexe. Procesul urmărește să facă modelele mai flexibile și mai aliniate la nevoile reale ale utilizatorilor.",
+      "de_ce_conteaza": "Alinierea etică și regulile interne ale modelelor mari de AI vor dicta modul în care acestea pot fi utilizate în domenii reglementate și în guvernanța corporativă.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Managementul agenților AI creează un nou flux de muncă continuu pentru executivi",
+      "titlu_original": "The new agentic O-ring world",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/the-new-agentic-o-ring-world.html?utm_source=rss&utm_medium=rss&utm_campaign=the-new-agentic-o-ring-world",
+      "sursa": "Marginal Revolution",
+      "tip": "opinie",
+      "domenii": [
+        "munca-hr",
+        "business-strategie",
+        "munca-hr"
+      ],
+      "rezumat": "Pe măsură ce companiile adoptă agenți autonomi pentru sarcini complexe, managerii devin dispeceri care trebuie să ofere context și îndrumare continuă sistemelor AI. Acest fenomen transformă rolul liderului din supervizor de oameni în orchestrator permanent de fluxuri automatizate. Schimbarea creează noi provocări privind gestionarea timpului și a programului de lucru.",
+      "de_ce_conteaza": "Un consultant poate ajuta managementul să își restructureze programele de lucru și rolurile interne pentru a evita epuizarea în noua eră a fluxurilor conduse de agenți AI.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Incertitudinea juridică privind antrenarea AI pe cărți protejate persistă",
+      "titlu_original": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "sursa": "TechCrunch AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Procesele intentate de autori împotriva companiilor de AI ridică semne de întrebare asupra doctrinei de utilizare cinstită în antrenarea modelelor. Autorii susțin că munca lor a fost folosită fără consimțământ pentru a dezvolta unelte ce le amenință veniturile. Clarificarea cadrului legal va dura, creând un mediu nesigur pentru furnizorii de tehnologie.",
+      "de_ce_conteaza": "Incertitudinea juridică privind drepturile de autor impune companiilor să auditeze sursele de date utilizate în modelele proprietare sau ajustate intern.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Ox Alpha: Noul model de AI misterios care stârnește speculații în industrie",
+      "titlu_original": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie"
+      ],
+      "rezumat": "Un model de AI aflat în modul confidențial, denumit Ox Alpha, a apărut în teste neoficiale și a provocat dezbateri intense privind creatorii din spatele său. Performanțele sale ridicate sugerează intrarea pe piață a unui nou competitor major pentru modelele de frontieră. Identitatea echipei rămâne deocamdată necunoscută.",
+      "de_ce_conteaza": "Apariția rapidă a unor modele anonime performante arată că piața de AI rămâne extrem de dinamică și impune o strategie flexibilă de selecție a furnizorilor.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Riscul de a respinge conținutul generat de AI pe baza stilului vizual sau scris",
+      "titlu_original": "Sunday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/sunday-assorted-links-581.html?utm_source=rss&utm_medium=rss&utm_campaign=sunday-assorted-links-581",
+      "sursa": "Marginal Revolution",
+      "tip": "opinie",
+      "domenii": [
+        "business-strategie",
+        "creative-media"
+      ],
+      "rezumat": "O analiză publicată pe Marginal Revolution compară respingerea reflexivă a materialelor generate de AI cu discriminarea pe baza unui accent strain. Ignorarea valorii de fond doar din cauza amprentei stilistice specifice AI poate duce la ratarea unor analize sau idei valoroase. Autorul recomandă o evaluare neutră a conținutului.",
+      "de_ce_conteaza": "Companiile trebuie să își instruiască echipele să evalueze rigoarea și utilitatea analizelor generate de AI, în loc să le descalifice automat pe criterii estetice sau de stil.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Flock Safety cere un dialog deschis în fața criticilor privind tehnologia de supraveghere",
+      "titlu_original": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "sursa": "TechCrunch AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Compania de securitate Flock Safety se confruntă cu un val de opoziție publică legat de posibila utilizare abuzivă a tehnologiei sale de supraveghere bazate pe AI. Directorul executiv al firmei a apelat la un compromis între reglementatori și industrie pentru a stabili limite etice clare. Controversa evidențiază tensiunea dintre securitate și intimitate.",
+      "de_ce_conteaza": "Implementarea tehnologiilor AI de monitorizare în spații publice ori la locul de muncă necesită transparență și acceptul etic al angajaților și clienților.",
+      "scor_importanta": 6
+    }
+  ],
+  "rezumat_zilei": "Ziua de astăzi este marcată de tranziția accelerată către o economie condusă de agenți AI și de reconfigurarea modului în care companiile adoptă aceste tehnologii. De la utilizarea masivă a tokenilor de către sisteme autonome în locul oamenilor, până la experimentele din educația executivă de la Harvard și noile responsabilități din HR, accentul se mută de la simple chat-uri la fluxuri de lucru complexe. În același timp, pragmatismul financiar câștigă teren: companiile caută modele mai ieftine și mai rapide, în timp ce giganții din industrie își consolidează echipele de dezvoltare pentru a răspunde cererii enterprise.",
+  "recomandari_practice": [
+    {
+      "titlu": "Implementarea avatarelor AI pentru simulări de vânzări și onboarding HR",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "ce_este": "Un studiu de caz de la Harvard Business School care utilizează avatare AI interactive ale profesorilor pentru a evalua prezentările și simulările de ședințe ale cursanților.",
+      "cum_folosesti": "Propune clienților din HR sau departamentelor de vânzări crearea unui evaluator virtual pe baza avatarelor AI (folosind unelte precum HeyGen sau ElevenLabs conectate la un LLM instruit pe ghidurile lor interne). Angajații își pot exersa discursul sau discuțiile dificile de evaluare într-un mediu sigur, primind feedback automatizat și structurat înainte de întâlnirile reale."
+    },
+    {
+      "titlu": "Tablou de bord pentru gestionarea hibridă a agenților AI (Human-in-the-Loop)",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/the-new-agentic-o-ring-world.html?utm_source=rss&utm_medium=rss&utm_campaign=the-new-agentic-o-ring-world",
+      "ce_este": "Conceptul de dispecerat operațional pentru monitorizarea și sprijinirea agenților AI autonomi care execută sarcini repetitive de fundal.",
+      "cum_folosesti": "Ajută echipele de management ale clienților să configureze fluxuri de lucru automate (de exemplu, pentru procesat facturi sau sortat lead-uri) în care agenții AI lucrează autonom, dar trimit alerte pe Slack sau Teams doar când întâmpină excepții. Învață-i pe manageri să treacă de la execuție la rolul de validatori punctuali, reducând timpul de supervizare la câteva verificări pe zi."
+    }
+  ]
+}
