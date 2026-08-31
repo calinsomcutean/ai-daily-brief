@@ -1,0 +1,179 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Caterpillar aplică în AI lecțiile învățate din automatizarea utilajelor miniere",
+      "titlu_original": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "sursa": "TechCrunch AI",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Caterpillar își transpune experiența de decenii în operarea echipamentelor autonome din industrie în procesul de implementare a sistemelor de inteligență artificială. Compania pune accent pe integrarea treptată, siguranța operațională și adaptarea proceselor existente în loc de înlocuirea bruscă a muncii umane. Focusul este pe gestionarea flotelor complexe de agenți AI și monitorizarea lor în medii de lucru critice.",
+      "de_ce_conteaza": "Oferă un model strategic de adoptare a AI în companii mari, demonstrând că succesul depinde de reconfigurarea proceselor operaționale, nu doar de tehnologia în sine.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Percepția angajaților asupra AI se deteriorează: frustrări tot mai mari în evaluările din companii",
+      "titlu_original": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce",
+      "url": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Un studiu pe baza recenziilor de pe Glassdoor arată o scădere dramatică a sentimentului pozitiv față de AI în rândul angajaților, de la 81% la 43% în ultimii ani. În timp ce executivii văd tehnologia cu entuziasm, angajații din roluri operaționale precum procesarea daunelor reclamă adoptarea forțată, supravegherea excesivă și lipsa de utilitate practică. Teama de înlocuire este dublată de frustrarea provocată de unelte necoapte impuse de management.",
+      "de_ce_conteaza": "Scoate la iveală riscul eșecului proiectelor AI din cauza lipsei de management al schimbării și a prăpastiei dintre viziunea conducerii și realitatea angajaților.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Abilitățile cel mai bine evaluate sunt cele pe care AI le poate simula cel mai ușor",
+      "titlu_original": "The skills that earn top grades are the ones AI can fake best",
+      "url": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "educatie",
+        "munca-hr"
+      ],
+      "rezumat": "Un experiment realizat la Universitatea Bocconi pe peste 1.000 de studenți arată că utilizarea GPT-4o a crescut notele la un proiect de marketing cu aproape un punct. Cu toate acestea, cercetătorii avertizează că performanța asistată de AI fără o gândire critică independentă afectează dezvoltarea competențelor pe termen lung. Modelul simulează excelent structura și stilul dorite de evaluatori, fără a garanta înțelegerea reală.",
+      "de_ce_conteaza": "Companiile și trainerii trebuie să regândească evaluarea angajaților și programele de training, punând accent pe gândirea critică și verificarea cunoștințelor reale, nu doar pe livrabilele generate de AI.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Agenții AI nu au percepția timpului și își supraestimează masiv performanța",
+      "titlu_original": "AI agents have no sense of time and are not aware of it",
+      "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Un nou studiu arată că asistenții și agenții AI supraestimează sistematic durata de execuție a sarcinilor, uneori de până la zece ori față de timpul real. Mai mult, aceștia își evaluează propriile rezultate cu aproximativ 20% mai sus decât calitatea lor obiectivă. Lipsa unei percepții temporale poate provoca blocaje grave în fluxurile de lucru autonome de lungă durată.",
+      "de_ce_conteaza": "Consultantii de automatizare trebuie să introducă mecanisme externe de monitorizare a timpului și de validare a calității atunci când proiectează agenți AI pentru clienți.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Sony și Warner dau în judecată Anthropic pentru încălcarea drepturilor de autor",
+      "titlu_original": "Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in history\"",
+      "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/",
+      "sursa": "The Decoder",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Marile case de discuri Sony Music și Warner Music au intentat un proces împotriva companiei Anthropic și a directorului executiv Dario Amodei. Acestea acuză antrenarea modelului Claude pe zeci de mii de compoziții muzicale protejate fără autorizație sau compensații. Acțiunea reprezintă una dintre cele mai mari mize juridice privind proprietatea intelectuală în generarea AI.",
+      "de_ce_conteaza": "Escaladarea litigiilor privind drepturile de autor poate crește riscurile legale și de conformitate pentru companiile care folosesc modele comerciale fără garanții clare de licențiere.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Autonomia agenților AI și apariția 'fabricilor din umbră'",
+      "titlu_original": "Agency and Agents",
+      "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+      "sursa": "One Useful Thing (Ethan Mollick)",
+      "tip": "opinie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Ethan Mollick analizează tranziția de la uneltele AI pasive la agenții autonomi capabili să execute sarcini complexe fără intervenție umană directă. Articolul discută despre apariția fenomenului de „twilight factories” — fluxuri de muncă enterprise complet automatizate care funcționează în fundal. Mollick evidențiază atât câștigurile masive de productivitate, cât și noile provocări de securitate și guvernanță operațională.",
+      "de_ce_conteaza": "Ajută liderii de business să înțeleagă diferența strategică dintre asistenții de tip chat și agenții autonomi care redesenează arhitectura proceselor din companii.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Generarea video prin AI perturbă piața creatorilor și economia de servicii din China",
+      "titlu_original": "China fact of the day",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/china-fact-of-the-day-81.html?utm_source=rss&utm_medium=rss&utm_campaign=china-fact-of-the-day-81",
+      "sursa": "Marginal Revolution",
+      "tip": "adoptie",
+      "domenii": [
+        "creative-media",
+        "business-strategie"
+      ],
+      "rezumat": "Progresele rapide ale programelor de generare video precum Seedance 2.0 de la ByteDance amenință locurile de muncă ale actorilor și influencerilor din China. Soluțiile software eficiente din punct de vedere al costurilor încep să înlocuiască producțiile media tradiționale din economia gig. Schimbarea arată rapiditatea cu care sectorul de marketing și creare de conținut poate fi transformat prin automatizare video.",
+      "de_ce_conteaza": "Demonstrează scăderea drastică a costurilor de producție video și avertizează agențiile de marketing asupra vitezei cu care AI-ul generativ înlocuiește rolurile creative clasice.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Guvernatorul Texasului blochează finanțarea camerelor de supraveghere cu AI",
+      "titlu_original": "Texas Governor Abbott blocks funding for more Flock cameras",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "sursa": "The Verge AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Guvernatorul statului Texas a înghețat fondurile publice alocate extinderii rețelei de camere de supraveghere AI produse de compania Flock. Decizia vine pe fondul unei anchete jurnalistice și a reacției negative a publicului privind confidențialitatea datelor. Statul cheltuise anterior peste 30 de milioane de dolari pentru această tehnologie.",
+      "de_ce_conteaza": "Subliniază modul în care rezistența publică și îngrijorările legate de confidențialitate pot bloca contracte publice majore de AI și supraveghere.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Înțelegerea modului de lucru și a funcționalităților ChatGPT în mediul profesional",
+      "titlu_original": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "sursa": "Simon Willison",
+      "tip": "opinie",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Expertul Simon Willison analizează funcționalitățile profesionale ale ChatGPT și modul în care acestea sunt integrated în fluxurile de lucru zilnice ale companiilor. Articolul clarifică diferențele dintre interfețele obișnuite de chat și uneltele avansate de gestionare a datelor și documentelor. Se pune accent pe modul în care echipele pot folosi mai eficient contextul și fișierele atașate.",
+      "de_ce_conteaza": "Oferă consultanților un cadru clar pentru a explica clienților cum să treacă de la utilizarea simplă a ChatGPT la integrarea lui ca instrument de productivitate în echipă.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Inițiativa 'Vinerea fără AI' atrage atenția asupra oboselii tehnologice în companii",
+      "titlu_original": "No AI Fridays",
+      "url": "https://noaifridays.com/",
+      "sursa": "Hacker News",
+      "tip": "adoptie",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "O nouă mișcare intitulată „No AI Fridays” își propune să încurajeze companiile și angajații să dedice o zi pe săptămână muncii fără instrumente de inteligență artificială. Inițiativa vine ca reacție la presiunea constantă de optimizare și la utilizarea excesivă a asistenților virtuali în rezolvarea problemelor. Susținătorii argumentează că pauzele periodice ajută la menținerea gândirii critice și a creativității umane.",
+      "de_ce_conteaza": "Reprezintă un semnal privind nevoia de politici clare de igienă digitală și echilibru în procesul de adoptare a AI în cadrul echipelor.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Riscurile antropomorfizării AI în deciziile de business și proiectarea sistemelor",
+      "titlu_original": "Anthropomorphizing AI?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/anthropomorphizing-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=anthropomorphizing-ai",
+      "sursa": "Marginal Revolution",
+      "tip": "opinie",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "Economistul Tyler Cowen discută despre tendința de a atribui intenții sau stări umane sistemelor de inteligență artificială. Deși consideră atribuirea de conștiință o eroare conceptuală, el arată că anumite abstracții antropomorfe ajută utilizatorii să anticipeze comportamentul modelelor. Totuși, confundarea metodelor de calcul cu raționamentul uman duce la așteptări nerealiste.",
+      "de_ce_conteaza": "Consultantul AI trebuie să educe managementul să trateze modelele ca sisteme probabilistice de calcul, nu ca pe angajați virtuali cu intenții umane.",
+      "scor_importanta": 7
+    }
+  ],
+  "rezumat_zilei": "Ziua de astăzi scoate în evidență o tensiune crescândă între ritmul rapid de adoptare a sistemelor AI și reacția angajaților în mediul organizațional. Studiile recente arată o scădere a satisfacției muncii atunci când uneltele sunt impuse fără un management adecvat al schimbării, în timp ce cercetările arată că agenții autonomi au încă dificultăți severe în evaluarea propriei performanțe și a timpului. În paralel, presiunile legale privind drepturile de autor și mișcările de igienă digitală din companii indică maturizarea pieței, care trece de la entuziasmul inițial la o abordare mai pragmatică și mai atentă la riscuri.",
+  "recomandari_practice": [
+    {
+      "titlu": "Auditul frustrărilor și managementul schimbării în adoptarea AI",
+      "url": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/",
+      "ce_este": "Un studiu bazat pe evaluările angajaților din companii care arată o scădere a satisfacției atunci când instrumentele AI sunt impuse fără pregătire.",
+      "cum_folosesti": "Folosește aceste date într-un workshop cu echipa de management a clientului tău pentru a argumenta necesitatea unui audit intern de satisfacție. Propune-le crearea unui ghid de bune practici și acordarea de libertate echipelor în alegerea uneltelor, prevenind respingerea automatizării."
+    },
+    {
+      "titlu": "Structurarea proiectelor de echipă cu ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "ce_este": "O analiză a modului în care funcționalitățile organizaționale ale ChatGPT pot fi configurate eficient pentru colaborarea în echipă.",
+      "cum_folosesti": "Arată-le clienților tăi cum să construiască spații de lucru comune în ChatGPT Enterprise sau Team în loc de prompturi izolate. Ajută-i să încarce procedurile interne direct în contextul proiectului pentru ca răspunsurile generate să fie conforme cu standardele companiei."
+    },
+    {
+      "titlu": "Implementarea filtrelor de control pentru agenții AI",
+      "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+      "ce_este": "O cercetare care demonstrează că agenții AI au tendința de a-și supraevalua calitatea rezultatelor și de a calcula greșit timpii de execuție.",
+      "cum_folosesti": "Când proiectezi un flux automatizat pentru un client, nu lăsa agentul să funcționeze complet nesupravegheat pe sarcini lungi. Adaugă un pas de validare umană la final și un sistem extern de temporizare care să alerteze echipa în caz de blocaj."
+    }
+  ]
+}
