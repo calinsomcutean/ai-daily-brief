@@ -10,6 +10,34 @@ const MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
 const API_KEY = process.env.GEMINI_API_KEY;
 const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
 
+// Gemini raspunde ocazional cu 503 ("high demand") sau 429 (rate limit) — sunt
+// erori tranzitorii de supraincarcare, nu probleme reale cu cererea, asa ca
+// reincercam cu backoff in loc sa pierdem brief-ul zilei.
+const RETRYABLE_STATUS = new Set([429, 500, 503]);
+const RETRY_DELAYS_MS = [3000, 8000, 20000];
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function callGemini(body) {
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(`${ENDPOINT}?key=${API_KEY}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (res.ok) return res;
+
+    const bodyText = await res.text();
+    const isLastAttempt = attempt >= RETRY_DELAYS_MS.length;
+    if (!RETRYABLE_STATUS.has(res.status) || isLastAttempt) {
+      throw new Error(`Gemini API ${res.status}: ${bodyText}`);
+    }
+
+    const delay = RETRY_DELAYS_MS[attempt];
+    console.warn(`  [retry] Gemini ${res.status} (supraincarcare temporara) — reincerc peste ${delay / 1000}s...`);
+    await sleep(delay);
+  }
+}
+
 const responseSchema = {
   type: 'OBJECT',
   properties: {
@@ -122,23 +150,14 @@ Raspunde DOAR cu obiectul JSON cerut de schema, fara text suplimentar.`;
 
   console.log(`\n🧠 Trimit ${candidates.length} candidati catre ${MODEL} pentru triaj...`);
 
-  const res = await fetch(`${ENDPOINT}?key=${API_KEY}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      systemInstruction: { parts: [{ text: system }] },
-      contents: [{ role: 'user', parts: [{ text: userContent }] }],
-      generationConfig: {
-        responseMimeType: 'application/json',
-        responseSchema,
-      },
-    }),
+  const res = await callGemini({
+    systemInstruction: { parts: [{ text: system }] },
+    contents: [{ role: 'user', parts: [{ text: userContent }] }],
+    generationConfig: {
+      responseMimeType: 'application/json',
+      responseSchema,
+    },
   });
-
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`Gemini API ${res.status}: ${body}`);
-  }
 
   const payload = await res.json();
   const candidate = payload.candidates?.[0];
