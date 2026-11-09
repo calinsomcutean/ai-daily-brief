@@ -1,0 +1,234 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Goldman Sachs oprește utilizarea Claude Code pentru bancari și traderi",
+      "titlu_original": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "sursa": "Hacker News",
+      "tip": "incident",
+      "domenii": [
+        "enterprise",
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "Goldman Sachs a decis sistarea utilizării asistentului Claude Code în rândul bancarilor și traderilor din motive de securitate și conformitate. Decizia reflectă precauția marilor instituții financiare în privința accesului agenților AI la date corporative sensibile. Măsura vine în ciuda presiunilor interne pentru adoptarea rapidă a automatizării în sectorul financiar.",
+      "de_ce_conteaza": "Companiile trebuie să echilibreze viteza de adoptare a agenților AI cu protocoale stricte de securitate și guvernanță a datelor.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "OpenAI obține o finanțare de 11 miliarde $ la o evaluare de 1,25 trilioane",
+      "titlu_original": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-4-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "sursa": "Hacker News",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "OpenAI a finalizat o nouă rundă uriașă de finanțare în valoare de 11 miliarde de dolari, evaluând compania la 1,25 trilioane de dolari. Suma este ușor sub ținta inițială de 1,4 trilioane, dar confirmă apetitul masiv al investitorilor pentru infrastructura AI de ultimă generație. Fondurile vor fi direcționate către dezvoltarea modelelor avansate și extinderea capacităților de calcul.",
+      "de_ce_conteaza": "Evaluarea record arată că capitalul continuă să curgă masiv către dezvoltatorii de frontieră, asigurând resurse pentru noi capabilități enterprise.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Apple limitează bugetul zilnic de AI al inginerilor la 200 de dolari",
+      "titlu_original": "Apple capped engineers at a $200 daily AI budget",
+      "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
+      "sursa": "Hacker News",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Apple a impus o plafonare de 200 de dolari pe zi pentru consumul de API-uri AI în cazul fiecărui inginer din cadrul echipei de dezvoltare. Decizia vine în contextul în care costurile operaționale legate de rularea modelelor complexe au crescut accelerat. Măsura marchează un trend de raționalizare a cheltuielilor cu inteligența artificială în marile corporații.",
+      "de_ce_conteaza": "Managementul companiilor trebuie să stabilească politici clare de control al costurilor API înainte de a extinde utilizarea AI la nivelul întregului personal.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Normele de transparență din EU AI Act (Art. 50) sunt deja aplicabile",
+      "titlu_original": "The EU AI Act's transparency rules (Art. 50) have applied since 2 August 2026, and the Digital Omnibus did not defer the chatbot or text duties",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrn91p/the_eu_ai_acts_transparency_rules_art_50_have/",
+      "sursa": "r/artificial",
+      "tip": "reglementare",
+      "domenii": [
+        "romania-ue",
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Deși unele prevederi ale Actului UE privind AI au fost amânate prin pachetul Digital Omnibus, normele de transparență din Articolul 50 rămân în vigoare. Companiile care utilizează chatbot-uri sau generatoare de text sunt obligate să informeze explicit utilizatorii că interacționează cu un sistem AI. Neconformarea poate atrage sancțiuni administrative majore din partea autorităților europene.",
+      "de_ce_conteaza": "Firmele din UE trebuie să verifice de îndată notificările de transparență și marcarea conținutului AI pe site-uri și în aplicații.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Procese majore de drepturi de autor împotriva platformei muzicale Suno",
+      "titlu_original": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "sursa": "The Verge AI",
+      "tip": "incident",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Deținătorii drepturilor de autor pentru operele lui Elvis Presley și Eminem au acționat în instanță startup-ul de AI muzical Suno. Litigiul acuză compania că a antrenat modele pe piese protejate pentru a genera muzică și voci similare artiștilor. Cazul accentuează riscurile juridice asociate modelelor generative antrenate fără licențiere explicită.",
+      "de_ce_conteaza": "Companiile care folosesc conținut generat AI în campanii de marketing trebuie să auditeze sursa datelor pentru a evita riscuri de proprietate intelectuală.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Google schimbă discreționar regulile de confidențialitate pentru datele din Gemini",
+      "titlu_original": "Consumer Gemini autonomously ingests Drive files/Gmail into human review pool",
+      "url": "https://www.reddit.com/r/artificial/comments/1xr1o9g/consumer_gemini_autonomously_ingests_drive/",
+      "sursa": "r/artificial",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Google și-a modificat termenii de utilizare pentru versiunea de consum a Gemini Workspace, eliminând garanția că datele personale din Gmail sau Drive nu vor fi văzute de evaluatori umani. Fragmente de date pot fi trimise în fluxuri de revizuire manuală pentru îmbunătățirea modelelor. Schimbarea creează vulnerabilități majore pentru angajații care folosesc conturi personale în scop profesional.",
+      "de_ce_conteaza": "Echipele de management trebuie să interzică utilizarea conturilor personale AI și să impună licențe enterprise cu confidențialitate garantată.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Agentii AI de codare au nevoie de intervenție umană în 74% din sarcini",
+      "titlu_original": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "sursa": "The Decoder",
+      "tip": "cercetare",
+      "domenii": [
+        "munca-hr",
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Un nou benchmark realizat de Alibaba pe cazuri reale arată că cei mai avansați agenți AI rezolvă autonom doar 26,4% din sarcini fără erori. Deși modelele obțin scoruri excelente pe teste sintetice, sarcinile complexe din producție necesită în continuare ajustări umane. Rezultatele demonstrează că automatizarea completă a fluxurilor de lucru este departe de a fi realizată.",
+      "de_ce_conteaza": "Liderii de afaceri trebuie să poziționeze AI ca un instrument de asistență pentru angajați, nu ca un înlocuitor autonom al acestora.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Scepticism în industria farmaceutică privind promisiunile AI",
+      "titlu_original": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+      "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+      "sursa": "Hacker News",
+      "tip": "opinie",
+      "domenii": [
+        "sanatate-stiinte",
+        "business-strategie"
+      ],
+      "rezumat": "În timp ce firmele din Silicon Valley susțin că AI va revoluționa rapid descoperirea medicamentelor, directorii marilor companii farmaceutice rămân rezervați. Aceștia explică faptul că testarea clinică și reglementările riguroase nu pot fi reduse drastic doar prin simulări software. Discrepanța dintre marketingul tehnologic și realitatea operațională temperează așteptările pieței.",
+      "de_ce_conteaza": "Implementarea AI în domenii reglementate necesită o integrare atentă cu procesele fizice și o gestionare realistă a timpilor de livrare.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Andrej Karpathy a construit o platformă de filtrare video în câteva zile cu Claude",
+      "titlu_original": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "creative-media",
+        "business-strategie"
+      ],
+      "rezumat": "Fostul director AI de la Tesla a utilizat modelul Claude pentru a analiza 43 de milioane de comentarii și a le organiza în mii de recomandări video tematice. Proiectul demonstrativ, realizat într-un weekend, depășește algoritmii standard prin înțelegerea contextuală a datelor nestructurate. Experimentul subliniază potențialul creării rapide de produse digitale de nivo înaltă.",
+      "de_ce_conteaza": "Companiile pot folosi LLM-uri pentru a extrage valoare comercială din arhive proprii de date nestructurate în timp record.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Unelte de trasabilitate „Paper Trail” pentru protecția autorilor împotriva acuzațiilor AI",
+      "titlu_original": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "sursa": "Wired",
+      "tip": "adoptie",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica",
+        "munca-hr"
+      ],
+      "rezumat": "Editurile și creatorii de conținut încep să adopte unelte de monitorizare a procesului de redactare pentru a dovedi originea umană a textelor. În contextul suspiciunilor tot mai mari legate de conținutul generat automat, salvarea etapelor intermediare a devenit o formă de protecție legală. Tehnologia înregistrează istoricul editărilor pentru a preveni acuzațiile nefondate.",
+      "de_ce_conteaza": "Departamentele de HR și marketing ar trebui să stabilească norme de trasabilitate pentru a garanta autenticitatea materialelor create de echipă.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Apple accelerează dezvoltarea noilor capabilități agentice pentru Siri",
+      "titlu_original": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "sursa": "The Verge AI",
+      "tip": "business",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Apple exercită presiuni interne pentru a grăbi lansarea unei versiuni Siri capabile să acționeze autonom ca un agent AI pe dispozitive. Compania încearcă să recupereze decalajul față de soluțiile similare lansate de OpenAI și Meta. Noua arhitectură va permite asistentului să execute sarcini complexe cu mai mulți pași direct în aplicații.",
+      "de_ce_conteaza": "Tranziția asistenților vocali către agenți autonomi va schimba modul în care angajații interacționează mobil cu sistemele software corporative.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Randamente descrescătoare pentru investițiile masive în modelele AI",
+      "titlu_original": "AI progress per dollar of investment shows diminishing returns. This is using METR's estimate of acceleration at Anthropic. That acceleration isn't enough to overcome the diminishing returns",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrcmjw/ai-progress_per_dollar_of_investment_shows/",
+      "sursa": "r/artificial",
+      "tip": "opinie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "O analiză recentă arată că ritmul de îmbunătățire al modelelor AI raportat la fiecare dolar investit în calcul începe să scadă. Costurile uriașe ale infrastructurii și centrelor de date reduce eficienta extinderii brute a modelelor. Experții recomandă redirecționarea resurselor către optimizarea aplicațiilor practice de afaceri.",
+      "de_ce_conteaza": "Strategia de adopție trebuie axată pe cazuri de utilizare cu ROI clar, în loc de așteptarea pasivă a unor modele noi mai performante.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Disparitatea abilităților: Uneltele AI lărgesc decalajul dintre angajați",
+      "titlu_original": "Are better AI tools actually widening the gap between people?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xr1apu/are_better_ai_tools_actually_widening_the_gap/",
+      "sursa": "r/artificial",
+      "tip": "opinie",
+      "domenii": [
+        "munca-hr",
+        "educatie",
+        "business-strategie"
+      ],
+      "rezumat": "Dezbaterile recente arată că accesul la modele AI generative nu egalizează performanța angajaților, ci amplifică diferențele existente. Angajații cu gândire critică și expertiză domeniul obțin creșteri masive de productivitate, în timp ce utilizatorii fără experiență produc rezultate slabe. Fenomenul obligă companiile să regândească instruirea personalului.",
+      "de_ce_conteaza": "Programele interne de training AI trebuie să pună accent pe validarea critică a rezultatelor și nu doar pe formularea de prompturi.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Opoziție publică în creștere împotriva extinderii centrelor de date AI",
+      "titlu_original": "Why Are Americans Turning Against AI Data Centres?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xrkurv/why_are_americans_turning_against_ai_data_centres/",
+      "sursa": "r/artificial",
+      "tip": "incident",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "Comunitățile locale din SUA și Europa resping tot mai des proiectele de construcție a centrelor de date necesare pentru AI, invocând resursele masive de energie și apă consumate. În alegerile locale recente din SUA, cetățenii au votat restricții în 40 din 41 de inițiative de acest tip. Opoziția civică poate deveni o barieră majore în extinderea infrastructurii cloud.",
+      "de_ce_conteaza": "Presiunea ecologică și creșterea costurilor energetice pot duce la scumpiri ale serviciilor cloud AI pentru clienții enterprise.",
+      "scor_importanta": 7
+    }
+  ],
+  "rezumat_zilei": "Ziua de astăzi este marcată de o tranziție clară de la entuziasmul brut și evaluările astronomice din AI către o abordare pragmatică axată pe securitate, costuri și conformitate. În timp ce finanțările gigantice continuă să curgă, corporații precum Goldman Sachs și Apple impun limite stricte privind confidențialitatea datelor și bugetele de consum. Totodată, intrarea în vigoare a regulilor de transparență din EU AI Act și avertismentele privind accesul neautorizat la datele clienților obligă companiile să revizuiască urgent politicile de adopție. În paralel, cercetările recente reamintesc că validarea umană rămâne critică în orice flux automatizat.",
+  "recomandari_practice": [
+    {
+      "titlu": "Structurarea arhivelor de date neorganizate cu ajutorul LLM-urilor",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "ce_este": "O tehnică demonstrată de Andrej Karpathy prin care arhive masive de date nestructurate sunt filtrate și organizate în resurse utile folosind prompturi de clasificare.",
+      "cum_folosesti": "Ajută un client să își transforme istoricul neorganizat de tichete de suport, procese-verbale sau rapoarte în baza de cunoștințe. Creează un flux în Claude sau ChatGPT care să eticheteze și să extragă automat punctele cheie din documentele vechi ale companiei."
+    },
+    {
+      "titlu": "Politica de trasabilitate pentru conținutul creat de echipe",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "ce_este": "Utilizarea istoricului de versiuni și a instrumentelor de monitorizare pentru a demonstra aportul uman și a preveni acuzațiile de utilizare necorespunzătoare a AI.",
+      "cum_folosesti": "Recomandă clientilor din HR și marketing activarea salvării istoricului de editare în Google Docs sau Word pentru documentele strategice. Învață echipele să păstreze schițele intermediare ca dovadă a procesului creativ propriu."
+    },
+    {
+      "titlu": "Audit de confidențialitate și trecerea la conturi Enterprise securizate",
+      "url": "https://www.reddit.com/r/artificial/comments/1xr1o9g/consumer_gemini_autonomously_ingests_drive/",
+      "ce_este": "O alertă practică privind riscurile de securitate ce apar când angajații folosesc conturi personale de Gemini sau ChatGPT conectate la fișiere de firmă.",
+      "cum_folosesti": "Efectuează un audit rapid în companiile client pentru a identifica ce unelte personale AI sunt utilizate pe date corporative. Facilitează tranziția către workspace-uri enterprise securizate și redactează un ghid intern privind interzicerea introducerii datelor confidențiale în conturi gratuite."
+    },
+    {
+      "titlu": "Protocol de validare umană (HITL) pentru fluxurile automate",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "ce_este": "O constatare empirică ce arată că 74% din sarcinile realizate de agenții AI au nevoie de corecții umane înainte de a fi pregătite pentru producție.",
+      "cum_folosesti": "În sesiunile de training pentru management, construiește un protocol obligatoriu de verificare umană pentru orice automatizare lansată. Creează liste de verificare specifice pe care angajații să le parcurgă înainte de a aproba livrabilele generate de AI."
+    }
+  ]
+}
