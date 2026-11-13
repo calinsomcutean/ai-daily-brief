@@ -1,0 +1,221 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Google lansează Gemini 4 Hydrogen: performanță ridicată la costuri reduse",
+      "titlu_original": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Google a lansat modelul Gemini 4 Hydrogen, conceput ca înlocuitor pentru seria Flash, dar care depășește în teste modele mai mari precum Argon. Noul model oferă o fereastră de context de 1 milion de tokeni și viteze de raționament semnificativ îmbunătățite la un preț competitiv. Această lansare accelerează tranziția către modele rapide optimizate pentru sarcini complexe.",
+      "de_ce_conteaza": "Compania ta poate rula fluxuri complexe de lucru și agenți AI la o fracțiune din costul modelelor mari anterioare fără a pierde din calitate.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Anthropic pregătește listarea la bursă, testând încrederea investitorilor în AI",
+      "titlu_original": "Anthropic IPO tests Wall Street's appetite for standalone frontier AI",
+      "url": "https://aibusiness.com/foundation-models/anthropic-ipo-tests-wall-street-s-appetite-for-frontier-ai",
+      "sursa": "AI Business",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Anthropic a făcut primii pași oficiali pentru listarea la bursă, o mișcare crucială pentru evaluarea viabilității financiare a dezvoltatorilor independenți de modele AI. Oferta publică va arăta măsura în care piața este pregătită să susțină costurile uriașe de infrastructură pe care le necesită dezvoltarea frontier AI. Rezultatul va stabili noi repere pentru sustenabilitatea întregului ecosistem comercial.",
+      "de_ce_conteaza": "O listare reușită va stabiliza ecosistemul furnizorilor de AI și va oferi companiilor mai multă claritate privind stabilitatea pe termen lung a furnizorilor de tehnologie.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Claude Meetings permite asistentului Anthropic să participe direct în apeluri video",
+      "titlu_original": "Claude Meetings lets Anthropic's AI join your video calls",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "munca-hr",
+        "enterprise"
+      ],
+      "rezumat": "Anthropic introduce funcția Claude Meetings în versiune beta pentru planurile Team și Enterprise, permițând asistentului AI să intre în ședințe pe Google Meet. Aplicația generează automat rezumate, documente și table albe virtuale în timp real pe baza conversației. Funcționalitatea urmează să fie extinsă și pe alte platforme majore de videoconferință.",
+      "de_ce_conteaza": "Elimină munca manuală de luare a notițelor și accelerează urmărirea deciziilor în echipele de management și resurse umane.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "United Airlines blochează agenții AI autonomi pentru rezervarea zborurilor",
+      "titlu_original": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "sursa": "TechCrunch AI",
+      "tip": "reglementare",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "United Airlines a interzis utilizarea agenților AI autonomi pentru rezervarea biletelor și gestionarea călătoriilor de către clienți, invocând riscuri grave de securitate cibernetică. Compania susține că tranzacțiile efectuate prin intermediari software neautorizați pot expune date sensibile și pot perturba sistemele interne. Aceasta este una dintre primele decizii majore ale unei corporații împotriva agenților de cumpărături executați în numele utilizatorilor.",
+      "de_ce_conteaza": "Arată nevoia urgentă ca strategiile de automatizare cu agenți autonomi să ia în calcul restricțiile de acces impuse de furnizorii terți.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Amplitude lansează actualizări de produs în doar 2 zile folosind agenți OpenAI",
+      "titlu_original": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "sursa": "OpenAI",
+      "tip": "adoptie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Compania de analiză de date Amplitude folosește un agent proactiv bazat pe modele OpenAI pentru a identifica ce funcționalități trebuie construite și pentru a măsura impactul acestora. Sistemul ajută echipele să treacă de la idee la lansare în doar 1-2 zile în loc de câteva săptămâni. Studiul de caz demonstrează modul în care automatizarea cap-coadă transformă dezvoltarea de produse software.",
+      "de_ce_conteaza": "Clienții tăi pot aplica un cadru similar pentru a reduce drastic ciclul de livrare al proiectelor interne și al produselor digitale.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Studiu de piață: 40% dintre dezvoltatorii de jocuri folosesc deja AI generativ",
+      "titlu_original": "More game developers are starting to use generative AI",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "sursa": "The Verge AI",
+      "tip": "adoptie",
+      "domenii": [
+        "creative-media",
+        "munca-hr"
+      ],
+      "rezumat": "Conform celui mai recent sondaj anual realizat în industrie, 40% dintre dezvoltatorii de jocuri video declară că utilizează instrumente AI generativ ca parte din activitatea lor zilnică. Procentul este în creștere clară față de anul anterior, în ciuda dezbaterilor privind drepturile de autor și securitatea muncii. Adopția se concentrează pe prototipare rapidă, generare de concepte vizuale și asistență în redactare.",
+      "de_ce_conteaza": "Ilustrează modul în care AI-ul devine rapid un standard de lucru în industriile creative și de dezvoltare software.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Nectar lansează un agent AI care automatizează campaniile cu influenceri",
+      "titlu_original": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "creative-media"
+      ],
+      "rezumat": "Platforma Nectar a lansat un agent AI capabil să identifice creatori de conținut potriviți pentru branduri, să gestioneze comunicarea inițială și să urmărească performanța campaniilor. Soluția elimină zecile de ore de muncă manuală necesare pentru prospectare și negociere în marketingul de influență. Sistemul centralizează întregul flux comercial direct într-o interfață unificată.",
+      "de_ce_conteaza": "Echipele de marketing pot scala campaniile cu creatori fără a fi nevoie de extinderea proporțională a personalului de gestionare.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Studiu: Chatboții AI recomandă frecvent site-uri de cumpărături false",
+      "titlu_original": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "sursa": "The Verge AI",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Un studiu realizat de firma Podqi arată că asistenții AI precum ChatGPT, Gemini și Perplexity trimit uneori utilizatorii către site-uri de comerț electronic frauduloase atunci când cer recomandări de cumpărături. Modelele halucinează URL-uri sau preiau surse compromised din rezultatele de căutare web nefiltrate. Această problemă creează riscuri financiare și de reputație directă pentru utilizatorii neavizați.",
+      "de_ce_conteaza": "Subliniază necesitatea ca echipele de achiziții să verifice manual sursele recomandate de asistenții AI înainte de a efectua plăți.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "FAA extinde utilizarea AI pentru optimizarea traficului aerian în SUA",
+      "titlu_original": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "sursa": "Ars Technica AI",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Autoritatea Aviației Civile din SUA (FAA) a extins utilizarea unui instrument AI de recomandare a rutelor pentru a gestiona aglomerația pe tot spațiul aerian american. Companiile aeriene au lăudat sistemul pentru reducerea întârzierilor și economisirea de combustibil prin predicții mai bune ale vremii și traficului. Proiectul este un exemplu de adoptare AI la nivel de infrastructură națională.",
+      "de_ce_conteaza": "Demonstrează modul în care analiza predictivă bazată pe AI poate eficientiza operațiuni logistice de mari dimensiuni.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Australia propune reguli obligatorii de auditare pentru cele mai avansate modele AI",
+      "titlu_original": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+      "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+      "sursa": "The Decoder",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "romania-ue"
+      ],
+      "rezumat": "Guvernul australian a introdus un proiect de lege privind siguranța AI care va obliga dezvoltatorii de modele avansate să permită evaluări independente. Noua autoritate de reglementare va putea impune amenzi substanțiale pentru nerespectarea standardelor de transparență și securitate. Inițiativa aliniază Australia la eforturile globale de reglementare strictă a tehnologiilor de frontieră.",
+      "de_ce_conteaza": "Creează un precedent legislativ ce va influența modul în care corporațiile globale își livrează produsele software în piețele reglementate.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "Jensen Huang a demisionat din funcția de CEO al NVIDIA pe fondul unui anchete interne",
+      "titlu_original": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out 1.4 trillion in market value",
+      "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Jensen Huang a demisionat din funcția de CEO și președinte al bordului NVIDIA în urma unei investigații interne legate de probleme de guvernanță și securitate. Colette Kress, directorul financiar al companiei, a fost numită interimar la conducerea gigantului tehnologic. Schimbarea bruscă de leadership creează incertitudini pe piața furnizorilor de cipuri și soluții de calcul pentru AI.",
+      "de_ce_conteaza": "Înseamnă o posibilă ajustare a strategiilor comerciale ale celui mai mare furnizor de infrastructură AI din lume, afectând estimările de costuri.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "Atac cibernetic asupra Fireworks AI: transcripturile de chat ale utilizatorilor Notion au fost expuse",
+      "titlu_original": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "sursa": "TechCrunch AI",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "O breșă de securitate la furnizorul de servicii de furnizare AI Fireworks a expus transcripturile de chat ale clienților platformei Notion. Acesta este al doilea incident de securitate care afectează compania în ultimele două luni. Incidentul readuce în prim-plan vulnerabilitățile apărute din integrarea furnizorilor terți de API-uri în instrumentele SaaS de zi cu zi.",
+      "de_ce_conteaza": "Evidențiază importanța evaluării riguroase a securității terților atunci când integrezi instrumente AI în procesele de lucru de la clienți.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Ghid AWS: Patru decizii de configurare care reduc costurile cu modelele AI",
+      "titlu_original": "Four Amazon Bedrock inference choices that affect cost",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
+      "sursa": "AWS Machine Learning",
+      "tip": "adoptie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "AWS a publicat o analiză detaliată privind parametrii de configurare care influențează facturile de consum pe Amazon Bedrock. Setări precum durata de stocare în cache, nivelul de serviciu, timpul de raționament și numărul maxim de tokeni schimba semnificativ prețul per sarcină. Articolul oferă metodologii concrete de testare pentru a preveni depășirile de buget.",
+      "de_ce_conteaza": "Le oferă consultanților un set clar de măsuri tehnice de reducere a facturilor cloud pentru clienții care folosesc LLM-uri în producție.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "ElevenLabs Scribe v3 Live previne întreruperea apelanților de către agenții vocali",
+      "titlu_original": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
+      "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+      "sursa": "The Decoder",
+      "tip": "lansare",
+      "domenii": [
+        "munca-hr",
+        "enterprise"
+      ],
+      "rezumat": "ElevenLabs a lansat modelele de recunoaștere vocală Scribe v3 și Scribe v3 Live, concepute pentru a transcrie precis în medii cu zgomot de fond. Noul algoritm folosește contextul conversațional pentru a înțelege pauzele naturale de vorbire și a preveni întreruperea apelantului la jumătatea frazei. Testele arată o acuratețe superioară soluțiilor similare de la rivali.",
+      "de_ce_conteaza": "Permite implementarea de boti telefonici pentru call-center mult mai naturali, îmbunătățind experiența clienților și rata de rezolvare a apelurilor.",
+      "scor_importanta": 8
+    }
+  ],
+  "rezumat_zilei": "Ziua de astăzi este marcată de mutări majore de infrastructură și lansări practice de unelte AI, de la modelul ultra-rapid Gemini 4 Hydrogen la pregătirea listării pe bursă a Anthropic. În paralel, guvernanța și securitatea devin critice: United Airlines blochează agenții autonomi terți, iar breșele de securitate din lanțul de integrare expun date sensibile din aplicațiile SaaS. În același timp, funcționalitățile aplicate — cum ar fi integrarea AI direct în videoconferințe sau agenții vocali care nu mai întrerup interlocutorul — arată o maturizare clară a adoptării tehnologiei în operațiunile companiei.",
+  "recomandari_practice": [
+    {
+      "titlu": "Automatizarea conspectelor de ședință cu Claude Meetings",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "ce_este": "O funcționalitate nouă Anthropic ce permite asistentului Claude să participe în apeluri Google Meet și să genereze minute, sinteze și sarcini în timp real.",
+      "cum_folosesti": "Activează versiunea beta pe un cont Claude Enterprise sau Team și conectează botul la ședințele tale de consultanță. Folosește rezumatul generat automat pentru a trimite clientului lista de acțiuni (next steps) în mai puțin de 5 minute după încheierea apelului."
+    },
+    {
+      "titlu": "Modernizarea call-center-ului cu ElevenLabs Scribe v3 Live",
+      "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
+      "ce_este": "Un model de transpunere vorbire-în-text în timp real care detectează contextul frazei pentru a nu întrerupe utilizatorii care fac pauze scurte când vorbesc.",
+      "cum_folosesti": "Propune clienților tăi cu departamente de suport sau HR înlocuirea vechilor sisteme IVR cu un agent vocal bazat pe Scribe v3. Arată-le într-un demo cum scade rata de abandon a apelurilor prin simpla eliminare a întreruperilor deranjante."
+    },
+    {
+      "titlu": "Audit de costuri pentru infrastructura LLM folosind ghidul AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
+      "ce_este": "Un ghid practic publicat de AWS privind optimizarea parametrilor de interogare (caching, reasoning effort, maxTokens) pentru reducerea facturilor cloud.",
+      "cum_folosesti": "Folosește cele 4 opțiuni de configurare descrise în articol ca un checklist în cadrul sesiunilor de consultanță cu echipele tehnice ale clienților. Ajustează setările de cache și limitele de tokeni pe mediul de producție pentru a le reduce facturile cu 20-40%."
+    }
+  ]
+}
