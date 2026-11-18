@@ -1,0 +1,221 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "OpenAI lanseaza modelele GPT-6.2 Astra si Sol cu performanta crescuta si costuri reduse",
+      "titlu_original": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "sursa": "OpenAI",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "OpenAI a lansat modelele GPT-6.2 Astra si Sol, concepute pentru a livra rezultate profesionale mai bune, capacitate avansata de navigare pe calculator si eficienta crescuta. Noile modele reduc costurile API cu procente cuprinse intre 20% si 600% comparativ cu generatiile anterioare. Acestea sunt integrate direct in ChatGPT Work, sistemul de codare si prin API.",
+      "de_ce_conteaza": "Scaderea drastica a costurilor de executie face posibila automatizarea proceselor complexe de business care anterior erau prea scumpe pentru a fi scalate.",
+      "scor_importanta": 10
+    },
+    {
+      "titlu_ro": "Microsoft redefineste mediul de lucru: Office ruleaza direct in interiorul Copilot",
+      "titlu_original": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "sursa": "Ars Technica AI",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "La conferinta Ignite 2026, Microsoft a prezentat viziunea in care Copilot devine noul sistem de operare pentru munca. Aplicatiile clasice precum Word, Excel si PowerPoint sunt acum integrate nativ in interiorul Copilot. Strategia urmareste mutarea utilizatorilor catre un flux ghidat de agenti AI autonomi si permanenti.",
+      "de_ce_conteaza": "Echipele de management si HR trebuie sa reconsidere fluxurile zilnice de lucru, tranzitand de la operarea manuala a documentelor la supervizarea agentilor AI integrati.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "OpenAI lanseaza ChatGPT for Sales pentru automatizarea proceselor de vanzari",
+      "titlu_original": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "sursa": "OpenAI",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "OpenAI a introdus un plugin dedicat de vanzari si peste 30 de integrari partener in ChatGPT. Solutia permite echipelor comerciale sa cerceteze prospecti, sa pregateasca prezentari de vanzare si sa actualizeze CRM-ul dintr-o singura interfata. Scopul este accelerarea tranzactiilor si reducerea muncii administrative.",
+      "de_ce_conteaza": "Consultantii si managerii pot elimina munca manuala din prospectare si actualizare CRM, crescand viteza de raspuns la oportunitati.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Model ML atrage 250M$ pentru a automatiza analiza financiara si tranzactiile",
+      "titlu_original": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Startup-ul Model ML a obținut o finantare masiva pentru dezvoltarea de agenti AI capabili sa inteleaga contextul tranzactiilor financiare. Sistemele pot actualiza automat modelele financiare si prezentarile analitice ori de cate ori apar date sau evenimente noi. Tehnologia targeteaza bancile de investitii si firmele de consultanta strategica.",
+      "de_ce_conteaza": "Automatizarea analizelor financiare elibereaza echipele de evaluare si planificare de munca repetitiva si reduce erorile umane de calcul.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "LoanPro reduce durata apelurilor de suport prin asistenti AI multi-agent",
+      "titlu_original": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/",
+      "sursa": "AWS Machine Learning",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Compania LoanPro a dezvoltat un asistent bazat pe o arhitectura multi-agent pe Amazon Bedrock AgentCore. Sistemul ofera operatorilor de creditare context instant despre clienti si recomandari calibrate pentru pasii urmatori. Proiectul a condus la o reducere semnificativa a duratei apelurilor telefonice ale clientilor.",
+      "de_ce_conteaza": "Demonstreaza cum implementarea agentilor de suport in operatiuni financiare scade costurile de operare si accelereaza rezolvarea tichetelor.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Google extinde accesul la Gemini Tasks pentru executia autonoma a sarcinilor",
+      "titlu_original": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "munca-hr",
+        "business-strategie"
+      ],
+      "rezumat": "Google a extins disponibilitatea modului Gemini Tasks, o functionalitate avansata de agent de executie. Sistemul poate ajuta utilizatorii sa coordoneze apeluri, sa se autentifice pe site-uri terte si chiar sa efectueze achizitii directe in numele acestora. Serviciul devine accesibil gratuit pentru un numar mai mare de utilizatori.",
+      "de_ce_conteaza": "Agentii de executie operationala devin accesibili pentru sarcinile zilnice, simplificand administrarea si achizitiile de rutina.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Google separa istoricul conversatiilor de optiunea de antrenare a modelelor Gemini",
+      "titlu_original": "Google makes it easier to use Gemini without training AI on your data",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "sursa": "Ars Technica AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Google a introdus comutatoare separate in setarile Gemini pentru istoricul de chat si antrenarea modelelor AI. Companiile si utilizatorii pot acum refuza utilizarea datelor proprii pentru instruirea AI-ului fara a-si pierde istoricul conversatiilor. Actualizarea se desfasoara la nivel global in urmatoarele saptamani.",
+      "de_ce_conteaza": "Rezolva o mare dilema de confidentialitate pentru companiile care ezitau sa foloseasca Gemini de teama scurgerii de date comerciale.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Proton lanseaza aplicatia desktop Lumo, o alternativa privata la ChatGPT si Claude",
+      "titlu_original": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "sursa": "TechCrunch AI",
+      "tip": "lansare",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Proton a lansat aplicatia desktop Lumo pentru Windows, Mac si Linux, axata pe protectia datelor personale. Aplicatia permite automatizarea sarcinilor pe fisiere si aplicatii conectate, oferind utilizatorilor un control granular asupra resurselor pe care le poate accesa AI-ul. Este o alternativa conceputa special pentru organizatiile cu cerinte stricte de securitate.",
+      "de_ce_conteaza": "Ofera firmelor ce gestioneaza date sensibile o cale de a adopta automatizarea AI local pe calculatoarele angajatilor fara a expune informatiile.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Perplexity adauga modul Multiagent cu pana la 16 agenti care valideaza reciproc informatiile",
+      "titlu_original": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
+      "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
+      "sursa": "MarkTechPost",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Perplexity a integrat modul Multiagent in optiunea sa avansata de calcul, ruland pana la 16 agenti bazati pe modele Claude, GPT si Gemini. Un agent principal coordoneaza procesul, iar sub-agentii partajeaza datele si verifica reciproc veridicitatea rezultatelor. Sistemul este proiectat pentru analize complexe care necesita un nivel ridicat de precizie.",
+      "de_ce_conteaza": "Creste acuratetea cercetarilor de piata si reduce erorile de halucinatie prin verificarea incrucisata automata a surselor.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Raspunsurile generate de AI in Google Search reduc traficul catre site-uri cu 40%",
+      "titlu_original": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "sursa": "Hacker News",
+      "tip": "opinie",
+      "domenii": [
+        "business-strategie",
+        "creative-media"
+      ],
+      "rezumat": "Un studiu recent arata ca integrarea raspunsurilor generate de AI directe in paginile Google Search a redus traficul organic catre site-urile web cu 40%. Utilizatorii gasesc informatia direct pe pagina de cautare, nemaifiind nevoiti sa acceseze link-urile sursa. Schimbarea afecteaza masiv strategiile clasice de promovare prin continut.",
+      "de_ce_conteaza": "Companiile trebuie sa isi reconfigureze strategiile de marketing digital, mutand accentul de la SEO traditional la Optimizarea pentru Motoare Generative (GEO).",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Agentii AI preiau complet completarea formularelor medicale si cererilor de asigurare",
+      "titlu_original": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+      "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
+      "sursa": "The Decoder",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "sanatate-stiinte"
+      ],
+      "rezumat": "Agentii AI capabili sa opereze direct pe calculatoare inlocuiesc personalul uman in sarcini administrative greoaie din sistemul de sanatate din SUA. Modele precum GPT-6 Luna completeaza formulare de pre-autorizare medicala si interactioneaza cu portalurile de asigurari la un cost de doar 8.5 centi per sarcina. Companii mari de sanatate au inceput deja adoptia la scara scara.",
+      "de_ce_conteaza": "Demonstreaza eficienta financiara a agentilor de navigare software in eliminarea birocratiei si a operatiunilor repetitive din companii.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Cadru AWS pentru reducerea costurilor AI: Cod pentru reguli, modele doar pentru judecata",
+      "titlu_original": "Cut generative AI costs: Code for rules, models for judgment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+      "sursa": "AWS Machine Learning",
+      "tip": "cercetare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "AWS a lansat un ghid strategic privind cea mai eficienta pârghie de optimizare a costurilor in proiectele Generative AI: evaluarea riguroasa a pasilor ce necesita cu adevarat un model LLM. Recomandarea este de a utiliza cod determinist clasic pentru regulile fixe de business si de a apela modelele scump calculate doar pentru decizii sau judecata. Aceasta abordare hibrida scade consumul de tokeni si latenta.",
+      "de_ce_conteaza": "Consultantii pot reduce bugetul de operare al sistemelor AI la clienti prin re-arhitecturarea workflow-urilor conform acestui principiu clar.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Unsiloed AI obtine 7.5M$ pentru a face documentele corporative inteligibile agentilor AI",
+      "titlu_original": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "sursa": "TechCrunch AI",
+      "tip": "business",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Startup-ul Unsiloed AI a atras o investitie de 7,5 milioane de dolari pentru a rezolva problema documentelor fragmentate si nestructurate din organizatii. Tehnologia proceseaza si formateaza fisierele interne complexe, astfel incat agentii autonomi sa le poata accesa si interpreta fara erori. Proiectul vizeaza reducerea blocajelor de date din companiile mari.",
+      "de_ce_conteaza": "Faciliteaza integrarea documentatiei istorice a clientilor in fluxuri automate de lucru bazate pe agenti AI.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Lovable extinde \"Vibe Coding\" catre conducerea intregilor afaceri prin AI",
+      "titlu_original": "Lovable Wants You to Vibe Code Your Dream Job",
+      "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/",
+      "sursa": "Wired",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "munca-hr"
+      ],
+      "rezumat": "Startup-ul suedez Lovable, cunoscut pentru popularizarea conceptului de \"vibe coding\" (crearea de aplicatii prin instructiuni simple in limbaj natural), isi extinde platforma. Compania urmareste sa le permita utilizatorilor sa construiasca si sa ruleze micro-afaceri intregi automatizate prin cod generat de AI. Abordarea democratizeaza si mai mult dezvoltarea de software intern.",
+      "de_ce_conteaza": "Permite antreprenorilor si managerilor sa construiasca instrumente digitale si automatizari specifice fara a depinde de echipe tehnice dedicate.",
+      "scor_importanta": 7
+    }
+  ],
+  "rezumat_zilei": "Ziua de azi este marcata de lansari majore si maturizarea agentilor AI orientati catre eficientizarea activitatii de business. OpenAI a marcat un pas important prin noua serie GPT-6.2 Astra si Sol, reducand semnificativ costurile API, in timp ce Microsoft a integrat nativ suita Office in Copilot. In paralel, atentia pieței se muta puternic pe guvernanta datelor si optimizarea costurilor: Google permite utilizatorilor comerciali sa opreasca antrenarea pe date proprii fara a pierde istoricul, iar gigantii tehnologici promoveaza arhitecturi hibride care limiteaza apelarea modelelor mari doar la sarcinile ce implica decizii complexe.",
+  "recomandari_practice": [
+    {
+      "titlu": "Implementeaza ChatGPT for Sales pentru accelerarea departamentului comercial",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "ce_este": "OpenAI a integrat peste 30 de unelte si un plugin dedicat de vanzari in ChatGPT pentru cercetarea prospectilor si actualizarea automata a sistemelor CRM.",
+      "cum_folosesti": "Configureaza pentru echipa de vanzari a clientului tau un flux automat de pregatire a sedintelor: introdu numele prospectului in ChatGPT, solicita generarea unei fise executive si conecteaza plugin-ul CRM pentru a crea sau actualiza oportunitatea fara introducere manuala de date."
+    },
+    {
+      "titlu": "Redu costurile de automatizare ale clientilor prin filtrarea apelurilor catre modelele AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+      "ce_este": "O strategie de arhitectura AI publicata de AWS care separa pasii deterministi (reguli fixe de business) de pasii probabilistici (judecata contextuala) pentru a reduce consumul masiv de tokeni.",
+      "cum_folosesti": "Auditeaza workflow-urile AI pe care le propui clientilor tai si inlocuieste prompturile scumpe folosite pentru validari de format, extrageri fixe de date sau calcule de pret cu scripturi clasice. Foloseste modelele LLM exclusiv pentru etapele ce necesita sinteza, analiza de sentiment sau decizii in conditii de incertitudine."
+    },
+    {
+      "titlu": "Protejeaza datele confidentiale ale clientilor in Google Gemini fara a pierde istoricul",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "ce_este": "O noua setare Google Gemini care permite utilizatorilor sa opreasca procesarea datelor proprii pentru instruirea modelelor AI, pastrand in acelasi timp istoricul chat-urilor intact.",
+      "cum_folosesti": "Arata-le echipelor de management si HR din companiile pe care le consiliezi cum sa mearga in setarile de activitate Gemini si sa debifeze optiunea \"AI Training\", mentinand \"Chat History\" activa. Acest pas simplu elimina riscul scurgerilor de confidentialitate si faciliteaza adoptarea legala si sigura a instrumentului la nivel de firma."
+    }
+  ]
+}
