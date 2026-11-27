@@ -1,0 +1,193 @@
+{
+  "stiri": [
+    {
+      "titlu_ro": "Cum construiește Clay agenți de Go-To-Market și calificare automată a pieței",
+      "titlu_original": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "sursa": "Latent Space",
+      "tip": "adoptie",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Jeff Barg, Head of AI la Clay, detaliază modul în care compania dezvoltă agenți autonomi pentru departamentele de vânzări și marketing. Cu bugete reduse de calificare a datelor, acești agenți pot analiza și clasifica automat companiile la nivel global. De asemenea, analiza arată că clienții preferă interfețele simple în locul selecției manuale a modelelor de limbaj.",
+      "de_ce_conteaza": "Oferă un model practic de automatizare a fluxurilor de vânzări și prospectare B2B prin agenți AI specializați, fără a supraîncărca utilizatorii cu detalii tehnice.",
+      "scor_importanta": 9
+    },
+    {
+      "titlu_ro": "nexos.ai lansează un AI Gateway cu guvernanță și limite de buget pentru 200+ modele",
+      "titlu_original": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in",
+      "url": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+      "sursa": "MarkTechPost",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "business-strategie"
+      ],
+      "rezumat": "Platforma nexos.ai a lansat un AI Gateway enterprise care unifică peste 200 de modele de inteligență artificială sub o singură interfață securizată. Soluția include instrumente de guvernanță a datelor, controale de acces și posibilitatea de a stabili limite clare de consum pe departamente sau proiecte.",
+      "de_ce_conteaza": "Permite companiilor să adopte rapid multiple modele AI fără a pierde controlul asupra costurilor API și a securității datelor corporative.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Google integrează protocolul MCP în Workspace, dar blochează acțiunile critice în Gmail",
+      "titlu_original": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "sursa": "Hacker News",
+      "tip": "adoptie",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Google le va impune agenților AI să folosească propriile servere bazate pe protocolul MCP pentru accesarea datelor din Google Workspace. Totuși, integrarea pentru Gmail este limitată intenționat, împiedicând agenții să trimită e-mailuri în mod autonom.",
+      "de_ce_conteaza": "Arată abordarea precaută a marilor furnizori SaaS, care permit agenților să citească date de business, dar restricționează acțiunile autonome sensibile pentru a preveni erorile.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "OpenAI corectează o eroare de tarifare, reducând limitele efective pentru GPT-6.2",
+      "titlu_original": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "OpenAI a remediat un bug de facturare care oferea reduceri neintenționate utilizatorilor modelelor GPT-6.2 Astra și Sol, determinând atingerea limitelor de utilizare cu 40% mai rapid. Ca compensare, abonații primesc o reseta gratuită a limitelor, iar clienții de business beneficiază de acces gratuit la Fast Mode până la sfârșitul anului.",
+      "de_ce_conteaza": "Liderii de business trebuie să recalculeze bugetele de consum AI, deoarece costurile reale ale modelelor avansate încep să reflecte fidel utilizarea lor.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Microsoft avertizează asupra platformei ARTEX utilizată de hackeri pentru atacuri AI autonome",
+      "titlu_original": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "sursa": "The Decoder",
+      "tip": "incident",
+      "domenii": [
+        "siguranta-etica",
+        "enterprise"
+      ],
+      "rezumat": "Microsoft a detaliat arhitectura cadrului ARTEX, o platformă AI utilizată de grupuri de criminalitate cibernetică pentru a rula atacuri informatice fără intervenție umană. Sistemul orchestrează agenți specializați capabili să identifice vulnerabilități și să le exploateze autonom.",
+      "de_ce_conteaza": "Echipele de management și IT trebuie să își regândească strategiile de securitate, întrucât atacatorii folosesc deja agenți autonomi de o viteză imposibil de egalat manual.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "NVIDIA lansează resurse pentru Nemotron 3.5 Parse, accelerând procesarea documentelor",
+      "titlu_original": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "sursa": "Hugging Face",
+      "tip": "lansare",
+      "domenii": [
+        "enterprise",
+        "munca-hr"
+      ],
+      "rezumat": "Au fost lansate noi seturi de date deschise și metode de fine-tuning pentru modelul Nemotron 3.5 Parse, specializat în extragerea și procesarea datelor din documente complexe. Actualizarea permite companiilor să adapteze modelul pe propriile formate de fișiere pentru o inferență mai rapidă.",
+      "de_ce_conteaza": "Facilitează automatizarea fluxurilor din departamentele de HR, Salarizare și Contabilitate care procesează un volum mare de contracte și facturi.",
+      "scor_importanta": 8
+    },
+    {
+      "titlu_ro": "Sakana AI lansează Namazu Small (30B), un model eficient ce depășește variante mai mari",
+      "titlu_original": "Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano",
+      "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
+      "sursa": "MarkTechPost",
+      "tip": "lansare",
+      "domenii": [
+        "business-strategie",
+        "enterprise"
+      ],
+      "rezumat": "Sakana AI a lansat Namazu Small, un model de raționament cu 30 de miliarde de parametri care obține un scor mediu superior unor modele de patru ori mai mari în teste de referință. Arhitectura sa permite rularea eficientă fără a necesita infrastructuri masive de calcul.",
+      "de_ce_conteaza": "Demonstrează că modelele mai mici și specializate oferă performanțe excelente la un fracțiune din costul de operare al modelelor gigant.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Autoritatea financiară britanică critică Meta pentru refuzul de a permite testarea agentului Muse",
+      "titlu_original": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "sursa": "Wired",
+      "tip": "reglementare",
+      "domenii": [
+        "romania-ue",
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "Autoritatea de Conduită Financiară din Marea Britanie (FCA) s-a plâns public după ce Meta a refuzat cooperarea pentru testarea comună a agentului său personal Muse înainte de lansare. Reglementatorii avertizează asupra noilor riscuri generate de agenții autonomi în sectoarele reglementate.",
+      "de_ce_conteaza": "Companiile din domeniul financiar sau cu reglementări stricte trebuie să fie prudente la adoptarea agenților autonomi înainte de clarificarea normelor de conformitate.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "42 de procurori din SUA blochează vânzarea chat-urilor private ale utilizatorilor Character.AI",
+      "titlu_original": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "sursa": "The Verge AI",
+      "tip": "reglementare",
+      "domenii": [
+        "siguranta-etica",
+        "business-strategie"
+      ],
+      "rezumat": "O coaliție de 42 de procurori generali din SUA a inițiat acțiuni legale pentru a împiedica Character.AI să își vândă datele private ale utilizatorilor în cadrul procesului de faliment. Autoritățile acuză compania că încearcă să scoată la licitație istoricul conversațiilor confidențiale.",
+      "de_ce_conteaza": "Subliniază riscurile de reputație și obligațiile legale ale companiilor când colectează și stochează date sensibile din interacțiunea cu chatbots.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "New York Times le cere fotografilor să evite funcțiile AI noi din Photoshop",
+      "titlu_original": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "sursa": "Simon Willison",
+      "tip": "opinie",
+      "domenii": [
+        "creative-media",
+        "siguranta-etica"
+      ],
+      "rezumat": "Publicația New York Times a emis o directivă internă prin care le recomandă fotoreporterilor să nu își actualizeze aplicația Adobe Photoshop la versiunile ce conțin unelte avansate de generare AI. Măsura dorește să prevină alterarea neintenționată sau manipularea imaginilor jurnalistice.",
+      "de_ce_conteaza": "Echipele de media și comunicare corporativă trebuie să definească reguli clare privind autenticitatea și guvernanța conținutului vizual creat cu AI.",
+      "scor_importanta": 7
+    },
+    {
+      "titlu_ro": "Dezvoltatorii chinezi de AI caută date la Google și Meta după blocajul aplicat de OpenAI",
+      "titlu_original": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+      "sursa": "The Decoder",
+      "tip": "business",
+      "domenii": [
+        "business-strategie",
+        "siguranta-etica"
+      ],
+      "rezumat": "Companiile chineze Z.AI și Moonshot AI și-au amânat lansarea noilor modele reprezentative după ce OpenAI și Anthropic au blocat accesul la datele lor de antrenament. În consecință, acestea încearcă să folosească surse alternative de date deschise proveniți de la Meta și Google.",
+      "de_ce_conteaza": "Arată dependența ecosistemului de datele sintetice de înaltă calitate și schimbările din lanțul de aprovizionare cu date pentru modele de frontieră.",
+      "scor_importanta": 6
+    },
+    {
+      "titlu_ro": "O nouă platformă centralizează descoperirile medicale realizate cu ajutorul AI",
+      "titlu_original": "Tracking Diseases Cured by AI",
+      "url": "https://diseasescuredbyai.com/",
+      "sursa": "Hacker News",
+      "tip": "cercetare",
+      "domenii": [
+        "sanatate-stiinte"
+      ],
+      "rezumat": "A fost lansat un proiect ce urmărește și documentează bolile și afecțiunile complexe pentru care AI a ajutat la descoperirea de noi tratamente sau molecule terapeutice. Platforma evidențiază impactul direct al inteligenței artificiale în cercetarea biomedicală.",
+      "de_ce_conteaza": "Constituie o dovadă concretă a rentabilității investițiilor în modele de cercetare aplicată în domeniul biotehnologiei și sănătății.",
+      "scor_importanta": 6
+    }
+  ],
+  "rezumat_zilei": "Sintetizând evoluțiile zilei, tema dominantă este maturizarea infrastructurii de guvernanță și control pentru adoptarea AI în enterprise. Companiile fac trecerea de la simpla experimentare la instalarea de AI Gateways cu limite stricte de buget și protocoale securizate precum MCP, în timp ce furnizorii majori își recalibrează politicile de preț și limitele de acces. În paralel, presiunile de reglementare și riscurile de securitate devin critice — de la atacuri cibernetice automatizate prin agenți, până la investigații privind datele din faliment sau refuzul de auditare a agenților financiari. Pentru liderii de business, mesajul central este axarea pe eficiență financiară, guvernanță clară și utilizarea modelelor specializate mai mici.",
+  "recomandari_practice": [
+    {
+      "titlu": "Implementarea unui AI Gateway cu guvernanță prin nexos.ai",
+      "url": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+      "ce_este": "O platformă ce unifică accesul la peste 200 de modele AI sub o singură umbrelă, oferind control strict asupra bugetului pe echipe și politici de securitate.",
+      "cum_folosesti": "Propune-le clienților enterprise înlocuirea abonamentelor individuale fragmentate cu un AI Gateway centralizat. Stabilește limite lunare de cheltuieli pe fiecare departament (HR, Sales, Legal) și activează filtrele de guvernanță pentru a opri trimiterea datelor confidențiale către modele externe."
+    },
+    {
+      "titlu": "Strategie de calificare B2B bazată pe arhitectura Clay GTM",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "ce_este": "Un model practic de calificare automată a lead-urilor și prospectare B2B folosind agenți specializați care extrag date despre companii la costuri reduse.",
+      "cum_folosesti": "În consultanța pentru echipele de vânzări, ajută clienții să configureze fluxuri automate unde un agent AI analizează profilul companiilor țintă, extrage semnale de cumpărare și redactează schița inițială de outreach, lăsând echipei umane doar decizia finală."
+    },
+    {
+      "titlu": "Automatizarea procesării fișierelor complexe cu Nemotron 3.5 Parse",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "ce_este": "Un cadru de lucru și seturi de date pentru optimizarea procesării documentelor nestructurate (contracte, facturi, formulare HR).",
+      "cum_folosesti": "Pentru departamentele de HR sau Salarizare/Contabilitate, creează un proiect-pilot de extragere automată a datelor din contracte colective sau fișiere medicale necurățate, eliminând introducerea manuală a datelor în sistemele ERP sau HRIS."
+    }
+  ]
+}
